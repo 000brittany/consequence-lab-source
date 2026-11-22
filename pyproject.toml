@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "consequence-lab"
+version = "0.1.0"
+description = "Deterministic, observable agent-world research foundation"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+inspect = ["inspect-ai==0.3.287"]
+provider = ["httpx==0.28.1"]
+calibration = ["numpy==2.3.5", "scipy==1.17.0"]
+
+[project.scripts]
+consequence-mock = "consequence_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

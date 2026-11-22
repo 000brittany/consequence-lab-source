@@ -1,0 +1,26 @@
+[
+  {
+    "days": 4,
+    "file": "days4-seed0.json",
+    "manifest_sha256": "a4d404feb87f2d48863d8e91e975ec323092e3a475d0b32b7dd2477cdd05177f",
+    "seed": 0
+  },
+  {
+    "days": 4,
+    "file": "days4-seed3.json",
+    "manifest_sha256": "89ae4fae122fe37874fa9bb37fa4f549d58d9916eb3e7572ba8caa6869f218a1",
+    "seed": 3
+  },
+  {
+    "days": 12,
+    "file": "days12-seed0.json",
+    "manifest_sha256": "7c08bdd2ec7f7a173ba3a370792898671fb2674a138aa67f188058746352d1a1",
+    "seed": 0
+  },
+  {
+    "days": 12,
+    "file": "days12-seed3.json",
+    "manifest_sha256": "256453c4f83d3f55800c76ea47470ae7226391900843fd549b75f0494ddc6d13",
+    "seed": 3
+  }
+]

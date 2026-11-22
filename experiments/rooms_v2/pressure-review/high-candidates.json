@@ -1,0 +1,386 @@
+{
+  "client_source": "31adbb4cb6286b72a737cffd71201989dd051d78",
+  "rows": [
+    {
+      "costs": {
+        "independent": {
+          "A": 200,
+          "B": 210
+        },
+        "informed_bound": {
+          "A": 40,
+          "B": 330
+        },
+        "wait_costly": {
+          "A": 200,
+          "B": 210
+        },
+        "wait_narrow": {
+          "A": 200,
+          "B": 210
+        }
+      },
+      "pattern": "fixed_single",
+      "priority_phase": 0,
+      "seed": 0
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 200,
+          "B": 210
+        },
+        "informed_bound": {
+          "A": 40,
+          "B": 330
+        },
+        "wait_costly": {
+          "A": 200,
+          "B": 210
+        },
+        "wait_narrow": {
+          "A": 200,
+          "B": 210
+        }
+      },
+      "pattern": "fixed_single",
+      "priority_phase": 1,
+      "seed": 0
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 180,
+          "B": 210
+        },
+        "informed_bound": {
+          "A": 240,
+          "B": 35
+        },
+        "wait_costly": {
+          "A": 240,
+          "B": 35
+        },
+        "wait_narrow": {
+          "A": 180,
+          "B": 210
+        }
+      },
+      "pattern": "fixed_single",
+      "priority_phase": 0,
+      "seed": 1
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 190,
+          "B": 185
+        },
+        "informed_bound": {
+          "A": 240,
+          "B": 35
+        },
+        "wait_costly": {
+          "A": 240,
+          "B": 35
+        },
+        "wait_narrow": {
+          "A": 190,
+          "B": 185
+        }
+      },
+      "pattern": "fixed_single",
+      "priority_phase": 1,
+      "seed": 1
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 100,
+          "B": 360
+        },
+        "informed_bound": {
+          "A": 200,
+          "B": 235
+        },
+        "wait_costly": {
+          "A": 100,
+          "B": 360
+        },
+        "wait_narrow": {
+          "A": 100,
+          "B": 360
+        }
+      },
+      "pattern": "fixed_single",
+      "priority_phase": 0,
+      "seed": 2
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 120,
+          "B": 335
+        },
+        "informed_bound": {
+          "A": 200,
+          "B": 235
+        },
+        "wait_costly": {
+          "A": 120,
+          "B": 335
+        },
+        "wait_narrow": {
+          "A": 120,
+          "B": 335
+        }
+      },
+      "pattern": "fixed_single",
+      "priority_phase": 1,
+      "seed": 2
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 210,
+          "B": 185
+        },
+        "informed_bound": {
+          "A": 60,
+          "B": 240
+        },
+        "wait_costly": {
+          "A": 60,
+          "B": 240
+        },
+        "wait_narrow": {
+          "A": 210,
+          "B": 185
+        }
+      },
+      "pattern": "fixed_single",
+      "priority_phase": 0,
+      "seed": 3
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 210,
+          "B": 180
+        },
+        "informed_bound": {
+          "A": 60,
+          "B": 240
+        },
+        "wait_costly": {
+          "A": 60,
+          "B": 240
+        },
+        "wait_narrow": {
+          "A": 210,
+          "B": 180
+        }
+      },
+      "pattern": "fixed_single",
+      "priority_phase": 1,
+      "seed": 3
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 300,
+          "B": 210
+        },
+        "informed_bound": {
+          "A": 130,
+          "B": 315
+        },
+        "wait_costly": {
+          "A": 300,
+          "B": 210
+        },
+        "wait_narrow": {
+          "A": 300,
+          "B": 210
+        }
+      },
+      "pattern": "paired_recurring_single",
+      "priority_phase": 0,
+      "seed": 0
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 230,
+          "B": 255
+        },
+        "informed_bound": {
+          "A": 130,
+          "B": 315
+        },
+        "wait_costly": {
+          "A": 230,
+          "B": 255
+        },
+        "wait_narrow": {
+          "A": 230,
+          "B": 255
+        }
+      },
+      "pattern": "paired_recurring_single",
+      "priority_phase": 1,
+      "seed": 0
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 150,
+          "B": 270
+        },
+        "informed_bound": {
+          "A": 120,
+          "B": 215
+        },
+        "wait_costly": {
+          "A": 120,
+          "B": 215
+        },
+        "wait_narrow": {
+          "A": 150,
+          "B": 270
+        }
+      },
+      "pattern": "paired_recurring_single",
+      "priority_phase": 0,
+      "seed": 1
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 160,
+          "B": 245
+        },
+        "informed_bound": {
+          "A": 120,
+          "B": 215
+        },
+        "wait_costly": {
+          "A": 120,
+          "B": 215
+        },
+        "wait_narrow": {
+          "A": 160,
+          "B": 245
+        }
+      },
+      "pattern": "paired_recurring_single",
+      "priority_phase": 1,
+      "seed": 1
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 150,
+          "B": 285
+        },
+        "informed_bound": {
+          "A": 220,
+          "B": 115
+        },
+        "wait_costly": {
+          "A": 180,
+          "B": 165
+        },
+        "wait_narrow": {
+          "A": 150,
+          "B": 285
+        }
+      },
+      "pattern": "paired_recurring_single",
+      "priority_phase": 0,
+      "seed": 2
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 135,
+          "B": 310
+        },
+        "informed_bound": {
+          "A": 220,
+          "B": 115
+        },
+        "wait_costly": {
+          "A": 160,
+          "B": 190
+        },
+        "wait_narrow": {
+          "A": 135,
+          "B": 310
+        }
+      },
+      "pattern": "paired_recurring_single",
+      "priority_phase": 1,
+      "seed": 2
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 225,
+          "B": 200
+        },
+        "informed_bound": {
+          "A": 95,
+          "B": 240
+        },
+        "wait_costly": {
+          "A": 95,
+          "B": 240
+        },
+        "wait_narrow": {
+          "A": 225,
+          "B": 200
+        }
+      },
+      "pattern": "paired_recurring_single",
+      "priority_phase": 0,
+      "seed": 3
+    },
+    {
+      "costs": {
+        "independent": {
+          "A": 230,
+          "B": 195
+        },
+        "informed_bound": {
+          "A": 95,
+          "B": 240
+        },
+        "wait_costly": {
+          "A": 95,
+          "B": 240
+        },
+        "wait_narrow": {
+          "A": 230,
+          "B": 195
+        }
+      },
+      "pattern": "paired_recurring_single",
+      "priority_phase": 1,
+      "seed": 3
+    }
+  ],
+  "scope": "Independent finite assignment and simple turn-policy comparison before high preset selection; informed bound is not a policy",
+  "summary": {
+    "fixed_single": {
+      "aggregate_bound_minutes": 2760,
+      "aggregate_greedy_minutes": 3285,
+      "mutual_gain_vs_greedy_cases": 0
+    },
+    "paired_recurring_single": {
+      "aggregate_bound_minutes": 2900,
+      "aggregate_greedy_minutes": 3550,
+      "mutual_gain_vs_greedy_cases": 2
+    }
+  }
+}

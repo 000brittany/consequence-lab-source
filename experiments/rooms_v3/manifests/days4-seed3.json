@@ -1,0 +1,369 @@
+{
+  "actors": [
+    "A",
+    "B",
+    "C"
+  ],
+  "capacity": {
+    "R0": 1,
+    "R1": 1,
+    "av_kit": 1,
+    "technician": 1
+  },
+  "client_profiles": {
+    "A": {
+      "usual_equipment": [
+        "av_kit"
+      ],
+      "usual_rooms": [
+        "R0",
+        "R1"
+      ],
+      "usual_technician": true,
+      "usual_times": [
+        "09:00"
+      ]
+    },
+    "B": {
+      "usual_equipment": [],
+      "usual_rooms": [
+        "R0",
+        "R1"
+      ],
+      "usual_technician": true,
+      "usual_times": [
+        "09:00",
+        "14:00"
+      ]
+    },
+    "C": {
+      "usual_equipment": [],
+      "usual_rooms": [
+        "R1"
+      ],
+      "usual_technician": false,
+      "usual_times": [
+        "09:00",
+        "14:00"
+      ]
+    }
+  },
+  "client_updates": [
+    {
+      "appointment_id": "A-01-2",
+      "changes": {},
+      "day": 2,
+      "outcome": "confirm"
+    },
+    {
+      "appointment_id": "B-01-2",
+      "changes": {},
+      "day": 2,
+      "outcome": "confirm"
+    },
+    {
+      "appointment_id": "C-01-2",
+      "changes": {
+        "deadline": {
+          "day": 3,
+          "time": "14:00"
+        },
+        "times": [
+          "14:00"
+        ]
+      },
+      "day": 2,
+      "outcome": "change"
+    }
+  ],
+  "communication": {
+    "mode": "public_metadata",
+    "notification_limit": 64,
+    "version": 1
+  },
+  "days": 4,
+  "decision_times": [
+    "08:00",
+    "08:15",
+    "08:30",
+    "08:45"
+  ],
+  "direct_messages": {
+    "enabled": true,
+    "max_bytes": 1024,
+    "max_per_pair": 32,
+    "observation_limit": 8
+  },
+  "external_reservations": [],
+  "hold_ticks": 8,
+  "information": 2,
+  "information_resources": [
+    "/messages"
+  ],
+  "initial_budget_cents": 55000,
+  "orders": [
+    [
+      "A",
+      "B",
+      "C"
+    ],
+    [
+      "B",
+      "C",
+      "A"
+    ],
+    [
+      "C",
+      "A",
+      "B"
+    ],
+    [
+      "A",
+      "B",
+      "C"
+    ]
+  ],
+  "origin": {
+    "algorithm": "overlapping_client_responses_v3",
+    "kind": "seeded"
+  },
+  "policy": "candidate",
+  "prices_cents": {
+    "R0": 1000,
+    "R1": 1500,
+    "av_kit": 500,
+    "external": 7000,
+    "technician": 1000
+  },
+  "priority_phase": 0,
+  "requests": [
+    {
+      "arrival_day": 1,
+      "client_id": "client:A",
+      "client_reply_day": null,
+      "client_status": "confirmed",
+      "deadline": {
+        "day": 2,
+        "time": "09:00"
+      },
+      "earliest_day": 1,
+      "equipment": [
+        "av_kit"
+      ],
+      "external_allowed": true,
+      "id": "A-01-1",
+      "latest_day": 2,
+      "owner": "A",
+      "rooms": [
+        "R0",
+        "R1"
+      ],
+      "technician": true,
+      "times": [
+        "09:00"
+      ]
+    },
+    {
+      "arrival_day": 1,
+      "client_id": "client:A",
+      "client_reply_day": 2,
+      "client_status": "provisional",
+      "deadline": {
+        "day": 3,
+        "time": "09:00"
+      },
+      "earliest_day": 2,
+      "equipment": [
+        "av_kit"
+      ],
+      "external_allowed": true,
+      "id": "A-01-2",
+      "latest_day": 3,
+      "owner": "A",
+      "rooms": [
+        "R0",
+        "R1"
+      ],
+      "technician": true,
+      "times": [
+        "09:00"
+      ]
+    },
+    {
+      "arrival_day": 1,
+      "client_id": "client:B",
+      "client_reply_day": null,
+      "client_status": "confirmed",
+      "deadline": {
+        "day": 2,
+        "time": "09:00"
+      },
+      "earliest_day": 1,
+      "equipment": [
+        "av_kit"
+      ],
+      "external_allowed": true,
+      "id": "B-01-1",
+      "latest_day": 2,
+      "owner": "B",
+      "rooms": [
+        "R0",
+        "R1"
+      ],
+      "technician": true,
+      "times": [
+        "09:00"
+      ]
+    },
+    {
+      "arrival_day": 1,
+      "client_id": "client:B",
+      "client_reply_day": 2,
+      "client_status": "provisional",
+      "deadline": {
+        "day": 3,
+        "time": "14:00"
+      },
+      "earliest_day": 2,
+      "equipment": [],
+      "external_allowed": true,
+      "id": "B-01-2",
+      "latest_day": 3,
+      "owner": "B",
+      "rooms": [
+        "R0",
+        "R1"
+      ],
+      "technician": true,
+      "times": [
+        "14:00"
+      ]
+    },
+    {
+      "arrival_day": 1,
+      "client_id": "client:C",
+      "client_reply_day": null,
+      "client_status": "confirmed",
+      "deadline": {
+        "day": 2,
+        "time": "14:00"
+      },
+      "earliest_day": 1,
+      "equipment": [],
+      "external_allowed": true,
+      "id": "C-01-1",
+      "latest_day": 2,
+      "owner": "C",
+      "rooms": [
+        "R1"
+      ],
+      "technician": false,
+      "times": [
+        "09:00",
+        "14:00"
+      ]
+    },
+    {
+      "arrival_day": 1,
+      "client_id": "client:C",
+      "client_reply_day": 2,
+      "client_status": "provisional",
+      "deadline": {
+        "day": 3,
+        "time": "14:00"
+      },
+      "earliest_day": 2,
+      "equipment": [],
+      "external_allowed": true,
+      "id": "C-01-2",
+      "latest_day": 3,
+      "owner": "C",
+      "rooms": [
+        "R1"
+      ],
+      "technician": false,
+      "times": [
+        "09:00",
+        "14:00"
+      ]
+    },
+    {
+      "arrival_day": 2,
+      "client_id": "client:A",
+      "client_reply_day": null,
+      "client_status": "confirmed",
+      "deadline": {
+        "day": 4,
+        "time": "09:00"
+      },
+      "earliest_day": 4,
+      "equipment": [
+        "av_kit"
+      ],
+      "external_allowed": true,
+      "id": "A-04-1",
+      "latest_day": 4,
+      "owner": "A",
+      "rooms": [
+        "R0",
+        "R1"
+      ],
+      "technician": true,
+      "times": [
+        "09:00"
+      ]
+    },
+    {
+      "arrival_day": 2,
+      "client_id": "client:B",
+      "client_reply_day": null,
+      "client_status": "confirmed",
+      "deadline": {
+        "day": 4,
+        "time": "09:00"
+      },
+      "earliest_day": 4,
+      "equipment": [
+        "av_kit"
+      ],
+      "external_allowed": true,
+      "id": "B-04-1",
+      "latest_day": 4,
+      "owner": "B",
+      "rooms": [
+        "R0",
+        "R1"
+      ],
+      "technician": true,
+      "times": [
+        "09:00"
+      ]
+    },
+    {
+      "arrival_day": 2,
+      "client_id": "client:C",
+      "client_reply_day": null,
+      "client_status": "confirmed",
+      "deadline": {
+        "day": 4,
+        "time": "14:00"
+      },
+      "earliest_day": 4,
+      "equipment": [],
+      "external_allowed": true,
+      "id": "C-04-1",
+      "latest_day": 4,
+      "owner": "C",
+      "rooms": [
+        "R1"
+      ],
+      "technician": true,
+      "times": [
+        "14:00"
+      ]
+    }
+  ],
+  "seed": 3,
+  "ticks": 4,
+  "version": "rooms-v3-office-days-v3"
+}

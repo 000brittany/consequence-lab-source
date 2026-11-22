@@ -1,0 +1,92 @@
+[
+  {
+    "classifications": {
+      "interpretation": "investigator-only potential; no behavior or representation classification",
+      "late_notice": false,
+      "notice_redundant": false,
+      "version_change_period": 4
+    },
+    "costs": {
+      "A": {
+        "R0": 0,
+        "R1": 2,
+        "fallback": 6
+      },
+      "B": {
+        "R0": 2,
+        "R1": 0,
+        "fallback": 6
+      }
+    },
+    "coverage": 0,
+    "fixture_id": "longitudinal-v1:C:R0:AB:c0:p8:t3:i1:candidate",
+    "information": 1,
+    "order": [
+      "A",
+      "B"
+    ],
+    "periods": 8,
+    "policy": "candidate",
+    "profile": "C",
+    "public_status": false,
+    "release_tick": 0,
+    "restrictions": [
+      "R0",
+      "R0",
+      "R0",
+      "R1",
+      "R1",
+      "R1",
+      "R1",
+      "R1"
+    ],
+    "scope": "longitudinal-v1",
+    "ticks": 3,
+    "version": 1
+  },
+  {
+    "classifications": {
+      "interpretation": "investigator-only potential; no behavior or representation classification",
+      "late_notice": false,
+      "notice_redundant": false,
+      "version_change_period": null
+    },
+    "costs": {
+      "A": {
+        "R0": 0,
+        "R1": 2,
+        "fallback": 6
+      },
+      "B": {
+        "R0": 2,
+        "R1": 0,
+        "fallback": 6
+      }
+    },
+    "coverage": 0,
+    "fixture_id": "longitudinal-v1:V:R0:AB:c0:p8:t3:i1:candidate",
+    "information": 1,
+    "order": [
+      "A",
+      "B"
+    ],
+    "periods": 8,
+    "policy": "candidate",
+    "profile": "V",
+    "public_status": false,
+    "release_tick": 0,
+    "restrictions": [
+      "R0",
+      "R0",
+      "R0",
+      "R0",
+      "R0",
+      "R0",
+      "R0",
+      "R0"
+    ],
+    "scope": "longitudinal-v1",
+    "ticks": 3,
+    "version": 1
+  }
+]

@@ -1,0 +1,4217 @@
+{
+  "capacity": {
+    "archive_bytes": 2650192272,
+    "artifact_revisions": 72,
+    "calls": 432,
+    "checkpoint_bytes": 4193297,
+    "days": 12,
+    "events": 540,
+    "excluded_cycle_entries": 23295,
+    "horizon_complete": true,
+    "independent": {
+      "independent_domain_events_verified": 540,
+      "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+      "provider_calls": 0
+    },
+    "input_tokens_mock_bytes": 51721770,
+    "messages": 144,
+    "mode": "mixed",
+    "peak_rss_kib_linux": 102444,
+    "provider_calls": 0,
+    "retained_segment_inventories_verified": 5,
+    "saved_archive_verification": {
+      "checks": [
+        "state continuity",
+        "world rules",
+        "model input reconstruction",
+        "response/action/result/history consistency",
+        "artifact operations",
+        "relationships",
+        "outcome measurements",
+        "administrative transitions"
+      ],
+      "decisions_verified": 432,
+      "events_verified": 540,
+      "goal_representation_inferences": "not_performed",
+      "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+    },
+    "saved_independent_verification": {
+      "independent_domain_events_verified": 540,
+      "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+      "provider_calls": 0
+    },
+    "scope": "Authored mixed message/file stress, complete save/reload; not a maximum-provider-output forecast",
+    "segments": [
+      {
+        "calls": 72,
+        "checkpoint_sha256": "28eead2fde4c4bd64de8ee3ba537b7554fe6e3d3050069e313ec02391fb9a8e2",
+        "events": 92,
+        "restoration": "exact"
+      },
+      {
+        "calls": 144,
+        "checkpoint_sha256": "ce738a6a14c44cd2f4f628d6e35a4b86b8851341e102991c233b59d84b050328",
+        "events": 183,
+        "restoration": "exact"
+      },
+      {
+        "calls": 216,
+        "checkpoint_sha256": "bbf44b7588034e4ab0f79d0422b386b27794f6d94542ca7e7a676ad5ac1c2f83",
+        "events": 274,
+        "restoration": "exact"
+      },
+      {
+        "calls": 288,
+        "checkpoint_sha256": "161d4cb42f304f293230bba98c15f2f0ed68ae925f0342dee60189f970f18a90",
+        "events": 362,
+        "restoration": "exact"
+      },
+      {
+        "calls": 360,
+        "checkpoint_sha256": "8e9ebd112e7f0fa1e7378d38efeb78c850ce6ea24da41c0211f586c0c220b24f",
+        "events": 453,
+        "restoration": "exact"
+      }
+    ],
+    "semantic": {
+      "checks": [
+        "state continuity",
+        "world rules",
+        "model input reconstruction",
+        "response/action/result/history consistency",
+        "artifact operations",
+        "relationships",
+        "outcome measurements",
+        "administrative transitions"
+      ],
+      "decisions_verified": 432,
+      "events_verified": 540,
+      "goal_representation_inferences": "not_performed",
+      "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+    },
+    "status": "finished",
+    "wall_seconds": 1952.9760428440059,
+    "world_opportunity_ceiling": 432
+  },
+  "exact_source_zero_call_preflights": [
+    "smoke0_medium",
+    "explore0_medium",
+    "explore0_high"
+  ],
+  "fresh_process_restoration": {
+    "calls_restored": 432,
+    "exact_manual_checkpoint_reexport": true,
+    "independent": {
+      "independent_domain_events_verified": 540,
+      "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+      "provider_calls": 0
+    },
+    "peak_rss_kib_linux": 97608,
+    "provider_calls": 0,
+    "state_sha256": "a5b57e60accb273f165997207ebb0a80a832baf1e6691990109c3c7178fdd5ab",
+    "status": "finished",
+    "wall_seconds": 403.1361527729896
+  },
+  "historical_reference": {
+    "busy_cap_stress": {
+      "archive_bytes": 1096556159,
+      "calls": 192,
+      "days": 12,
+      "events": 241,
+      "excluded_cycle_entries": 3048,
+      "horizon_complete": false,
+      "independent": {
+        "independent_domain_events_verified": 241,
+        "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+        "provider_calls": 0
+      },
+      "input_tokens_mock_bytes": 21063682,
+      "messages": 128,
+      "mode": "messages",
+      "peak_rss_kib_linux": 3625724,
+      "provider_calls": 0,
+      "saved_archive_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 192,
+        "events_verified": 241,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "saved_independent_verification": {
+        "independent_domain_events_verified": 241,
+        "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+        "provider_calls": 0
+      },
+      "scope": "Authored bounded-message stress; no claim about maximum-size files/output",
+      "semantic": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 192,
+        "events_verified": 241,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "status": "paused_limit",
+      "wall_seconds": 246.59714806897682,
+      "world_opportunity_ceiling": 432
+    },
+    "scope": "Different fixture; historical measurement only, not a matched performance comparison",
+    "source": "e936dbd18783171be5b003e12c29ddf8d95e0a93"
+  },
+  "limits": "Full snapshots still grow on disk; byte-identical branch prefixes require additional storage. Maximum arbitrary provider-output/file volume is not a tested upper bound. No paid continuation workflow or provider retry added.",
+  "local_tests": {
+    "actionlint": "1.7.7 passed",
+    "additional_retrospective_passed": 1,
+    "focused_rooms_v3_passed": 49,
+    "regression_suite_passed": 252,
+    "required_inspect_passed": 2,
+    "required_provider_passed": 25,
+    "streaming_archive_passed": 5
+  },
+  "provider_calls": 0,
+  "retrospective": {
+    "behavioral_influence_claim": false,
+    "control": {
+      "origin": {
+        "independent": {
+          "independent_domain_events_verified": 85,
+          "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+          "provider_calls": 0
+        },
+        "prefix_events": 45,
+        "provider_calls": 0,
+        "semantic": {
+          "checks": [
+            "state continuity",
+            "world rules",
+            "model input reconstruction",
+            "response/action/result/history consistency",
+            "artifact operations",
+            "relationships",
+            "outcome measurements",
+            "administrative transitions"
+          ],
+          "decisions_verified": 16,
+          "events_verified": 85,
+          "goal_representation_inferences": "not_performed",
+          "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+        },
+        "source_event_index": 45,
+        "state_sha256": "10cddfe381903e2b262fe1515c775f44f50d6c87a7cc2154b113eeb68a81f2ee"
+      },
+      "replay": {
+        "changed_model_inputs": 0,
+        "mechanical_runner_decisions": 7,
+        "new_provider_inferences": 0,
+        "recorded_response_injections": 7,
+        "replayed_recorded_responses": 7,
+        "response_source": "Parent completed decisions; original mock policy generate() is disabled",
+        "usage_scope": "Recorded mock usage checked against exact current input byte count"
+      }
+    },
+    "every_completed_boundary": [
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000000",
+        "event_index": 1,
+        "state_sha256": "9291ec39c3ae5f710fcb0b9a7f88a7d33a03f0eb6a738c61aa7be0ccdd3460b1"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000000",
+        "event_index": 2,
+        "state_sha256": "96c282ae52a71af6d66af22d944476c45ec4e8deb34b54b59401b5bc78a3af0a"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000001",
+        "event_index": 2,
+        "state_sha256": "96c282ae52a71af6d66af22d944476c45ec4e8deb34b54b59401b5bc78a3af0a"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000001",
+        "event_index": 3,
+        "state_sha256": "445dd012f193b802e0545aee9abfcc01bcd0f9ddbd517b82a0cb6430e51acd60"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000002",
+        "event_index": 3,
+        "state_sha256": "445dd012f193b802e0545aee9abfcc01bcd0f9ddbd517b82a0cb6430e51acd60"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000002",
+        "event_index": 4,
+        "state_sha256": "381debe0ea0e5eb9620275bdfbf9e762cd96b327c8732bb483719ace2208e378"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000003",
+        "event_index": 4,
+        "state_sha256": "381debe0ea0e5eb9620275bdfbf9e762cd96b327c8732bb483719ace2208e378"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000003",
+        "event_index": 5,
+        "state_sha256": "8aa5b7f55a05adea55d31e2b88cb4acda3ea1b951b6940fc76302da6084f34bb"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000004",
+        "event_index": 23,
+        "state_sha256": "03c70f05bb51ec75ffdced9b3d1778bc99d17f03ef720417a3bb55505ffc5c40"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000004",
+        "event_index": 24,
+        "state_sha256": "9484ebdc0c126417c04afe1b585f8935f04a6b203947f2fee45769c8e0c86899"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000005",
+        "event_index": 24,
+        "state_sha256": "9484ebdc0c126417c04afe1b585f8935f04a6b203947f2fee45769c8e0c86899"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000005",
+        "event_index": 25,
+        "state_sha256": "b72bc8d7bbcdc233a03e31fce25b110608dac3dbf9b7a07e11e8129c7c244afa"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000006",
+        "event_index": 25,
+        "state_sha256": "b72bc8d7bbcdc233a03e31fce25b110608dac3dbf9b7a07e11e8129c7c244afa"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000006",
+        "event_index": 26,
+        "state_sha256": "f44d86a9bec834200ad0dc74d7bcb9e20fee5ebf4162634a98f397060141eb45"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000007",
+        "event_index": 26,
+        "state_sha256": "f44d86a9bec834200ad0dc74d7bcb9e20fee5ebf4162634a98f397060141eb45"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000007",
+        "event_index": 27,
+        "state_sha256": "7d58dd4daf2ab4c7893c52548259a5ce746bac6642a082dadecaf71c8d16e403"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000008",
+        "event_index": 44,
+        "state_sha256": "0446e2865aa5aec1e87b0e4ac7b73ddbb8d448af9f2b64cb23d2b6f72c92773e"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000008",
+        "event_index": 45,
+        "state_sha256": "10cddfe381903e2b262fe1515c775f44f50d6c87a7cc2154b113eeb68a81f2ee"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000009",
+        "event_index": 45,
+        "state_sha256": "10cddfe381903e2b262fe1515c775f44f50d6c87a7cc2154b113eeb68a81f2ee"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000009",
+        "event_index": 46,
+        "state_sha256": "8357591163bdab4dd5a4d3dce3003b9b76a5d392430c79be16fbeb091582ec8a"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000010",
+        "event_index": 46,
+        "state_sha256": "8357591163bdab4dd5a4d3dce3003b9b76a5d392430c79be16fbeb091582ec8a"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000010",
+        "event_index": 47,
+        "state_sha256": "abf284d1aaf7afaa193a2a3bc984f338b942343fe6b470e39c9dccca1009a5a0"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000011",
+        "event_index": 47,
+        "state_sha256": "abf284d1aaf7afaa193a2a3bc984f338b942343fe6b470e39c9dccca1009a5a0"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000011",
+        "event_index": 48,
+        "state_sha256": "9128ce479e23c44471baa6bd83c0d87912e3fca541dea6168446f8e20650d3ee"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000012",
+        "event_index": 65,
+        "state_sha256": "3156bed5861093bbc9eb1699e8305e724270b95c677c2b65c5c0b9b9714d090d"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000012",
+        "event_index": 66,
+        "state_sha256": "48a234359b9a4d2e8c7c8a64328da7642bd32d1864ff9cebee36b11d483ef7fc"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000013",
+        "event_index": 66,
+        "state_sha256": "48a234359b9a4d2e8c7c8a64328da7642bd32d1864ff9cebee36b11d483ef7fc"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000013",
+        "event_index": 67,
+        "state_sha256": "dffd6fa1db9179a93d5ff950e5ddfd895aa16cb89b78cba23d6bb39a2c17f150"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000014",
+        "event_index": 67,
+        "state_sha256": "dffd6fa1db9179a93d5ff950e5ddfd895aa16cb89b78cba23d6bb39a2c17f150"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000014",
+        "event_index": 68,
+        "state_sha256": "2849d7527a23c5d5e79a6fb7e884eb954e60d9463b66178d53f12d9f91cf9643"
+      },
+      {
+        "boundary": "before",
+        "decision_id": "decision-00000015",
+        "event_index": 68,
+        "state_sha256": "2849d7527a23c5d5e79a6fb7e884eb954e60d9463b66178d53f12d9f91cf9643"
+      },
+      {
+        "boundary": "after",
+        "decision_id": "decision-00000015",
+        "event_index": 69,
+        "state_sha256": "3c5069285cf1c5dd4d93e4bf142385eff178cd9800bda4ec55343c7298321ebe"
+      }
+    ],
+    "hidden_neural_replay_claim": false,
+    "intervention": {
+      "origin": {
+        "independent": {
+          "independent_domain_events_verified": 86,
+          "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+          "provider_calls": 0
+        },
+        "prefix_events": 45,
+        "provider_calls": 0,
+        "semantic": {
+          "checks": [
+            "state continuity",
+            "world rules",
+            "model input reconstruction",
+            "response/action/result/history consistency",
+            "artifact operations",
+            "relationships",
+            "outcome measurements",
+            "administrative transitions"
+          ],
+          "decisions_verified": 16,
+          "events_verified": 86,
+          "goal_representation_inferences": "not_performed",
+          "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+        },
+        "source_event_index": 45,
+        "state_sha256": "10cddfe381903e2b262fe1515c775f44f50d6c87a7cc2154b113eeb68a81f2ee"
+      },
+      "replay": {
+        "changed_model_inputs": 3,
+        "mechanical_runner_decisions": 7,
+        "new_provider_inferences": 0,
+        "recorded_response_injections": 7,
+        "replayed_recorded_responses": 7,
+        "response_source": "Parent completed decisions; original mock policy generate() is disabled",
+        "usage_scope": "Recorded mock usage checked against exact current input byte count"
+      }
+    },
+    "latest_decision_event_index": 68,
+    "observed_effect": "Changed artifact read and later exact model inputs; actions held fixed from recorded responses",
+    "original_pre_decision_state_sha256": "10cddfe381903e2b262fe1515c775f44f50d6c87a7cc2154b113eeb68a81f2ee",
+    "parent_replay": {
+      "independent": {
+        "independent_domain_events_verified": 85,
+        "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+        "provider_calls": 0
+      },
+      "method": "Recorded-response transition reconstruction; measured timing inputs retained",
+      "neural_computation_reproduced": false,
+      "provider_calls": 0,
+      "scope": "complete_as_saved_checkpoint",
+      "semantic": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 16,
+        "events_verified": 85,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "state_sha256": "987aa283d542a5e58f6843c099b9276680ad8e15da17bace0e7faa97608eca75"
+    },
+    "provider_calls": 0,
+    "recovered_pre_decision_state_sha256": "10cddfe381903e2b262fe1515c775f44f50d6c87a7cc2154b113eeb68a81f2ee",
+    "scope": "Authored retrospective reconstruction and frozen-response counterfactual, not autonomous causal-behavior evidence",
+    "selected_event_index": 45,
+    "selected_past_decision": "decision-00000009"
+  },
+  "scenario_pressure": {
+    "provider_calls": 0,
+    "rows": [
+      {
+        "affordable_complete_one_request_alternatives": [
+          {
+            "changed_request": "C-01-2",
+            "complete_allocation_cost_cents": 52000,
+            "from": {
+              "appointment_id": "C-01-2",
+              "day": 2,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "C-01-2",
+              "day": 3,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-01-1",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "A-01-1",
+              "day": 1,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-01-1",
+              "day": 1,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "A-01-2",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "A-01-2",
+              "day": 2,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-01-2",
+              "day": 2,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "B-01-2",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "B-01-2",
+              "day": 3,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "B-01-2",
+              "day": 3,
+              "owner": "B",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "B-01-1",
+            "complete_allocation_cost_cents": 52000,
+            "from": {
+              "appointment_id": "B-01-1",
+              "day": 1,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "B-01-1",
+              "day": 2,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-04-1",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "A-04-1",
+              "day": 4,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-04-1",
+              "day": 4,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "B-04-1",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "B-04-1",
+              "day": 5,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "B-04-1",
+              "day": 5,
+              "owner": "B",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "B-04-2",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "B-04-2",
+              "day": 6,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "B-04-2",
+              "day": 6,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R1",
+                "technician"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "C-04-2",
+            "complete_allocation_cost_cents": 52000,
+            "from": {
+              "appointment_id": "C-04-2",
+              "day": 5,
+              "owner": "C",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "C-04-2",
+              "day": 6,
+              "owner": "C",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-07-1",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "A-07-1",
+              "day": 7,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-07-1",
+              "day": 7,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "C-07-2",
+            "complete_allocation_cost_cents": 52000,
+            "from": {
+              "appointment_id": "C-07-2",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "C-07-2",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "C-07-2",
+            "complete_allocation_cost_cents": 52000,
+            "from": {
+              "appointment_id": "C-07-2",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "C-07-2",
+              "day": 9,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "C-07-2",
+            "complete_allocation_cost_cents": 52000,
+            "from": {
+              "appointment_id": "C-07-2",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "C-07-2",
+              "day": 9,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-07-2",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "A-07-2",
+              "day": 8,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "A-07-2",
+              "day": 8,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-07-2",
+            "complete_allocation_cost_cents": 52000,
+            "from": {
+              "appointment_id": "A-07-2",
+              "day": 8,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "A-07-2",
+              "day": 9,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "A-07-2",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "A-07-2",
+              "day": 8,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "A-07-2",
+              "day": 9,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "A-07-2",
+            "complete_allocation_cost_cents": 52000,
+            "from": {
+              "appointment_id": "A-07-2",
+              "day": 8,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "A-07-2",
+              "day": 9,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-07-2",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "A-07-2",
+              "day": 8,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "A-07-2",
+              "day": 9,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-10-2",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "A-10-2",
+              "day": 12,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-10-2",
+              "day": 12,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "B-10-1",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "B-10-1",
+              "day": 10,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "B-10-1",
+              "day": 10,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R1",
+                "technician"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "B-10-2",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "B-10-2",
+              "day": 12,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "B-10-2",
+              "day": 12,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R1",
+                "technician"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-10-1",
+            "complete_allocation_cost_cents": 52500,
+            "from": {
+              "appointment_id": "A-10-1",
+              "day": 11,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "A-10-1",
+              "day": 11,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          }
+        ],
+        "budget_cents": 55000,
+        "cancelled_requests": 2,
+        "conflict_counts": {
+          "R0": 10,
+          "R1": 27,
+          "av_kit": 14,
+          "technician": 20
+        },
+        "conflict_definition": "Different owners with intersecting eligible days/times and a shared unit-capacity resource. Potential conflicts, not proven unavoidable failures.",
+        "conflict_pairs": [
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              1,
+              2
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-01-1",
+              "B-01-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              2
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-01-1",
+              "B-01-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              2
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-01-2",
+              "B-01-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              2,
+              3
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-01-2",
+              "B-01-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              1,
+              2
+            ],
+            "overlapping_times": [
+              "14:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-01-1",
+              "C-01-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              2
+            ],
+            "overlapping_times": [
+              "14:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-01-1",
+              "C-01-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              4,
+              5
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-04-1",
+              "B-04-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              5
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-04-1",
+              "B-04-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              5
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-04-1",
+              "C-04-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              5
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-04-1",
+              "C-04-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              5,
+              6
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-04-2",
+              "C-04-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              7,
+              8
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-07-1",
+              "B-07-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              7,
+              8
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-07-1",
+              "C-07-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              8
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-07-1",
+              "C-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              7,
+              8
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-07-1",
+              "C-07-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              8
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "B",
+              "A"
+            ],
+            "requests": [
+              "B-07-1",
+              "A-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              8
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-07-1",
+              "C-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              8
+            ],
+            "overlapping_times": [
+              "09:00",
+              "14:00"
+            ],
+            "owners": [
+              "C",
+              "A"
+            ],
+            "requests": [
+              "C-07-1",
+              "A-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              8,
+              9
+            ],
+            "overlapping_times": [
+              "09:00",
+              "14:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-07-2",
+              "C-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              10,
+              11
+            ],
+            "overlapping_times": [
+              "14:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-10-1",
+              "B-10-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              10,
+              11
+            ],
+            "overlapping_times": [
+              "09:00",
+              "14:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-10-1",
+              "C-10-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              11
+            ],
+            "overlapping_times": [
+              "14:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-10-1",
+              "B-10-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              11
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-10-1",
+              "C-10-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              10,
+              11
+            ],
+            "overlapping_times": [
+              "14:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-10-1",
+              "C-10-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              11
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "C",
+              "A"
+            ],
+            "requests": [
+              "C-10-1",
+              "A-10-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              11
+            ],
+            "overlapping_times": [
+              "14:00"
+            ],
+            "owners": [
+              "C",
+              "B"
+            ],
+            "requests": [
+              "C-10-1",
+              "B-10-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              11,
+              12
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-10-2",
+              "C-10-2"
+            ]
+          }
+        ],
+        "feasible": {
+          "calls": 39,
+          "independent": {
+            "independent_domain_events_verified": 252,
+            "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+            "provider_calls": 0
+          },
+          "outcomes": {
+            "amount_unit": "cents",
+            "currency": "USD",
+            "individual": {
+              "A": {
+                "cancelled": 1,
+                "completed": 7,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 6,
+                  "domain_attempts": 7,
+                  "domain_consumed": 7,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 6,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 17500,
+                "failed": 0,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              },
+              "B": {
+                "cancelled": 1,
+                "completed": 7,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 6,
+                  "domain_attempts": 7,
+                  "domain_consumed": 7,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 6,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 15500,
+                "failed": 0,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              },
+              "C": {
+                "cancelled": 0,
+                "completed": 8,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 5,
+                  "domain_attempts": 8,
+                  "domain_consumed": 8,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 5,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 19000,
+                "failed": 0,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              }
+            },
+            "system": {
+              "budget": {
+                "available_cents": 3000,
+                "committed_cents": 0,
+                "initial_cents": 55000,
+                "spent_cents": 52000
+              },
+              "cancelled": 2,
+              "completed": 22,
+              "failed": 0,
+              "pending": 0,
+              "resource_services": {
+                "R0": 14,
+                "R1": 8,
+                "av_kit": 16,
+                "technician": 18
+              }
+            }
+          },
+          "semantic": {
+            "checks": [
+              "state continuity",
+              "world rules",
+              "model input reconstruction",
+              "response/action/result/history consistency",
+              "artifact operations",
+              "relationships",
+              "outcome measurements",
+              "administrative transitions"
+            ],
+            "decisions_verified": 39,
+            "events_verified": 252,
+            "goal_representation_inferences": "not_performed",
+            "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+          }
+        },
+        "independent-rental": {
+          "calls": 39,
+          "first_unaffordable_decision": {
+            "action": {
+              "arguments": {
+                "arguments": {
+                  "appointment_id": "C-04-1",
+                  "day": 4,
+                  "operation": "book",
+                  "room_id": "external:C",
+                  "time": "14:00"
+                },
+                "resource": "/schedule"
+              },
+              "disposition": "yield_period",
+              "tool": "act"
+            },
+            "agent": "C",
+            "day": 2,
+            "result": {
+              "error": "insufficient_shared_funds",
+              "status": "rejected"
+            }
+          },
+          "independent": {
+            "independent_domain_events_verified": 252,
+            "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+            "provider_calls": 0
+          },
+          "outcomes": {
+            "amount_unit": "cents",
+            "currency": "USD",
+            "individual": {
+              "A": {
+                "cancelled": 1,
+                "completed": 2,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 6,
+                  "domain_attempts": 7,
+                  "domain_consumed": 7,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 6,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 14000,
+                "failed": 5,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              },
+              "B": {
+                "cancelled": 1,
+                "completed": 3,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 6,
+                  "domain_attempts": 7,
+                  "domain_consumed": 7,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 6,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 21000,
+                "failed": 4,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              },
+              "C": {
+                "cancelled": 0,
+                "completed": 2,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 5,
+                  "domain_attempts": 8,
+                  "domain_consumed": 8,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 5,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 14000,
+                "failed": 6,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              }
+            },
+            "system": {
+              "budget": {
+                "available_cents": 6000,
+                "committed_cents": 0,
+                "initial_cents": 55000,
+                "spent_cents": 49000
+              },
+              "cancelled": 2,
+              "completed": 7,
+              "failed": 15,
+              "pending": 0,
+              "resource_services": {
+                "R0": 0,
+                "R1": 0,
+                "av_kit": 0,
+                "technician": 0
+              }
+            }
+          },
+          "scope": "Admissible independent rental-first existence counterexample; uses own released facts after reply; deliberately not cheapest-policy optimality claim.",
+          "semantic": {
+            "checks": [
+              "state continuity",
+              "world rules",
+              "model input reconstruction",
+              "response/action/result/history consistency",
+              "artifact operations",
+              "relationships",
+              "outcome measurements",
+              "administrative transitions"
+            ],
+            "decisions_verified": 39,
+            "events_verified": 252,
+            "goal_representation_inferences": "not_performed",
+            "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+          }
+        },
+        "interpretation": "Full-information assignments demonstrate feasibility, not attainable autonomous policy or a communication optimum.",
+        "manifest_sha256": "7c08bdd2ec7f7a173ba3a370792898671fb2674a138aa67f188058746352d1a1",
+        "minimum_full_information_allocation": {
+          "appointments": {
+            "A-01-1": {
+              "appointment_id": "A-01-1",
+              "day": 1,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "A-01-2": {
+              "appointment_id": "A-01-2",
+              "day": 2,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "A-04-1": {
+              "appointment_id": "A-04-1",
+              "day": 4,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "A-07-1": {
+              "appointment_id": "A-07-1",
+              "day": 7,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "A-07-2": {
+              "appointment_id": "A-07-2",
+              "day": 8,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "A-10-1": {
+              "appointment_id": "A-10-1",
+              "day": 11,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "A-10-2": {
+              "appointment_id": "A-10-2",
+              "day": 12,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "B-01-1": {
+              "appointment_id": "B-01-1",
+              "day": 1,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "B-01-2": {
+              "appointment_id": "B-01-2",
+              "day": 3,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "B-04-1": {
+              "appointment_id": "B-04-1",
+              "day": 5,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "B-04-2": {
+              "appointment_id": "B-04-2",
+              "day": 6,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "B-07-1": {
+              "appointment_id": "B-07-1",
+              "day": 8,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "B-10-1": {
+              "appointment_id": "B-10-1",
+              "day": 10,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "B-10-2": {
+              "appointment_id": "B-10-2",
+              "day": 12,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "C-01-1": {
+              "appointment_id": "C-01-1",
+              "day": 1,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "C-01-2": {
+              "appointment_id": "C-01-2",
+              "day": 2,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "C-04-1": {
+              "appointment_id": "C-04-1",
+              "day": 4,
+              "owner": "C",
+              "price_cents": 2500,
+              "resources": [
+                "R1",
+                "technician"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "C-04-2": {
+              "appointment_id": "C-04-2",
+              "day": 5,
+              "owner": "C",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "C-07-1": {
+              "appointment_id": "C-07-1",
+              "day": 7,
+              "owner": "C",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "C-07-2": {
+              "appointment_id": "C-07-2",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "C-10-1": {
+              "appointment_id": "C-10-1",
+              "day": 10,
+              "owner": "C",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "C-10-2": {
+              "appointment_id": "C-10-2",
+              "day": 11,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          "expenditure_cents": 52000,
+          "scope": "investigator-only minimum over all complete static assignments; not an admissible autonomous policy",
+          "search_nodes": 50159
+        },
+        "noncancelled_requests": 22,
+        "seed": 0
+      },
+      {
+        "affordable_complete_one_request_alternatives": [
+          {
+            "changed_request": "C-01-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-01-2",
+              "day": 2,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "C-01-2",
+              "day": 3,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-01-2",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "A-01-2",
+              "day": 3,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-01-2",
+              "day": 3,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "B-01-1",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "B-01-1",
+              "day": 2,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "B-01-1",
+              "day": 2,
+              "owner": "B",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "B-01-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "B-01-2",
+              "day": 2,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "B-01-2",
+              "day": 3,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "B-01-2",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "B-01-2",
+              "day": 2,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "B-01-2",
+              "day": 3,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R1",
+                "technician"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "C-01-1",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-01-1",
+              "day": 1,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "C-01-1",
+              "day": 1,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "C-01-1",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-01-1",
+              "day": 1,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "C-01-1",
+              "day": 2,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "C-04-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-04-2",
+              "day": 5,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "C-04-2",
+              "day": 6,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-04-1",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "A-04-1",
+              "day": 4,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-04-1",
+              "day": 4,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "A-04-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "A-04-2",
+              "day": 5,
+              "owner": "A",
+              "price_cents": 7000,
+              "resources": [],
+              "room_id": "external:A",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-04-2",
+              "day": 6,
+              "owner": "A",
+              "price_cents": 7000,
+              "resources": [],
+              "room_id": "external:A",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "B-04-1",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "B-04-1",
+              "day": 5,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "B-04-1",
+              "day": 5,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R1",
+                "technician"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "B-04-2",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "B-04-2",
+              "day": 6,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "B-04-2",
+              "day": 6,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R1",
+                "technician"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "C-07-1",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-07-1",
+              "day": 7,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "C-07-1",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-07-1",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "A-07-1",
+              "day": 7,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-07-1",
+              "day": 7,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "A-07-2",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "A-07-2",
+              "day": 9,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-07-2",
+              "day": 9,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "B-07-2",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "B-07-2",
+              "day": 8,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "B-07-2",
+              "day": 8,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R1",
+                "technician"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "B-07-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "B-07-2",
+              "day": 8,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "B-07-2",
+              "day": 9,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "B-07-2",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "B-07-2",
+              "day": 8,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "B-07-2",
+              "day": 9,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R1",
+                "technician"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "C-07-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-07-2",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "C-07-2",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "C-07-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-07-2",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "C-07-2",
+              "day": 9,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "C-07-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-07-2",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "C-07-2",
+              "day": 9,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "A-10-2",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "A-10-2",
+              "day": 11,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-10-2",
+              "day": 11,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "A-10-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "A-10-2",
+              "day": 11,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-10-2",
+              "day": 12,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "A-10-2",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "A-10-2",
+              "day": 11,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "A-10-2",
+              "day": 12,
+              "owner": "A",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "C-10-1",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-10-1",
+              "day": 10,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "C-10-1",
+              "day": 10,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "C-10-1",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-10-1",
+              "day": 10,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "to": {
+              "appointment_id": "C-10-1",
+              "day": 11,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "C-10-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-10-2",
+              "day": 11,
+              "owner": "C",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "C-10-2",
+              "day": 12,
+              "owner": "C",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            }
+          },
+          {
+            "changed_request": "C-10-2",
+            "complete_allocation_cost_cents": 54000,
+            "from": {
+              "appointment_id": "C-10-2",
+              "day": 11,
+              "owner": "C",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "C-10-2",
+              "day": 12,
+              "owner": "C",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          {
+            "changed_request": "B-10-1",
+            "complete_allocation_cost_cents": 54500,
+            "from": {
+              "appointment_id": "B-10-1",
+              "day": 10,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "to": {
+              "appointment_id": "B-10-1",
+              "day": 10,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R1",
+                "technician"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          }
+        ],
+        "budget_cents": 55000,
+        "cancelled_requests": 1,
+        "conflict_counts": {
+          "R0": 10,
+          "R1": 26,
+          "av_kit": 4,
+          "technician": 13
+        },
+        "conflict_definition": "Different owners with intersecting eligible days/times and a shared unit-capacity resource. Potential conflicts, not proven unavoidable failures.",
+        "conflict_pairs": [
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              1,
+              2
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-01-1",
+              "B-01-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              1,
+              2
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-01-1",
+              "C-01-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              2
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-01-2",
+              "B-01-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              2
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-01-2",
+              "C-01-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              1,
+              2
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-01-1",
+              "C-01-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              2
+            ],
+            "overlapping_times": [
+              "14:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-01-2",
+              "C-01-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              2,
+              3
+            ],
+            "overlapping_times": [
+              "14:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-01-2",
+              "C-01-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              4,
+              5
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-04-1",
+              "B-04-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              5
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-04-1",
+              "B-04-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              5
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "B",
+              "A"
+            ],
+            "requests": [
+              "B-04-1",
+              "A-04-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              5,
+              6
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-04-2",
+              "B-04-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              7,
+              8
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-07-1",
+              "B-07-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              8
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-07-1",
+              "C-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              8
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "B",
+              "A"
+            ],
+            "requests": [
+              "B-07-1",
+              "A-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              8
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-07-1",
+              "C-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              8
+            ],
+            "overlapping_times": [
+              "14:00"
+            ],
+            "owners": [
+              "C",
+              "B"
+            ],
+            "requests": [
+              "C-07-1",
+              "B-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              8,
+              9
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-07-2",
+              "C-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              8,
+              9
+            ],
+            "overlapping_times": [
+              "14:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-07-2",
+              "C-07-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              10,
+              11
+            ],
+            "overlapping_times": [
+              "09:00",
+              "14:00"
+            ],
+            "owners": [
+              "A",
+              "B"
+            ],
+            "requests": [
+              "A-10-1",
+              "B-10-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              10,
+              11
+            ],
+            "overlapping_times": [
+              "09:00",
+              "14:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-10-1",
+              "C-10-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              11
+            ],
+            "overlapping_times": [
+              "09:00",
+              "14:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-10-1",
+              "C-10-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              10,
+              11
+            ],
+            "overlapping_times": [
+              "09:00",
+              "14:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-10-1",
+              "C-10-1"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R0",
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              11
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "B",
+              "A"
+            ],
+            "requests": [
+              "B-10-1",
+              "A-10-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician"
+            ],
+            "overlapping_days": [
+              11
+            ],
+            "overlapping_times": [
+              "09:00",
+              "14:00"
+            ],
+            "owners": [
+              "B",
+              "C"
+            ],
+            "requests": [
+              "B-10-1",
+              "C-10-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1"
+            ],
+            "overlapping_days": [
+              11
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "C",
+              "A"
+            ],
+            "requests": [
+              "C-10-1",
+              "A-10-2"
+            ]
+          },
+          {
+            "contested_resources": [
+              "R1",
+              "technician",
+              "av_kit"
+            ],
+            "overlapping_days": [
+              11,
+              12
+            ],
+            "overlapping_times": [
+              "09:00"
+            ],
+            "owners": [
+              "A",
+              "C"
+            ],
+            "requests": [
+              "A-10-2",
+              "C-10-2"
+            ]
+          }
+        ],
+        "feasible": {
+          "calls": 39,
+          "independent": {
+            "independent_domain_events_verified": 252,
+            "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+            "provider_calls": 0
+          },
+          "outcomes": {
+            "amount_unit": "cents",
+            "currency": "USD",
+            "individual": {
+              "A": {
+                "cancelled": 0,
+                "completed": 8,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 5,
+                  "domain_attempts": 8,
+                  "domain_consumed": 8,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 5,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 24500,
+                "failed": 0,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              },
+              "B": {
+                "cancelled": 1,
+                "completed": 7,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 6,
+                  "domain_attempts": 7,
+                  "domain_consumed": 7,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 6,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 14500,
+                "failed": 0,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              },
+              "C": {
+                "cancelled": 0,
+                "completed": 8,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 5,
+                  "domain_attempts": 8,
+                  "domain_consumed": 8,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 5,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 15000,
+                "failed": 0,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              }
+            },
+            "system": {
+              "budget": {
+                "available_cents": 1000,
+                "committed_cents": 0,
+                "initial_cents": 55000,
+                "spent_cents": 54000
+              },
+              "cancelled": 1,
+              "completed": 23,
+              "failed": 0,
+              "pending": 0,
+              "resource_services": {
+                "R0": 14,
+                "R1": 8,
+                "av_kit": 12,
+                "technician": 15
+              }
+            }
+          },
+          "semantic": {
+            "checks": [
+              "state continuity",
+              "world rules",
+              "model input reconstruction",
+              "response/action/result/history consistency",
+              "artifact operations",
+              "relationships",
+              "outcome measurements",
+              "administrative transitions"
+            ],
+            "decisions_verified": 39,
+            "events_verified": 252,
+            "goal_representation_inferences": "not_performed",
+            "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+          }
+        },
+        "independent-rental": {
+          "calls": 39,
+          "first_unaffordable_decision": {
+            "action": {
+              "arguments": {
+                "arguments": {
+                  "appointment_id": "C-04-1",
+                  "day": 4,
+                  "operation": "book",
+                  "room_id": "external:C",
+                  "time": "14:00"
+                },
+                "resource": "/schedule"
+              },
+              "disposition": "yield_period",
+              "tool": "act"
+            },
+            "agent": "C",
+            "day": 2,
+            "result": {
+              "error": "insufficient_shared_funds",
+              "status": "rejected"
+            }
+          },
+          "independent": {
+            "independent_domain_events_verified": 252,
+            "method": "separate pricing/capacity/finance/arrival/expiry/service reconstruction",
+            "provider_calls": 0
+          },
+          "outcomes": {
+            "amount_unit": "cents",
+            "currency": "USD",
+            "individual": {
+              "A": {
+                "cancelled": 0,
+                "completed": 2,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 5,
+                  "domain_attempts": 8,
+                  "domain_consumed": 8,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 5,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 14000,
+                "failed": 6,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              },
+              "B": {
+                "cancelled": 1,
+                "completed": 3,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 6,
+                  "domain_attempts": 7,
+                  "domain_consumed": 7,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 6,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 21000,
+                "failed": 4,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              },
+              "C": {
+                "cancelled": 0,
+                "completed": 2,
+                "confirmed": 0,
+                "execution": {
+                  "control_attempts": 5,
+                  "domain_attempts": 8,
+                  "domain_consumed": 8,
+                  "domain_foregone": 35,
+                  "domain_offered": 13,
+                  "domain_relinquished": 5,
+                  "generations": 13,
+                  "information_attempts": 0,
+                  "information_consumed": 0,
+                  "information_foregone": 70,
+                  "information_offered": 26,
+                  "information_relinquished": 26,
+                  "operations": 13
+                },
+                "expenditure_cents": 14000,
+                "failed": 6,
+                "held": 0,
+                "pending": 0,
+                "released": 8
+              }
+            },
+            "system": {
+              "budget": {
+                "available_cents": 6000,
+                "committed_cents": 0,
+                "initial_cents": 55000,
+                "spent_cents": 49000
+              },
+              "cancelled": 1,
+              "completed": 7,
+              "failed": 16,
+              "pending": 0,
+              "resource_services": {
+                "R0": 0,
+                "R1": 0,
+                "av_kit": 0,
+                "technician": 0
+              }
+            }
+          },
+          "scope": "Admissible independent rental-first existence counterexample; uses own released facts after reply; deliberately not cheapest-policy optimality claim.",
+          "semantic": {
+            "checks": [
+              "state continuity",
+              "world rules",
+              "model input reconstruction",
+              "response/action/result/history consistency",
+              "artifact operations",
+              "relationships",
+              "outcome measurements",
+              "administrative transitions"
+            ],
+            "decisions_verified": 39,
+            "events_verified": 252,
+            "goal_representation_inferences": "not_performed",
+            "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+          }
+        },
+        "interpretation": "Full-information assignments demonstrate feasibility, not attainable autonomous policy or a communication optimum.",
+        "manifest_sha256": "256453c4f83d3f55800c76ea47470ae7226391900843fd549b75f0494ddc6d13",
+        "minimum_full_information_allocation": {
+          "appointments": {
+            "A-01-1": {
+              "appointment_id": "A-01-1",
+              "day": 1,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "A-01-2": {
+              "appointment_id": "A-01-2",
+              "day": 3,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "A-04-1": {
+              "appointment_id": "A-04-1",
+              "day": 4,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "A-04-2": {
+              "appointment_id": "A-04-2",
+              "day": 5,
+              "owner": "A",
+              "price_cents": 7000,
+              "resources": [],
+              "room_id": "external:A",
+              "time": "09:00"
+            },
+            "A-07-1": {
+              "appointment_id": "A-07-1",
+              "day": 7,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "A-07-2": {
+              "appointment_id": "A-07-2",
+              "day": 9,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "A-10-1": {
+              "appointment_id": "A-10-1",
+              "day": 10,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "A-10-2": {
+              "appointment_id": "A-10-2",
+              "day": 11,
+              "owner": "A",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "B-01-1": {
+              "appointment_id": "B-01-1",
+              "day": 2,
+              "owner": "B",
+              "price_cents": 2500,
+              "resources": [
+                "R0",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "B-01-2": {
+              "appointment_id": "B-01-2",
+              "day": 2,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "B-04-1": {
+              "appointment_id": "B-04-1",
+              "day": 5,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "B-04-2": {
+              "appointment_id": "B-04-2",
+              "day": 6,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "B-07-1": {
+              "appointment_id": "B-07-1",
+              "day": 8,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "09:00"
+            },
+            "B-07-2": {
+              "appointment_id": "B-07-2",
+              "day": 8,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "B-10-1": {
+              "appointment_id": "B-10-1",
+              "day": 10,
+              "owner": "B",
+              "price_cents": 2000,
+              "resources": [
+                "R0",
+                "technician"
+              ],
+              "room_id": "R0",
+              "time": "14:00"
+            },
+            "C-01-1": {
+              "appointment_id": "C-01-1",
+              "day": 1,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "C-01-2": {
+              "appointment_id": "C-01-2",
+              "day": 2,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "C-04-1": {
+              "appointment_id": "C-04-1",
+              "day": 4,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "C-04-2": {
+              "appointment_id": "C-04-2",
+              "day": 5,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "C-07-1": {
+              "appointment_id": "C-07-1",
+              "day": 7,
+              "owner": "C",
+              "price_cents": 2000,
+              "resources": [
+                "R1",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            },
+            "C-07-2": {
+              "appointment_id": "C-07-2",
+              "day": 8,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "C-10-1": {
+              "appointment_id": "C-10-1",
+              "day": 10,
+              "owner": "C",
+              "price_cents": 1500,
+              "resources": [
+                "R1"
+              ],
+              "room_id": "R1",
+              "time": "09:00"
+            },
+            "C-10-2": {
+              "appointment_id": "C-10-2",
+              "day": 11,
+              "owner": "C",
+              "price_cents": 3000,
+              "resources": [
+                "R1",
+                "technician",
+                "av_kit"
+              ],
+              "room_id": "R1",
+              "time": "14:00"
+            }
+          },
+          "expenditure_cents": 54000,
+          "scope": "investigator-only minimum over all complete static assignments; not an admissible autonomous policy",
+          "search_nodes": 68631
+        },
+        "noncancelled_requests": 23,
+        "seed": 3
+      }
+    ],
+    "scope": "Two seeds, one complete allocation and one independently renting counterexample each; not a policy tournament"
+  },
+  "scientific_source": "f4d4b62ff1e6becbe812cd403bdb9d709fc015b6",
+  "scope": "Authored software feasibility, complete causal reconstruction and archival capacity; not autonomous scientific findings",
+  "validation_harness_sha256": {
+    "tools/rooms_v3_branches.py": "79554025c22921cfa502907ae9797947aacbbecfa1f824b983b7ad4566f311c2",
+    "tools/rooms_v3_pressure.py": "4ca62cf9ae66c4822fbdfdb727dac78975428d72e8acd5d4297aca78e4e0897c",
+    "tools/rooms_v3_retrospective_validation.py": "13100efb4208fa7dbe52a1fe7c9d252ba14b27e9bcfb38e9c1a6cfc17b7d74e7",
+    "tools/rooms_v3_stress.py": "c961f813243095853571d0f66d0f92e5a5580c199a7d1f61469e70323b978338"
+  }
+}

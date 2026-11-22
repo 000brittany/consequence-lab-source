@@ -1,0 +1,363 @@
+{
+  "cost_convention": "No financial information fee; extra generations, opportunity use and deadlines are recorded separately.",
+  "implementation": {
+    "core_source_sha256": "95a41a4249597390002fd1344c7b8c862139ebdd82f708dc69d33e764caa43db",
+    "version": "0.1.0"
+  },
+  "manifest_count": 16,
+  "provider_calls": 0,
+  "python": "3.12.14",
+  "reference_assignments": 3364,
+  "rule_boundary": {
+    "assignments_enumerated": 565,
+    "status": "PASS",
+    "transitions_checked": 1776
+  },
+  "runs": [
+    {
+      "archive_bytes": 40183646,
+      "completed": 24,
+      "condition": "easy",
+      "costs": {
+        "A": 7,
+        "B": 6
+      },
+      "generations": 24,
+      "manifest_sha256": "5911569903f7d3cb56699406cb64db8c8263b934edbe7ab97224ade02864fcd0",
+      "mock_counter": "mock_utf8_bytes_v1",
+      "provider_calls": 0,
+      "restored_exact": true,
+      "seed": 4,
+      "strategy": "independent",
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "archive_bytes": 40142531,
+      "completed": 24,
+      "condition": "easy",
+      "costs": {
+        "A": 72,
+        "B": 72
+      },
+      "generations": 24,
+      "manifest_sha256": "5911569903f7d3cb56699406cb64db8c8263b934edbe7ab97224ade02864fcd0",
+      "mock_counter": "mock_utf8_bytes_v1",
+      "provider_calls": 0,
+      "restored_exact": true,
+      "seed": 4,
+      "strategy": "fallback",
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "archive_bytes": 120109608,
+      "completed": 24,
+      "condition": "easy",
+      "costs": {
+        "A": 7,
+        "B": 6
+      },
+      "generations": 72,
+      "manifest_sha256": "5911569903f7d3cb56699406cb64db8c8263b934edbe7ab97224ade02864fcd0",
+      "mock_counter": "mock_utf8_bytes_v1",
+      "provider_calls": 0,
+      "restored_exact": true,
+      "seed": 4,
+      "strategy": "exchange",
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "archive_bytes": 92611632,
+      "completed": 24,
+      "condition": "easy",
+      "costs": {
+        "A": 7,
+        "B": 6
+      },
+      "generations": 60,
+      "manifest_sha256": "5911569903f7d3cb56699406cb64db8c8263b934edbe7ab97224ade02864fcd0",
+      "mock_counter": "mock_utf8_bytes_v1",
+      "provider_calls": 0,
+      "restored_exact": true,
+      "seed": 4,
+      "strategy": "delta",
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 60,
+        "events_verified": 168,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "archive_bytes": 56198829,
+      "completed": 24,
+      "condition": "easy",
+      "costs": {
+        "A": 8,
+        "B": 5
+      },
+      "generations": 42,
+      "manifest_sha256": "5911569903f7d3cb56699406cb64db8c8263b934edbe7ab97224ade02864fcd0",
+      "mock_counter": "mock_utf8_bytes_v1",
+      "provider_calls": 0,
+      "restored_exact": true,
+      "seed": 4,
+      "strategy": "wait_narrow",
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 42,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "archive_bytes": 41705682,
+      "completed": 24,
+      "condition": "difficult",
+      "costs": {
+        "A": 12,
+        "B": 21
+      },
+      "generations": 24,
+      "manifest_sha256": "0ffc39792f2b0657e4623dd8e5f022b9ba6e55ba9f4bb96b4634cc654d5ff65c",
+      "mock_counter": "mock_utf8_bytes_v1",
+      "provider_calls": 0,
+      "restored_exact": true,
+      "seed": 4,
+      "strategy": "independent",
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "archive_bytes": 41625919,
+      "completed": 24,
+      "condition": "difficult",
+      "costs": {
+        "A": 72,
+        "B": 72
+      },
+      "generations": 24,
+      "manifest_sha256": "0ffc39792f2b0657e4623dd8e5f022b9ba6e55ba9f4bb96b4634cc654d5ff65c",
+      "mock_counter": "mock_utf8_bytes_v1",
+      "provider_calls": 0,
+      "restored_exact": true,
+      "seed": 4,
+      "strategy": "fallback",
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "archive_bytes": 124467880,
+      "completed": 24,
+      "condition": "difficult",
+      "costs": {
+        "A": 8,
+        "B": 10
+      },
+      "generations": 72,
+      "manifest_sha256": "0ffc39792f2b0657e4623dd8e5f022b9ba6e55ba9f4bb96b4634cc654d5ff65c",
+      "mock_counter": "mock_utf8_bytes_v1",
+      "provider_calls": 0,
+      "restored_exact": true,
+      "seed": 4,
+      "strategy": "exchange",
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "archive_bytes": 96326102,
+      "completed": 24,
+      "condition": "difficult",
+      "costs": {
+        "A": 8,
+        "B": 10
+      },
+      "generations": 60,
+      "manifest_sha256": "0ffc39792f2b0657e4623dd8e5f022b9ba6e55ba9f4bb96b4634cc654d5ff65c",
+      "mock_counter": "mock_utf8_bytes_v1",
+      "provider_calls": 0,
+      "restored_exact": true,
+      "seed": 4,
+      "strategy": "delta",
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 60,
+        "events_verified": 168,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "archive_bytes": 58738477,
+      "completed": 24,
+      "condition": "difficult",
+      "costs": {
+        "A": 8,
+        "B": 10
+      },
+      "generations": 42,
+      "manifest_sha256": "0ffc39792f2b0657e4623dd8e5f022b9ba6e55ba9f4bb96b4634cc654d5ff65c",
+      "mock_counter": "mock_utf8_bytes_v1",
+      "provider_calls": 0,
+      "restored_exact": true,
+      "seed": 4,
+      "strategy": "wait_narrow",
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 42,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    }
+  ],
+  "scope": "Mock existence witnesses, not scientific behavior or dialogue optimality",
+  "status": "PASS",
+  "structural_fixture": {
+    "counterfactual_A_final_cost_difference": 5,
+    "exposure_decision": "decision-00000006",
+    "provider_calls": 0,
+    "read_decision": "decision-00000005",
+    "scope": "Authored mock causal response; no spontaneous representation or optimal-memory claim",
+    "verification": {
+      "checks": [
+        "state continuity",
+        "world rules",
+        "model input reconstruction",
+        "response/action/result/history consistency",
+        "artifact operations",
+        "relationships",
+        "outcome measurements",
+        "administrative transitions"
+      ],
+      "decisions_verified": 11,
+      "events_verified": 42,
+      "goal_representation_inferences": "not_performed",
+      "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+    }
+  }
+}

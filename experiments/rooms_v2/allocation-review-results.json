@@ -1,0 +1,4753 @@
+{
+  "allocation_model": "office_burden_v1",
+  "implementation": {
+    "core_source_sha256": "6b58cd521bace95720aecd68b6d5d3178f6dc98e5ff04411b25ed37c916648ba",
+    "version": "0.1.0"
+  },
+  "interpretation": "Authored-policy existence results; no universal waiting impossibility, dialogue optimality, equilibrium or unique file value claim.",
+  "paired_comparisons": [
+    {
+      "condition": "easy",
+      "delta_call_saving": 11,
+      "exchange_minus_independent_minutes": {
+        "A": 0,
+        "B": -15
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 0,
+        "B": -15
+      },
+      "priority_phase": 0,
+      "seed": 0
+    },
+    {
+      "condition": "difficult",
+      "delta_call_saving": 11,
+      "exchange_minus_independent_minutes": {
+        "A": 30,
+        "B": -45
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 30,
+        "B": -45
+      },
+      "priority_phase": 0,
+      "seed": 0
+    },
+    {
+      "condition": "easy",
+      "delta_call_saving": 11,
+      "exchange_minus_independent_minutes": {
+        "A": -10,
+        "B": -15
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": -10,
+        "B": -15
+      },
+      "priority_phase": 1,
+      "seed": 0
+    },
+    {
+      "condition": "difficult",
+      "delta_call_saving": 11,
+      "exchange_minus_independent_minutes": {
+        "A": 0,
+        "B": -45
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 40,
+        "B": -60
+      },
+      "priority_phase": 1,
+      "seed": 0
+    },
+    {
+      "condition": "easy",
+      "delta_call_saving": 10,
+      "exchange_minus_independent_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "priority_phase": 0,
+      "seed": 1
+    },
+    {
+      "condition": "difficult",
+      "delta_call_saving": 10,
+      "exchange_minus_independent_minutes": {
+        "A": -20,
+        "B": 10
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": -20,
+        "B": 10
+      },
+      "priority_phase": 0,
+      "seed": 1
+    },
+    {
+      "condition": "easy",
+      "delta_call_saving": 10,
+      "exchange_minus_independent_minutes": {
+        "A": 0,
+        "B": -5
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 0,
+        "B": -5
+      },
+      "priority_phase": 1,
+      "seed": 1
+    },
+    {
+      "condition": "difficult",
+      "delta_call_saving": 10,
+      "exchange_minus_independent_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "priority_phase": 1,
+      "seed": 1
+    },
+    {
+      "condition": "easy",
+      "delta_call_saving": 13,
+      "exchange_minus_independent_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "priority_phase": 0,
+      "seed": 2
+    },
+    {
+      "condition": "difficult",
+      "delta_call_saving": 13,
+      "exchange_minus_independent_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 10,
+        "B": -20
+      },
+      "priority_phase": 0,
+      "seed": 2
+    },
+    {
+      "condition": "easy",
+      "delta_call_saving": 13,
+      "exchange_minus_independent_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "priority_phase": 1,
+      "seed": 2
+    },
+    {
+      "condition": "difficult",
+      "delta_call_saving": 13,
+      "exchange_minus_independent_minutes": {
+        "A": 10,
+        "B": -20
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 10,
+        "B": -20
+      },
+      "priority_phase": 1,
+      "seed": 2
+    },
+    {
+      "condition": "easy",
+      "delta_call_saving": 12,
+      "exchange_minus_independent_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "priority_phase": 0,
+      "seed": 3
+    },
+    {
+      "condition": "difficult",
+      "delta_call_saving": 12,
+      "exchange_minus_independent_minutes": {
+        "A": -30,
+        "B": -5
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": -10,
+        "B": 5
+      },
+      "priority_phase": 0,
+      "seed": 3
+    },
+    {
+      "condition": "easy",
+      "delta_call_saving": 12,
+      "exchange_minus_independent_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "priority_phase": 1,
+      "seed": 3
+    },
+    {
+      "condition": "difficult",
+      "delta_call_saving": 12,
+      "exchange_minus_independent_minutes": {
+        "A": -5,
+        "B": -5
+      },
+      "exchange_minus_wait_narrow_minutes": {
+        "A": -10,
+        "B": 5
+      },
+      "priority_phase": 1,
+      "seed": 3
+    }
+  ],
+  "periods": 12,
+  "policies": [
+    "independent",
+    "wait_narrow",
+    "wait_costly",
+    "exchange",
+    "delta"
+  ],
+  "priority_phases": [
+    0,
+    1
+  ],
+  "provider_calls": 0,
+  "results": [
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 15,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 30,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 0,
+        "B": 45
+      },
+      "manifest_sha256": "30707df6a33a847d23f8a60e988abad9bac30bec8ec83e734729acb5b9289289",
+      "mock_input_bytes": 627635,
+      "mock_output_bytes": 5094,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 15,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 30,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 45
+      },
+      "manifest_sha256": "30707df6a33a847d23f8a60e988abad9bac30bec8ec83e734729acb5b9289289",
+      "mock_input_bytes": 1993339,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 15,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 30,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 45
+      },
+      "manifest_sha256": "30707df6a33a847d23f8a60e988abad9bac30bec8ec83e734729acb5b9289289",
+      "mock_input_bytes": 1993339,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 30,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 30,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 0,
+        "B": 30
+      },
+      "manifest_sha256": "30707df6a33a847d23f8a60e988abad9bac30bec8ec83e734729acb5b9289289",
+      "mock_input_bytes": 3705402,
+      "mock_output_bytes": 21688,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 30,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 30,
+      "generations": 61,
+      "individual_minutes": {
+        "A": 0,
+        "B": 30
+      },
+      "manifest_sha256": "30707df6a33a847d23f8a60e988abad9bac30bec8ec83e734729acb5b9289289",
+      "mock_input_bytes": 2965344,
+      "mock_output_bytes": 15381,
+      "operations": {
+        "A": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 30,
+          "information_attempts": 13,
+          "information_consumed": 13
+        },
+        "B": {
+          "control_attempts": 6,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 13,
+          "information_consumed": 13
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 61,
+        "events_verified": 169,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 155,
+      "aggregate_regret_minutes": 15,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 140,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 50,
+        "B": 105
+      },
+      "manifest_sha256": "dd83af8edea73c985a685e55cd46f79b46b7a3ac21b87eebd2f733dcf6c35a0c",
+      "mock_input_bytes": 653614,
+      "mock_output_bytes": 5094,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 155,
+      "aggregate_regret_minutes": 15,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 140,
+      "generations": 39,
+      "individual_minutes": {
+        "A": 50,
+        "B": 105
+      },
+      "manifest_sha256": "dd83af8edea73c985a685e55cd46f79b46b7a3ac21b87eebd2f733dcf6c35a0c",
+      "mock_input_bytes": 1483930,
+      "mock_output_bytes": 6879,
+      "operations": {
+        "A": {
+          "control_attempts": 8,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 20,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 7,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 19,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 39,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 140,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 140,
+      "generations": 28,
+      "individual_minutes": {
+        "A": 80,
+        "B": 60
+      },
+      "manifest_sha256": "dd83af8edea73c985a685e55cd46f79b46b7a3ac21b87eebd2f733dcf6c35a0c",
+      "mock_input_bytes": 856178,
+      "mock_output_bytes": 5570,
+      "operations": {
+        "A": {
+          "control_attempts": 4,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 16,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 28,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 140,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 140,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 80,
+        "B": 60
+      },
+      "manifest_sha256": "dd83af8edea73c985a685e55cd46f79b46b7a3ac21b87eebd2f733dcf6c35a0c",
+      "mock_input_bytes": 3717092,
+      "mock_output_bytes": 21688,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 140,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 140,
+      "generations": 61,
+      "individual_minutes": {
+        "A": 80,
+        "B": 60
+      },
+      "manifest_sha256": "dd83af8edea73c985a685e55cd46f79b46b7a3ac21b87eebd2f733dcf6c35a0c",
+      "mock_input_bytes": 3008527,
+      "mock_output_bytes": 15381,
+      "operations": {
+        "A": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 30,
+          "information_attempts": 13,
+          "information_consumed": 13
+        },
+        "B": {
+          "control_attempts": 6,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 13,
+          "information_consumed": 13
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 61,
+        "events_verified": 169,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 55,
+      "aggregate_regret_minutes": 25,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 30,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 10,
+        "B": 45
+      },
+      "manifest_sha256": "da513c2cfd779c08a2c3df846c27a1ed4ec016c2347d51498762d473d9e2af12",
+      "mock_input_bytes": 627640,
+      "mock_output_bytes": 5094,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 55,
+      "aggregate_regret_minutes": 25,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 30,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 10,
+        "B": 45
+      },
+      "manifest_sha256": "da513c2cfd779c08a2c3df846c27a1ed4ec016c2347d51498762d473d9e2af12",
+      "mock_input_bytes": 1993349,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 55,
+      "aggregate_regret_minutes": 25,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 30,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 10,
+        "B": 45
+      },
+      "manifest_sha256": "da513c2cfd779c08a2c3df846c27a1ed4ec016c2347d51498762d473d9e2af12",
+      "mock_input_bytes": 1993349,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 30,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 30,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 0,
+        "B": 30
+      },
+      "manifest_sha256": "da513c2cfd779c08a2c3df846c27a1ed4ec016c2347d51498762d473d9e2af12",
+      "mock_input_bytes": 3705402,
+      "mock_output_bytes": 21688,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 30,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 30,
+      "generations": 61,
+      "individual_minutes": {
+        "A": 0,
+        "B": 30
+      },
+      "manifest_sha256": "da513c2cfd779c08a2c3df846c27a1ed4ec016c2347d51498762d473d9e2af12",
+      "mock_input_bytes": 2964918,
+      "mock_output_bytes": 15381,
+      "operations": {
+        "A": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 30,
+          "information_attempts": 13,
+          "information_consumed": 13
+        },
+        "B": {
+          "control_attempts": 6,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 13,
+          "information_consumed": 13
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 61,
+        "events_verified": 169,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 185,
+      "aggregate_regret_minutes": 45,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 140,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 80,
+        "B": 105
+      },
+      "manifest_sha256": "7ca25a83d6411b9ade309bfa2b444d2baab38b54709802a9e5a403d358f4cd7f",
+      "mock_input_bytes": 653694,
+      "mock_output_bytes": 5102,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 160,
+      "aggregate_regret_minutes": 20,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 140,
+      "generations": 41,
+      "individual_minutes": {
+        "A": 40,
+        "B": 120
+      },
+      "manifest_sha256": "7ca25a83d6411b9ade309bfa2b444d2baab38b54709802a9e5a403d358f4cd7f",
+      "mock_input_bytes": 1609319,
+      "mock_output_bytes": 7117,
+      "operations": {
+        "A": {
+          "control_attempts": 8,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 20,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 9,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 21,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 41,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 165,
+      "aggregate_regret_minutes": 25,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 140,
+      "generations": 30,
+      "individual_minutes": {
+        "A": 120,
+        "B": 45
+      },
+      "manifest_sha256": "7ca25a83d6411b9ade309bfa2b444d2baab38b54709802a9e5a403d358f4cd7f",
+      "mock_input_bytes": 982691,
+      "mock_output_bytes": 5816,
+      "operations": {
+        "A": {
+          "control_attempts": 6,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 18,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 30,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 140,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 140,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 80,
+        "B": 60
+      },
+      "manifest_sha256": "7ca25a83d6411b9ade309bfa2b444d2baab38b54709802a9e5a403d358f4cd7f",
+      "mock_input_bytes": 3717092,
+      "mock_output_bytes": 21688,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 140,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 140,
+      "generations": 61,
+      "individual_minutes": {
+        "A": 80,
+        "B": 60
+      },
+      "manifest_sha256": "7ca25a83d6411b9ade309bfa2b444d2baab38b54709802a9e5a403d358f4cd7f",
+      "mock_input_bytes": 3008028,
+      "mock_output_bytes": 15381,
+      "operations": {
+        "A": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 30,
+          "information_attempts": 13,
+          "information_consumed": 13
+        },
+        "B": {
+          "control_attempts": 6,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 13,
+          "information_consumed": 13
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 0,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 61,
+        "events_verified": 169,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "33c82fd4a5cc6830ede9453a006fa8b6b483106c9270a3c167a3981c6e3d2be6",
+      "mock_input_bytes": 627496,
+      "mock_output_bytes": 5094,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "33c82fd4a5cc6830ede9453a006fa8b6b483106c9270a3c167a3981c6e3d2be6",
+      "mock_input_bytes": 1992847,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "33c82fd4a5cc6830ede9453a006fa8b6b483106c9270a3c167a3981c6e3d2be6",
+      "mock_input_bytes": 1992847,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "33c82fd4a5cc6830ede9453a006fa8b6b483106c9270a3c167a3981c6e3d2be6",
+      "mock_input_bytes": 3705310,
+      "mock_output_bytes": 21702,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 62,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "33c82fd4a5cc6830ede9453a006fa8b6b483106c9270a3c167a3981c6e3d2be6",
+      "mock_input_bytes": 3038464,
+      "mock_output_bytes": 15968,
+      "operations": {
+        "A": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 14,
+          "information_consumed": 14
+        },
+        "B": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 14,
+          "information_consumed": 14
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 62,
+        "events_verified": 170,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 55,
+      "aggregate_regret_minutes": 10,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 45,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 30,
+        "B": 25
+      },
+      "manifest_sha256": "156bddcc8a58108cec91dd01147c1139b7c4e7c2270453abd87e69d6cc2c7447",
+      "mock_input_bytes": 653586,
+      "mock_output_bytes": 5102,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 55,
+      "aggregate_regret_minutes": 10,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 45,
+      "generations": 45,
+      "individual_minutes": {
+        "A": 30,
+        "B": 25
+      },
+      "manifest_sha256": "156bddcc8a58108cec91dd01147c1139b7c4e7c2270453abd87e69d6cc2c7447",
+      "mock_input_bytes": 1854748,
+      "mock_output_bytes": 7601,
+      "operations": {
+        "A": {
+          "control_attempts": 11,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 23,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 10,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 22,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 45,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 45,
+      "generations": 31,
+      "individual_minutes": {
+        "A": 10,
+        "B": 35
+      },
+      "manifest_sha256": "156bddcc8a58108cec91dd01147c1139b7c4e7c2270453abd87e69d6cc2c7447",
+      "mock_input_bytes": 1022297,
+      "mock_output_bytes": 5935,
+      "operations": {
+        "A": {
+          "control_attempts": 6,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 18,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 1,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 13,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 31,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 45,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 10,
+        "B": 35
+      },
+      "manifest_sha256": "156bddcc8a58108cec91dd01147c1139b7c4e7c2270453abd87e69d6cc2c7447",
+      "mock_input_bytes": 3714802,
+      "mock_output_bytes": 21710,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 45,
+      "generations": 62,
+      "individual_minutes": {
+        "A": 10,
+        "B": 35
+      },
+      "manifest_sha256": "156bddcc8a58108cec91dd01147c1139b7c4e7c2270453abd87e69d6cc2c7447",
+      "mock_input_bytes": 3082659,
+      "mock_output_bytes": 15976,
+      "operations": {
+        "A": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 14,
+          "information_consumed": 14
+        },
+        "B": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 14,
+          "information_consumed": 14
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 62,
+        "events_verified": 170,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 25,
+      "aggregate_regret_minutes": 5,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 0,
+        "B": 25
+      },
+      "manifest_sha256": "ea5a8c19747e032886fa823c746c24fffae98ac93e00af1a8061fd2f29b99b44",
+      "mock_input_bytes": 627496,
+      "mock_output_bytes": 5094,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 25,
+      "aggregate_regret_minutes": 5,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 25
+      },
+      "manifest_sha256": "ea5a8c19747e032886fa823c746c24fffae98ac93e00af1a8061fd2f29b99b44",
+      "mock_input_bytes": 1992847,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 25,
+      "aggregate_regret_minutes": 5,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 25
+      },
+      "manifest_sha256": "ea5a8c19747e032886fa823c746c24fffae98ac93e00af1a8061fd2f29b99b44",
+      "mock_input_bytes": 1992847,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "ea5a8c19747e032886fa823c746c24fffae98ac93e00af1a8061fd2f29b99b44",
+      "mock_input_bytes": 3705310,
+      "mock_output_bytes": 21702,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 62,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "ea5a8c19747e032886fa823c746c24fffae98ac93e00af1a8061fd2f29b99b44",
+      "mock_input_bytes": 3038464,
+      "mock_output_bytes": 15968,
+      "operations": {
+        "A": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 14,
+          "information_consumed": 14
+        },
+        "B": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 14,
+          "information_consumed": 14
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 62,
+        "events_verified": 170,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 45,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 10,
+        "B": 35
+      },
+      "manifest_sha256": "f3a482f73422b20858eb4c49e39bf9b6c0c546330b65b712e05ddf5f0eda178c",
+      "mock_input_bytes": 653576,
+      "mock_output_bytes": 5102,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 45,
+      "generations": 44,
+      "individual_minutes": {
+        "A": 10,
+        "B": 35
+      },
+      "manifest_sha256": "f3a482f73422b20858eb4c49e39bf9b6c0c546330b65b712e05ddf5f0eda178c",
+      "mock_input_bytes": 1794734,
+      "mock_output_bytes": 7482,
+      "operations": {
+        "A": {
+          "control_attempts": 10,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 22,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 10,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 22,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 44,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 45,
+      "generations": 29,
+      "individual_minutes": {
+        "A": 10,
+        "B": 35
+      },
+      "manifest_sha256": "f3a482f73422b20858eb4c49e39bf9b6c0c546330b65b712e05ddf5f0eda178c",
+      "mock_input_bytes": 919878,
+      "mock_output_bytes": 5697,
+      "operations": {
+        "A": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 17,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 29,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 45,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 10,
+        "B": 35
+      },
+      "manifest_sha256": "f3a482f73422b20858eb4c49e39bf9b6c0c546330b65b712e05ddf5f0eda178c",
+      "mock_input_bytes": 3717170,
+      "mock_output_bytes": 21710,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 45,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 45,
+      "generations": 62,
+      "individual_minutes": {
+        "A": 10,
+        "B": 35
+      },
+      "manifest_sha256": "f3a482f73422b20858eb4c49e39bf9b6c0c546330b65b712e05ddf5f0eda178c",
+      "mock_input_bytes": 3085175,
+      "mock_output_bytes": 15976,
+      "operations": {
+        "A": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 14,
+          "information_consumed": 14
+        },
+        "B": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 14,
+          "information_consumed": 14
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 1,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 62,
+        "events_verified": 170,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 0,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 0,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "manifest_sha256": "a194b0ef0f96a689c8e6d78ecc70b30e77e317187415a6bffdc3e3d9abed9a22",
+      "mock_input_bytes": 627504,
+      "mock_output_bytes": 5094,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 0,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 0,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "manifest_sha256": "a194b0ef0f96a689c8e6d78ecc70b30e77e317187415a6bffdc3e3d9abed9a22",
+      "mock_input_bytes": 1992946,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 0,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 0,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "manifest_sha256": "a194b0ef0f96a689c8e6d78ecc70b30e77e317187415a6bffdc3e3d9abed9a22",
+      "mock_input_bytes": 1992946,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 0,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 0,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "manifest_sha256": "a194b0ef0f96a689c8e6d78ecc70b30e77e317187415a6bffdc3e3d9abed9a22",
+      "mock_input_bytes": 3705270,
+      "mock_output_bytes": 21692,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 0,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 0,
+      "generations": 59,
+      "individual_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "manifest_sha256": "a194b0ef0f96a689c8e6d78ecc70b30e77e317187415a6bffdc3e3d9abed9a22",
+      "mock_input_bytes": 2789860,
+      "mock_output_bytes": 14239,
+      "operations": {
+        "A": {
+          "control_attempts": 6,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 29,
+          "information_attempts": 11,
+          "information_consumed": 11
+        },
+        "B": {
+          "control_attempts": 7,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 30,
+          "information_attempts": 11,
+          "information_consumed": 11
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 59,
+        "events_verified": 167,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 20,
+        "B": 0
+      },
+      "manifest_sha256": "dbecb66df01aea1366c64c91c6aadbd09737196a9578effa0ddf31838ad101a8",
+      "mock_input_bytes": 653424,
+      "mock_output_bytes": 5102,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 30,
+      "aggregate_regret_minutes": 10,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 43,
+      "individual_minutes": {
+        "A": 10,
+        "B": 20
+      },
+      "manifest_sha256": "dbecb66df01aea1366c64c91c6aadbd09737196a9578effa0ddf31838ad101a8",
+      "mock_input_bytes": 1729626,
+      "mock_output_bytes": 7355,
+      "operations": {
+        "A": {
+          "control_attempts": 9,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 21,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 10,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 22,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 43,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 31,
+      "individual_minutes": {
+        "A": 20,
+        "B": 0
+      },
+      "manifest_sha256": "dbecb66df01aea1366c64c91c6aadbd09737196a9578effa0ddf31838ad101a8",
+      "mock_input_bytes": 1041633,
+      "mock_output_bytes": 5935,
+      "operations": {
+        "A": {
+          "control_attempts": 7,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 19,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 31,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 20,
+        "B": 0
+      },
+      "manifest_sha256": "dbecb66df01aea1366c64c91c6aadbd09737196a9578effa0ddf31838ad101a8",
+      "mock_input_bytes": 3716855,
+      "mock_output_bytes": 21700,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 59,
+      "individual_minutes": {
+        "A": 20,
+        "B": 0
+      },
+      "manifest_sha256": "dbecb66df01aea1366c64c91c6aadbd09737196a9578effa0ddf31838ad101a8",
+      "mock_input_bytes": 2832346,
+      "mock_output_bytes": 14247,
+      "operations": {
+        "A": {
+          "control_attempts": 6,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 29,
+          "information_attempts": 11,
+          "information_consumed": 11
+        },
+        "B": {
+          "control_attempts": 7,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 30,
+          "information_attempts": 11,
+          "information_consumed": 11
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 59,
+        "events_verified": 167,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 0,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 0,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "manifest_sha256": "c1747e9451f9fd665b96e8b890b37ed48055b45644da42e931425600494ec50c",
+      "mock_input_bytes": 627504,
+      "mock_output_bytes": 5094,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 0,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 0,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "manifest_sha256": "c1747e9451f9fd665b96e8b890b37ed48055b45644da42e931425600494ec50c",
+      "mock_input_bytes": 1992946,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 0,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 0,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "manifest_sha256": "c1747e9451f9fd665b96e8b890b37ed48055b45644da42e931425600494ec50c",
+      "mock_input_bytes": 1992946,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 0,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 0,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "manifest_sha256": "c1747e9451f9fd665b96e8b890b37ed48055b45644da42e931425600494ec50c",
+      "mock_input_bytes": 3705270,
+      "mock_output_bytes": 21692,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 0,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 0,
+      "generations": 59,
+      "individual_minutes": {
+        "A": 0,
+        "B": 0
+      },
+      "manifest_sha256": "c1747e9451f9fd665b96e8b890b37ed48055b45644da42e931425600494ec50c",
+      "mock_input_bytes": 2788841,
+      "mock_output_bytes": 14239,
+      "operations": {
+        "A": {
+          "control_attempts": 6,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 29,
+          "information_attempts": 11,
+          "information_consumed": 11
+        },
+        "B": {
+          "control_attempts": 7,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 30,
+          "information_attempts": 11,
+          "information_consumed": 11
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 59,
+        "events_verified": 167,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 30,
+      "aggregate_regret_minutes": 10,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 10,
+        "B": 20
+      },
+      "manifest_sha256": "513741f201b8be82e0bae72a9d1b8535338db1a52e0a726cb29a416cd536909b",
+      "mock_input_bytes": 653424,
+      "mock_output_bytes": 5094,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 30,
+      "aggregate_regret_minutes": 10,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 41,
+      "individual_minutes": {
+        "A": 10,
+        "B": 20
+      },
+      "manifest_sha256": "513741f201b8be82e0bae72a9d1b8535338db1a52e0a726cb29a416cd536909b",
+      "mock_input_bytes": 1609113,
+      "mock_output_bytes": 7117,
+      "operations": {
+        "A": {
+          "control_attempts": 9,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 21,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 8,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 20,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 41,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 28,
+      "individual_minutes": {
+        "A": 20,
+        "B": 0
+      },
+      "manifest_sha256": "513741f201b8be82e0bae72a9d1b8535338db1a52e0a726cb29a416cd536909b",
+      "mock_input_bytes": 860349,
+      "mock_output_bytes": 5578,
+      "operations": {
+        "A": {
+          "control_attempts": 4,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 16,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 28,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 20,
+        "B": 0
+      },
+      "manifest_sha256": "513741f201b8be82e0bae72a9d1b8535338db1a52e0a726cb29a416cd536909b",
+      "mock_input_bytes": 3716630,
+      "mock_output_bytes": 21700,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 59,
+      "individual_minutes": {
+        "A": 20,
+        "B": 0
+      },
+      "manifest_sha256": "513741f201b8be82e0bae72a9d1b8535338db1a52e0a726cb29a416cd536909b",
+      "mock_input_bytes": 2830863,
+      "mock_output_bytes": 14247,
+      "operations": {
+        "A": {
+          "control_attempts": 6,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 29,
+          "information_attempts": 11,
+          "information_consumed": 11
+        },
+        "B": {
+          "control_attempts": 7,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 30,
+          "information_attempts": 11,
+          "information_consumed": 11
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 2,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 59,
+        "events_verified": 167,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "c46b430b1a353d6f61000eea23ba135615f783aad6438521a83e860345b1faa3",
+      "mock_input_bytes": 628041,
+      "mock_output_bytes": 5094,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "c46b430b1a353d6f61000eea23ba135615f783aad6438521a83e860345b1faa3",
+      "mock_input_bytes": 1994814,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 47,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "c46b430b1a353d6f61000eea23ba135615f783aad6438521a83e860345b1faa3",
+      "mock_input_bytes": 1926839,
+      "mock_output_bytes": 7831,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 11,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 23,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 47,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "c46b430b1a353d6f61000eea23ba135615f783aad6438521a83e860345b1faa3",
+      "mock_input_bytes": 3709084,
+      "mock_output_bytes": 21732,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 60,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "c46b430b1a353d6f61000eea23ba135615f783aad6438521a83e860345b1faa3",
+      "mock_input_bytes": 2885169,
+      "mock_output_bytes": 14847,
+      "operations": {
+        "A": {
+          "control_attempts": 7,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 12,
+          "information_consumed": 12
+        },
+        "B": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 29,
+          "information_attempts": 12,
+          "information_consumed": 12
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 60,
+        "events_verified": 168,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 275,
+      "aggregate_regret_minutes": 35,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 240,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 115,
+        "B": 160
+      },
+      "manifest_sha256": "85a319e42aff9bdfab5b94705b84883b6d4689bb736c06ebb34176ef52f75b4c",
+      "mock_input_bytes": 654188,
+      "mock_output_bytes": 5110,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 245,
+      "aggregate_regret_minutes": 5,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 240,
+      "generations": 44,
+      "individual_minutes": {
+        "A": 95,
+        "B": 150
+      },
+      "manifest_sha256": "85a319e42aff9bdfab5b94705b84883b6d4689bb736c06ebb34176ef52f75b4c",
+      "mock_input_bytes": 1794001,
+      "mock_output_bytes": 7474,
+      "operations": {
+        "A": {
+          "control_attempts": 10,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 22,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 10,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 22,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 44,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 250,
+      "aggregate_regret_minutes": 10,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 240,
+      "generations": 47,
+      "individual_minutes": {
+        "A": 90,
+        "B": 160
+      },
+      "manifest_sha256": "85a319e42aff9bdfab5b94705b84883b6d4689bb736c06ebb34176ef52f75b4c",
+      "mock_input_bytes": 1974665,
+      "mock_output_bytes": 7839,
+      "operations": {
+        "A": {
+          "control_attempts": 11,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 23,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 47,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 240,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 240,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 85,
+        "B": 155
+      },
+      "manifest_sha256": "85a319e42aff9bdfab5b94705b84883b6d4689bb736c06ebb34176ef52f75b4c",
+      "mock_input_bytes": 3720650,
+      "mock_output_bytes": 21732,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 240,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 240,
+      "generations": 60,
+      "individual_minutes": {
+        "A": 85,
+        "B": 155
+      },
+      "manifest_sha256": "85a319e42aff9bdfab5b94705b84883b6d4689bb736c06ebb34176ef52f75b4c",
+      "mock_input_bytes": 2931166,
+      "mock_output_bytes": 14847,
+      "operations": {
+        "A": {
+          "control_attempts": 7,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 12,
+          "information_consumed": 12
+        },
+        "B": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 29,
+          "information_attempts": 12,
+          "information_consumed": 12
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 0,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 60,
+        "events_verified": 168,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "6f612a80643b7154283d349e32689180189dc9879d2e58430686a23d9b43b297",
+      "mock_input_bytes": 628041,
+      "mock_output_bytes": 5094,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 48,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "6f612a80643b7154283d349e32689180189dc9879d2e58430686a23d9b43b297",
+      "mock_input_bytes": 1994814,
+      "mock_output_bytes": 7950,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 48,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 47,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "6f612a80643b7154283d349e32689180189dc9879d2e58430686a23d9b43b297",
+      "mock_input_bytes": 1925877,
+      "mock_output_bytes": 7831,
+      "operations": {
+        "A": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 11,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 23,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 47,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "6f612a80643b7154283d349e32689180189dc9879d2e58430686a23d9b43b297",
+      "mock_input_bytes": 3709084,
+      "mock_output_bytes": 21732,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 20,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "easy",
+      "full_information_assignment_bound_minutes": 20,
+      "generations": 60,
+      "individual_minutes": {
+        "A": 0,
+        "B": 20
+      },
+      "manifest_sha256": "6f612a80643b7154283d349e32689180189dc9879d2e58430686a23d9b43b297",
+      "mock_input_bytes": 2883254,
+      "mock_output_bytes": 14847,
+      "operations": {
+        "A": {
+          "control_attempts": 7,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 12,
+          "information_consumed": 12
+        },
+        "B": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 29,
+          "information_attempts": 12,
+          "information_consumed": 12
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 60,
+        "events_verified": 168,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 250,
+      "aggregate_regret_minutes": 10,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 240,
+      "generations": 24,
+      "individual_minutes": {
+        "A": 95,
+        "B": 155
+      },
+      "manifest_sha256": "af5163c672b31bcd7cd9473d020ee9de2d96a1734389ef5b6663a852109a03dc",
+      "mock_input_bytes": 654210,
+      "mock_output_bytes": 5102,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 12,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "independent",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 245,
+      "aggregate_regret_minutes": 5,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 240,
+      "generations": 43,
+      "individual_minutes": {
+        "A": 100,
+        "B": 145
+      },
+      "manifest_sha256": "af5163c672b31bcd7cd9473d020ee9de2d96a1734389ef5b6663a852109a03dc",
+      "mock_input_bytes": 1731251,
+      "mock_output_bytes": 7355,
+      "operations": {
+        "A": {
+          "control_attempts": 10,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 22,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 9,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 21,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_narrow",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 43,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 250,
+      "aggregate_regret_minutes": 10,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 240,
+      "generations": 47,
+      "individual_minutes": {
+        "A": 95,
+        "B": 155
+      },
+      "manifest_sha256": "af5163c672b31bcd7cd9473d020ee9de2d96a1734389ef5b6663a852109a03dc",
+      "mock_input_bytes": 1975898,
+      "mock_output_bytes": 7839,
+      "operations": {
+        "A": {
+          "control_attempts": 11,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 23,
+          "information_attempts": 0,
+          "information_consumed": 0
+        },
+        "B": {
+          "control_attempts": 12,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 24,
+          "information_attempts": 0,
+          "information_consumed": 0
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "wait_costly",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 47,
+        "events_verified": 156,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 240,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 240,
+      "generations": 72,
+      "individual_minutes": {
+        "A": 90,
+        "B": 150
+      },
+      "manifest_sha256": "af5163c672b31bcd7cd9473d020ee9de2d96a1734389ef5b6663a852109a03dc",
+      "mock_input_bytes": 3720665,
+      "mock_output_bytes": 21732,
+      "operations": {
+        "A": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        },
+        "B": {
+          "control_attempts": 0,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 36,
+          "information_attempts": 24,
+          "information_consumed": 24
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "exchange",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 72,
+        "events_verified": 180,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    },
+    {
+      "aggregate_minutes": 240,
+      "aggregate_regret_minutes": 0,
+      "completed": 24,
+      "condition": "difficult",
+      "full_information_assignment_bound_minutes": 240,
+      "generations": 60,
+      "individual_minutes": {
+        "A": 90,
+        "B": 150
+      },
+      "manifest_sha256": "af5163c672b31bcd7cd9473d020ee9de2d96a1734389ef5b6663a852109a03dc",
+      "mock_input_bytes": 2932984,
+      "mock_output_bytes": 14847,
+      "operations": {
+        "A": {
+          "control_attempts": 7,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 31,
+          "information_attempts": 12,
+          "information_consumed": 12
+        },
+        "B": {
+          "control_attempts": 5,
+          "domain_attempts": 12,
+          "domain_consumed": 12,
+          "generations": 29,
+          "information_attempts": 12,
+          "information_consumed": 12
+        }
+      },
+      "oracle_scope": "Investigator-only full-information bound, not an achievable uninformed policy",
+      "policy": "delta",
+      "policy_input_basis": "Own client, public reservations, exact permitted retained context/read receipts only",
+      "priority_phase": 1,
+      "provider_calls": 0,
+      "seed": 3,
+      "verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 60,
+        "events_verified": 168,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      }
+    }
+  ],
+  "row_count": 80,
+  "seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "status": "PASS",
+  "totals": {
+    "difficult": {
+      "delta": {
+        "aggregate_minutes": 890,
+        "aggregate_regret_minutes": 0,
+        "generations": 484,
+        "individual_minutes": {
+          "A": 395,
+          "B": 495
+        }
+      },
+      "exchange": {
+        "aggregate_minutes": 890,
+        "aggregate_regret_minutes": 0,
+        "generations": 576,
+        "individual_minutes": {
+          "A": 395,
+          "B": 495
+        }
+      },
+      "independent": {
+        "aggregate_minutes": 1015,
+        "aggregate_regret_minutes": 125,
+        "generations": 192,
+        "individual_minutes": {
+          "A": 410,
+          "B": 605
+        }
+      },
+      "wait_costly": {
+        "aggregate_minutes": 935,
+        "aggregate_regret_minutes": 45,
+        "generations": 271,
+        "individual_minutes": {
+          "A": 445,
+          "B": 490
+        }
+      },
+      "wait_narrow": {
+        "aggregate_minutes": 965,
+        "aggregate_regret_minutes": 75,
+        "generations": 340,
+        "individual_minutes": {
+          "A": 345,
+          "B": 620
+        }
+      }
+    },
+    "easy": {
+      "delta": {
+        "aggregate_minutes": 140,
+        "aggregate_regret_minutes": 0,
+        "generations": 484,
+        "individual_minutes": {
+          "A": 0,
+          "B": 140
+        }
+      },
+      "exchange": {
+        "aggregate_minutes": 140,
+        "aggregate_regret_minutes": 0,
+        "generations": 576,
+        "individual_minutes": {
+          "A": 0,
+          "B": 140
+        }
+      },
+      "independent": {
+        "aggregate_minutes": 185,
+        "aggregate_regret_minutes": 45,
+        "generations": 192,
+        "individual_minutes": {
+          "A": 10,
+          "B": 175
+        }
+      },
+      "wait_costly": {
+        "aggregate_minutes": 185,
+        "aggregate_regret_minutes": 45,
+        "generations": 382,
+        "individual_minutes": {
+          "A": 10,
+          "B": 175
+        }
+      },
+      "wait_narrow": {
+        "aggregate_minutes": 185,
+        "aggregate_regret_minutes": 45,
+        "generations": 384,
+        "individual_minutes": {
+          "A": 10,
+          "B": 175
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "version": "allocation-review-v1",
+  "seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "priority_phases": [
+    0,
+    1
+  ],
+  "conditions": [
+    "easy",
+    "difficult"
+  ],
+  "periods": 12,
+  "policies": [
+    "independent",
+    "wait_narrow",
+    "wait_costly",
+    "exchange",
+    "delta"
+  ],
+  "selection": "All ascending seeds 0-3 and both phases are prespecified before inspecting revised-generator outcomes; retain every result, including negative individual effects.",
+  "comparison": "Admissible policies versus an investigator-only full-information assignment bound; no dialogue optimality claim.",
+  "wait_costly_threshold_minutes": 10
+}

@@ -1,0 +1,331 @@
+{
+  "paid_calls": 0,
+  "runs": [
+    {
+      "A_cost": 48,
+      "B_cost": 48,
+      "archive_bytes": 20051216,
+      "checkpoint_bytes": 10053137,
+      "completed": 16,
+      "generations": 16,
+      "restored_continuation_exact": true,
+      "scenario": "C",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 16,
+        "events_verified": 128,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "fallback"
+    },
+    {
+      "A_cost": 6,
+      "B_cost": 48,
+      "archive_bytes": 22552364,
+      "checkpoint_bytes": 11310668,
+      "completed": 16,
+      "generations": 21,
+      "restored_continuation_exact": true,
+      "scenario": "C",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 21,
+        "events_verified": 128,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "R1"
+    },
+    {
+      "A_cost": 6,
+      "B_cost": 48,
+      "archive_bytes": 22793039,
+      "checkpoint_bytes": 11426995,
+      "completed": 16,
+      "generations": 18,
+      "restored_continuation_exact": true,
+      "scenario": "C",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 18,
+        "events_verified": 130,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "read"
+    },
+    {
+      "A_cost": 6,
+      "B_cost": 48,
+      "archive_bytes": 30091790,
+      "checkpoint_bytes": 15086317,
+      "completed": 16,
+      "generations": 24,
+      "restored_continuation_exact": true,
+      "scenario": "C",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 136,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "fresh_notice"
+    },
+    {
+      "A_cost": 6,
+      "B_cost": 48,
+      "archive_bytes": 21647206,
+      "checkpoint_bytes": 10852747,
+      "completed": 16,
+      "generations": 17,
+      "restored_continuation_exact": true,
+      "scenario": "C",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 17,
+        "events_verified": 128,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "carry_forward"
+    },
+    {
+      "A_cost": 48,
+      "B_cost": 48,
+      "archive_bytes": 31117163,
+      "checkpoint_bytes": 15599946,
+      "completed": 16,
+      "generations": 25,
+      "restored_continuation_exact": true,
+      "scenario": "C",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 25,
+        "events_verified": 136,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "artifacts"
+    },
+    {
+      "A_cost": 48,
+      "B_cost": 48,
+      "archive_bytes": 20052735,
+      "checkpoint_bytes": 10053898,
+      "completed": 16,
+      "generations": 16,
+      "restored_continuation_exact": true,
+      "scenario": "V",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 16,
+        "events_verified": 128,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "fallback"
+    },
+    {
+      "A_cost": 16,
+      "B_cost": 48,
+      "archive_bytes": 19972831,
+      "checkpoint_bytes": 10013799,
+      "completed": 16,
+      "generations": 16,
+      "restored_continuation_exact": true,
+      "scenario": "V",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 16,
+        "events_verified": 128,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "R1"
+    },
+    {
+      "A_cost": 16,
+      "B_cost": 48,
+      "archive_bytes": 21635766,
+      "checkpoint_bytes": 10846812,
+      "completed": 16,
+      "generations": 17,
+      "restored_continuation_exact": true,
+      "scenario": "V",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 17,
+        "events_verified": 129,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "read"
+    },
+    {
+      "A_cost": 16,
+      "B_cost": 48,
+      "archive_bytes": 30096234,
+      "checkpoint_bytes": 15088548,
+      "completed": 16,
+      "generations": 24,
+      "restored_continuation_exact": true,
+      "scenario": "V",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 24,
+        "events_verified": 136,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "fresh_notice"
+    },
+    {
+      "A_cost": 16,
+      "B_cost": 48,
+      "archive_bytes": 20736951,
+      "checkpoint_bytes": 10396183,
+      "completed": 16,
+      "generations": 16,
+      "restored_continuation_exact": true,
+      "scenario": "V",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 16,
+        "events_verified": 128,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "carry_forward"
+    },
+    {
+      "A_cost": 48,
+      "B_cost": 48,
+      "archive_bytes": 31118778,
+      "checkpoint_bytes": 15600755,
+      "completed": 16,
+      "generations": 25,
+      "restored_continuation_exact": true,
+      "scenario": "V",
+      "semantic_verification": {
+        "checks": [
+          "state continuity",
+          "world rules",
+          "model input reconstruction",
+          "response/action/result/history consistency",
+          "artifact operations",
+          "relationships",
+          "outcome measurements",
+          "administrative transitions"
+        ],
+        "decisions_verified": 25,
+        "events_verified": 136,
+        "goal_representation_inferences": "not_performed",
+        "record_scope": "trajectory_prefix; finalization requires checkpoint comparison"
+      },
+      "strategy": "artifacts"
+    }
+  ],
+  "scientific_source_commit": "5a6267052fffbc0e3aec8da819d7dc47f6d66ee4",
+  "scope": "authored mock validation, not autonomous scientific behavior"
+}

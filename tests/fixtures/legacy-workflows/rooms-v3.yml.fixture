@@ -1,0 +1,113 @@
+name: Manual Rooms v3 discovery
+run-name: Rooms v3 | ${{ inputs.mode }} | case=${{ inputs.case }} | continuation-v1 | core=237399f
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Offline by default; paid requires separate approval
+        type: choice
+        options: [offline, paid]
+        default: offline
+        required: true
+      case:
+        description: One exact configuration per deliberate dispatch
+        type: choice
+        options: [smoke0_medium, screen0_medium, screen0_high, screen3_medium, screen3_high, explore0_medium, explore0_high, explore3_medium, explore3_high]
+        default: smoke0_medium
+        required: true
+      paid_authorization:
+        description: NO offline; exact case-specific token from experiments/rooms_v3/README.md paid
+        type: string
+        default: 'NO'
+        required: true
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: rooms-v3-single-run
+  cancel-in-progress: false
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      MODE: ${{ inputs.mode }}
+      CASE: ${{ inputs.case }}
+      PAID_AUTHORIZATION: ${{ inputs.paid_authorization }}
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - name: Preserve startup identity and establish output directory
+        shell: python
+        env:
+          RESULTS_DIR: ${{ runner.temp }}/rooms-v3-results
+        run: |
+          import json, os
+          from pathlib import Path
+          root = Path(os.environ['RESULTS_DIR'])
+          root.mkdir(parents=True, exist_ok=True)
+          with Path(os.environ['GITHUB_ENV']).open('a') as stream:
+              stream.write(f'RESULTS_DIR={root}\n')
+          (root/'startup.json').write_text(json.dumps({k: os.environ.get(k) for k in
+              ('GITHUB_RUN_ID', 'GITHUB_RUN_ATTEMPT', 'GITHUB_WORKFLOW_SHA', 'GITHUB_WORKFLOW_REF')}, indent=2))
+      - name: Check out exact launch infrastructure
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.workflow_sha }}
+          path: launcher
+          persist-credentials: false
+      - name: Validate manual authorization and single-use launch identity
+        working-directory: launcher
+        timeout-minutes: 2
+        env:
+          ACTIONS_READ_TOKEN: ${{ github.token }}
+        run: python -m tools.rooms_v3_launcher guard --mode "$MODE" --case "$CASE" --output "$RESULTS_DIR"
+      - name: Check out exact scientific source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: 237399fc30760af9012659c8fdb1ea658c51dea4
+          path: core
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Install existing provider dependency
+        id: setup
+        timeout-minutes: 5
+        run: python -m pip install -e './core[provider]'
+      - name: No-cost source and trajectory validation
+        if: ${{ inputs.mode == 'offline' }}
+        shell: bash
+        working-directory: launcher
+        run: |
+          set -euo pipefail
+          python -m unittest discover -s tests -p 'test_rooms_v3*.py' -v 2>&1 | tee "$RESULTS_DIR/tests.log"
+          python -m unittest discover -s tests -p test_streaming_archive.py -v 2>&1 | tee "$RESULTS_DIR/storage-tests.log"
+          python -m unittest discover -s tests -p test_retrospective_rooms_v3.py -v 2>&1 | tee "$RESULTS_DIR/retrospective-tests.log"
+          python -m tools.rooms_v3_retrospective_validation --output "$RESULTS_DIR/retrospective-proof"
+          python -m tools.rooms_v3_validation --output "$RESULTS_DIR/mock-validation" > "$RESULTS_DIR/mock-validation.json"
+          python -m tools.rooms_v3_launcher run --mode offline --case "$CASE" --core ../core --output "$RESULTS_DIR"
+      - name: One separately authorized autonomous trajectory
+        if: ${{ inputs.mode == 'paid' }}
+        working-directory: launcher
+        timeout-minutes: 125
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python -m tools.rooms_v3_launcher run --mode paid --case "$CASE" --core ../core --output "$RESULTS_DIR"
+      - name: Verify complete or interrupted archive
+        if: ${{ always() && steps.setup.outcome == 'success' }}
+        working-directory: launcher
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -d "$RESULTS_DIR/research/records" ]; then
+            python -m tools.rooms_v3_analysis "$RESULTS_DIR/research" --allow-incomplete --output "$RESULTS_DIR/analysis.json"
+          fi
+      - name: Preserve records even after failure or interruption
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: rooms-v3-${{ inputs.case }}-${{ inputs.mode }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/rooms-v3-results/
+          if-no-files-found: error
+          retention-days: 30

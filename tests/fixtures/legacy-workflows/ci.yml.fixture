@@ -1,0 +1,240 @@
+name: Consequence Lab validation
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  rooms-v3-generation-stress:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e .
+      - name: Verify twelve-day maximum-generation footprint without providers
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m tools.rooms_v3_stress --days 12 --calls 432 --mode mixed --memory-gib 4 --output "$RUNNER_TEMP/rooms-v3-stress" > "$RUNNER_TEMP/rooms-v3-stress.json"
+          python -m tools.rooms_v3_stress --restore-only --memory-gib 4 --output "$RUNNER_TEMP/rooms-v3-stress" > "$RUNNER_TEMP/rooms-v3-restoration.json"
+      - name: Preserve measurements or incomplete technical stress records
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: rooms-v3-stress-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/rooms-v3-stress/
+            ${{ runner.temp }}/rooms-v3-stress.json
+          if-no-files-found: warn
+          retention-days: 30
+  rooms-v3-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e .
+      - name: Verify twelve-day authored archives with both domain auditors
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m tools.rooms_v3_validation --output "$RUNNER_TEMP/rooms-v3-validation" > "$RUNNER_TEMP/rooms-v3-validation.json"
+          python -m tools.rooms_v3_pressure --output "$RUNNER_TEMP/rooms-v3-pressure"
+          python -m tools.rooms_v3_retrospective_validation --output "$RUNNER_TEMP/rooms-v3-retrospective"
+      - name: Check out pinned v3 scientific source
+        uses: actions/checkout@v4
+        with:
+          ref: 237399fc30760af9012659c8fdb1ea658c51dea4
+          path: rooms-v3-source
+          persist-credentials: false
+      - name: Initialize medium and high cases without provider transports
+        shell: bash
+        run: |
+          set -euo pipefail
+          PYTHONPATH="$GITHUB_WORKSPACE/rooms-v3-source/src" python - <<'PY'
+          import os
+          from pathlib import Path
+          from tools.rooms_v3_launcher import source_check
+          from tools.rooms_v3_analysis import analyze
+          from consequence_lab.jsonio import atomic_json
+          from consequence_lab.provider import ResponsesBackend,LunaConfig
+          from consequence_lab.rooms_v3_manifest import generate
+          from consequence_lab.rooms_v3_run import new_run
+          source_check(Path('rooms-v3-source').resolve())
+          for effort in ('medium','high'):
+              root=Path(os.environ['RUNNER_TEMP'])/f'rooms-v3-screen0_{effort}'
+              r=new_run(generate(0,4),ResponsesBackend(LunaConfig(reasoning_effort=effort)),archive=root/'research')
+              r.settle();r.checkpoint(root/'research'/'checkpoint.json')
+              assert r.state['ledger']['calls']==0
+              atomic_json(root/'analysis.json',analyze(root/'research'))
+              atomic_json(root/'scope.json',{'scope':'CI source initialization, not a manual launch','provider_calls':0})
+          PY
+      - name: Preserve complete mock archives and source preflights
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: rooms-v3-validation-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/rooms-v3-validation/
+            ${{ runner.temp }}/rooms-v3-validation.json
+            ${{ runner.temp }}/rooms-v3-pressure/
+            ${{ runner.temp }}/rooms-v3-retrospective/
+            ${{ runner.temp }}/rooms-v3-screen*/
+          if-no-files-found: warn
+          retention-days: 30
+  workflow-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.23.4'
+      - run: go install github.com/rhysd/actionlint/cmd/actionlint@v1.7.7
+      - run: '"$(go env GOPATH)/bin/actionlint" -shellcheck= -pyflakes='
+  core:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install setuptools wheel
+      - run: python -m pip install --no-build-isolation -e .
+      - run: python -m unittest discover -s tests -v
+  inspect-mock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e '.[inspect]'
+      - run: python -m unittest discover -s tests -p test_inspect_adapter.py -v
+        env:
+          EIG_REQUIRE_INSPECT: '1'
+  provider-offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e '.[provider]'
+      - run: python -m unittest discover -s tests -p test_provider.py -v
+        env:
+          EIG_REQUIRE_PROVIDER: '1'
+
+  rooms-v2-mock-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e .
+      - name: Generate and verify complete mock research archives
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m tools.pilot_validation --output "$RUNNER_TEMP/rooms-v2-mocks" > "$RUNNER_TEMP/rooms-v2-report.json"
+          cat "$RUNNER_TEMP/rooms-v2-report.json"
+      - name: Verify prespecified pressure by communication panel with admissible policies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m tools.rooms_v2_controls_panel --output "$RUNNER_TEMP/rooms-v2-controls-panel" --workers 2 > "$RUNNER_TEMP/rooms-v2-controls-panel.log"
+          cat "$RUNNER_TEMP/rooms-v2-controls-panel.log"
+      - name: Confirm saved independent reconstruction reports
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PYCODE'
+          import json,os
+          from pathlib import Path
+          root=Path(os.environ['RUNNER_TEMP']);source=root/'rooms-v2-mocks'
+          report=json.loads((source/'validation.json').read_text())
+          rows=report['independent_analysis']
+          assert len(rows)==35 and all(x['horizon_complete'] for x in rows)
+          assert all((source/x['report']).is_file() for x in rows)
+          target=root/'rooms-v2-all-analysis';target.mkdir()
+          (target/'index.json').write_text(json.dumps(rows,indent=2,sort_keys=True))
+          print(json.dumps({'independently_reconstructed_complete_archives':len(rows),
+                            'scope':'Reports computed by pilot_validation; no duplicate analysis pass'}))
+          PYCODE
+      - name: Check out exact scientific source for zero-call preflight
+        uses: actions/checkout@v4
+        with:
+          ref: faeccaa03b8e4a0f4129d916ff520f4d5a4c0111
+          path: scientific-source
+          persist-credentials: false
+      - name: Verify pinned source and initialize without a provider transport
+        shell: bash
+        env:
+          PYTHONPATH: ${{ github.workspace }}/scientific-source/src
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          from tools.longitudinal_pilot import source_check
+          from tools.pilot_spec import scenario
+          from consequence_lab.rooms_v2_run import new_run
+          from consequence_lab.provider import ResponsesBackend
+          source_check(Path('scientific-source').resolve())
+          path=Path(os.environ['RUNNER_TEMP'])/'rooms-v2-preflight'
+          r=new_run(scenario('diagnostic'),ResponsesBackend(),archive=path)
+          r.settle();r.checkpoint(path/'checkpoint.json')
+          assert r.state['ledger']['calls']==0
+          print(json.dumps({'scope':'CI initialization; no manual dispatch','provider_calls':0,'world':r.world.name}))
+          PY
+          python -m tools.pilot_analysis "$RUNNER_TEMP/rooms-v2-preflight" --output "$RUNNER_TEMP/rooms-v2-preflight-analysis.json"
+      - name: Preserve complete and incomplete mock validation records
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: rooms-v2-mock-validation-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/rooms-v2-mocks/
+            ${{ runner.temp }}/rooms-v2-report.json
+            ${{ runner.temp }}/rooms-v2-controls-archives/
+            ${{ runner.temp }}/rooms-v2-controls-validation.json
+            ${{ runner.temp }}/rooms-v2-controls-panel/
+            ${{ runner.temp }}/rooms-v2-controls-panel.log
+            ${{ runner.temp }}/rooms-v2-*-analysis.json
+            ${{ runner.temp }}/rooms-v2-all-analysis/
+            ${{ runner.temp }}/rooms-v2-preflight/
+          if-no-files-found: warn
+          retention-days: 30
+
+  rooms-v2-generation-stress:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e .
+      - name: Verify full generation ceiling with short-output mocks
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m tools.rooms_v2_stress --output "$RUNNER_TEMP/rooms-v2-stress" > "$RUNNER_TEMP/rooms-v2-stress-report.json"
+          cat "$RUNNER_TEMP/rooms-v2-stress-report.json"
+      - name: Preserve stress records even on failure
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: rooms-v2-generation-stress-${{ github.sha }}
+          path: |
+            ${{ runner.temp }}/rooms-v2-stress/
+            ${{ runner.temp }}/rooms-v2-stress-report.json
+          if-no-files-found: warn
+          retention-days: 30

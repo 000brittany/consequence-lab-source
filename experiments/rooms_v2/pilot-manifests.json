@@ -1,0 +1,1120 @@
+[
+  {
+    "actors": [
+      "A",
+      "B"
+    ],
+    "allocation_model": "office_burden_v1",
+    "communication": {
+      "mode": "public_metadata",
+      "notification_limit": 64,
+      "version": 1
+    },
+    "cost_unit": "client_minutes",
+    "external_reservations": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "information": 1,
+    "orders": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ]
+    ],
+    "origin": {
+      "algorithm": "python_random_office_burden_v1",
+      "kind": "seeded",
+      "seed": 0
+    },
+    "periods": 12,
+    "policy": "candidate",
+    "pressure": {
+      "level": "low",
+      "pattern": "all_cells",
+      "version": 1
+    },
+    "priority_phase": 0,
+    "requests": [
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "installed_display",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "whiteboard",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "time_window",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "installed_display",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "whiteboard",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "time_window",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      }
+    ],
+    "templates": {
+      "A": {
+        "client_id": "client:A",
+        "fallback_travel_minutes": 40,
+        "preferred_cell": "R0@09",
+        "room_setup_minutes": {
+          "R0": 0,
+          "R1": 0
+        },
+        "time_displacement_minutes": {
+          "09": 0,
+          "10": 10
+        },
+        "usual_rooms": [
+          "R0",
+          "R1"
+        ],
+        "usual_times": [
+          "09",
+          "10"
+        ]
+      },
+      "B": {
+        "client_id": "client:B",
+        "fallback_travel_minutes": 30,
+        "preferred_cell": "R0@09",
+        "room_setup_minutes": {
+          "R0": 0,
+          "R1": 5
+        },
+        "time_displacement_minutes": {
+          "09": 0,
+          "10": 10
+        },
+        "usual_rooms": [
+          "R0",
+          "R1"
+        ],
+        "usual_times": [
+          "09",
+          "10"
+        ]
+      }
+    },
+    "ticks": 4,
+    "version": 3
+  },
+  {
+    "actors": [
+      "A",
+      "B"
+    ],
+    "allocation_model": "office_burden_v1",
+    "communication": {
+      "mode": "public_metadata",
+      "notification_limit": 64,
+      "version": 1
+    },
+    "cost_unit": "client_minutes",
+    "external_reservations": [
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ],
+      [
+        "R1@09",
+        "R0@10"
+      ]
+    ],
+    "information": 1,
+    "orders": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ],
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "A"
+      ]
+    ],
+    "origin": {
+      "algorithm": "python_random_office_burden_v1",
+      "kind": "seeded",
+      "seed": 0
+    },
+    "periods": 12,
+    "policy": "candidate",
+    "pressure": {
+      "level": "moderate",
+      "pattern": "diagonal_pair",
+      "version": 1
+    },
+    "priority_phase": 0,
+    "requests": [
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "installed_display",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "whiteboard",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "time_window",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "installed_display",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "whiteboard",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      },
+      {
+        "A": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "09",
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "ordinary",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        },
+        "B": {
+          "allowed_rooms": [
+            "R0",
+            "R1"
+          ],
+          "allowed_times": [
+            "10"
+          ],
+          "blocked_times": [],
+          "requirement": "time_window",
+          "room_extra_minutes": {
+            "R0": 0,
+            "R1": 0
+          }
+        }
+      }
+    ],
+    "templates": {
+      "A": {
+        "client_id": "client:A",
+        "fallback_travel_minutes": 40,
+        "preferred_cell": "R0@09",
+        "room_setup_minutes": {
+          "R0": 0,
+          "R1": 0
+        },
+        "time_displacement_minutes": {
+          "09": 0,
+          "10": 10
+        },
+        "usual_rooms": [
+          "R0",
+          "R1"
+        ],
+        "usual_times": [
+          "09",
+          "10"
+        ]
+      },
+      "B": {
+        "client_id": "client:B",
+        "fallback_travel_minutes": 30,
+        "preferred_cell": "R0@09",
+        "room_setup_minutes": {
+          "R0": 0,
+          "R1": 5
+        },
+        "time_displacement_minutes": {
+          "09": 0,
+          "10": 10
+        },
+        "usual_rooms": [
+          "R0",
+          "R1"
+        ],
+        "usual_times": [
+          "09",
+          "10"
+        ]
+      }
+    },
+    "ticks": 4,
+    "version": 3
+  }
+]

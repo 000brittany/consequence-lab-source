@@ -1,0 +1,53 @@
+{
+  "full_regression": {
+    "autonomous_model_trajectory": false,
+    "calibration_dependencies": [
+      "numpy==2.3.5",
+      "scipy==1.17.0"
+    ],
+    "errors": 0,
+    "external_socket_connections_blocked_in_parent": 0,
+    "failed_test_ids": [],
+    "failures": 0,
+    "provider_credentials_removed_from_environment": true,
+    "required_integrations": [
+      "httpx==0.28.1",
+      "inspect-ai==0.3.287"
+    ],
+    "scope": "Fresh offline regression run against the plain-file public snapshot; no original Git history imported.",
+    "seconds": 444.064,
+    "skipped_test_ids": [],
+    "skips": 0,
+    "tests": 303
+  },
+  "installation": {
+    "installed_in_separate_environment": true,
+    "semantic_archive_verification": "passed",
+    "smoke_decisions": 12,
+    "wheel_built_offline": true
+  },
+  "original_repository_modified": false,
+  "paid_model_calls": 0,
+  "publication_audit": {
+    "candidate_disposition": "Historical commit identifier in source, not a credential.",
+    "confirmed_credentials": 0,
+    "generic_credential_candidates": 1,
+    "git_history_included": false,
+    "known_personal_email_hits": 0,
+    "other_email_like_match": "Synthetic credential-URL security fixture, not personal contact information.",
+    "raw_run_archives_included": false,
+    "scanner": "gitleaks 8.30.1",
+    "scope_limit": "Automated credential patterns and focused publication review are not a guarantee against every form of sensitive prose."
+  },
+  "python": "3.12",
+  "repository_created": false,
+  "scope": "Software validation of a plain-file sanitized source snapshot, not a new scientific experiment.",
+  "source": {
+    "all_scientific_source_files_byte_unchanged": true,
+    "core_source_sha256": "e12ae5c55613673744b9f6d7c177e2ae24ebc21cd3af144caf2ecb04edea2e42",
+    "mixed_source_sha256": "610fdaac154d8f950ef4b2c129b11fac34074e285b2a81ecd79ed24b2c568587",
+    "scientific_source_files": 51
+  },
+  "status": "passed; prepared for publication approval, not published",
+  "validation_date": "2026-11-22"
+}

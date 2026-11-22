@@ -1,0 +1,54 @@
+{
+  "version": "pressure-communication-review-v1",
+  "seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "priority_phases": [
+    0,
+    1
+  ],
+  "periods": 12,
+  "pressure_levels": [
+    "low",
+    "moderate",
+    "high"
+  ],
+  "communication_policies": [
+    "disabled",
+    "public_poll",
+    "public_metadata"
+  ],
+  "all_policy_comparators": [
+    "independent",
+    "wait_narrow",
+    "wait_costly",
+    "reservation_release"
+  ],
+  "shared_policy_comparators": [
+    "exchange",
+    "delta"
+  ],
+  "wait_costly_threshold_minutes": 10,
+  "reservation_release_max_extra_minutes": 5,
+  "high_pressure_candidates": {
+    "fixed_single": [
+      "R0@09"
+    ],
+    "paired_recurring_single": [
+      "R0@09",
+      "R0@09",
+      "R1@10",
+      "R1@10"
+    ]
+  },
+  "pressure_rule": "Low leaves all 4 cells; moderate leaves R0@09 and R1@10; high leaves one of those cells. Compare fixed versus two-period recurring availability blocks before finalizing high. Materialize external reservations, without changing client generation.",
+  "admissibility": "Run exchange/delta only with an authorized public workspace. Policies receive exact requests only; no hidden assignment oracle, manifest or peer-private state.",
+  "poll_delta": "Inspect peer revision deliberately before deciding whether an explicit read is necessary; unchanged-publication inference is an authored convention, not a world guarantee.",
+  "reservation_release": "Book provisionally at tick 0. Later take a cheaper available cell, or offer a <=5-minute alternative when no peer facility reservation is public. Check for released alternatives through tick 2. No shared files or knowledge of another private fallback booking.",
+  "diagnostic_selection": "Before new-panel outcomes: require strict individual gains for BOTH clients versus independent booking, lower aggregate cost than EVERY tested nonshared policy (including both waiting rules and reservation_release), retained-information call savings, full independent completion and existing budgets. Prefer moderate over high pressure, then larger minimum individual gain versus independent, larger aggregate advantage over strongest tested nonshared policy, retained call saving, ascending seed and phase. Report individual losses versus each alternative separately; a per-agent minimum assembled from different policies is not a jointly achievable comparator. If none qualifies, report that rather than tune client rules.",
+  "scope": "Engineering feasibility, not a representative sample, autonomous behavior, equilibrium proof or exhaustive dialogue optimization. Report negative and nonlinear effects. Retain prior seed-3/phase-0 recommendation as a named comparator. No live tuning, provider calls or scenario selection from LLM behavior.",
+  "selection_clarification": "Clarified before executing the new panel: the earlier strongest-per-agent baseline wording combines mutually different joint policies. It is not an achievable joint counterfactual. The criterion distinguishes mutual gains versus a named baseline from aggregate efficiency versus other policies, as requested; it does not demand universal individual dominance."
+}

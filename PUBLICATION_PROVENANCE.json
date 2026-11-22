@@ -1,0 +1,3843 @@
+{
+  "excluded_outside_export": [
+    "Original Git author/committer metadata, refs and PR records",
+    "Raw paid/model journals, checkpoints, Actions logs/artifacts and evidence branches",
+    "Untracked workspace files, credentials, dependencies and caches"
+  ],
+  "git_history_rewritten": false,
+  "historical_identities": {
+    "frozen_rooms_v3": "237399fc30760af9012659c8fdb1ea658c51dea4",
+    "mixed_hardening": "77030aabe798db170a95a9a80edfe72099fba3cd",
+    "pilot_proposal": "ef4c4c8bd9255e6243bb4df4bcaa18012db8de99",
+    "recovered_rooms_v4": "8b8eeeb143d3813f3626153d67f8078181d60aa2"
+  },
+  "identity_limit": "This is the selected later source tree. It does not assert every file equals every historical frozen revision; a new publication commit is not a scientific freeze.",
+  "inventory_boundary": "Embedded publication inventory excludes this manifest and SHA256SUMS; root SHA256SUMS covers every other file including this manifest.",
+  "license": "Awaiting owner choice; no project license added.",
+  "original_paths": [
+    {
+      "disposition": "relocated_unchanged",
+      "original_git_blob_sha1": "3b8fd38541329d462f71ab6b67f583de6dd485bf",
+      "original_git_mode": "100644",
+      "original_path": ".github/workflows/ci.yml",
+      "original_sha256": "2ddc7fed6f82b27fb08c3ff2193d354f3899b02a557049dc8eb9beefac5d59f5",
+      "publication_path": "tests/fixtures/legacy-workflows/ci.yml.fixture",
+      "publication_sha256": "2ddc7fed6f82b27fb08c3ff2193d354f3899b02a557049dc8eb9beefac5d59f5",
+      "reason": "Inert configuration fixture for regression tests; not an active workflow."
+    },
+    {
+      "disposition": "relocated_unchanged",
+      "original_git_blob_sha1": "a5c33ed4cb2cb10dad6b8eab70e1b96594aed7cb",
+      "original_git_mode": "100644",
+      "original_path": ".github/workflows/longitudinal-pilot.yml",
+      "original_sha256": "9466d469c119d68e911ad655906829ec7eae4d04d778405d280f7e20806d66fe",
+      "publication_path": "tests/fixtures/legacy-workflows/longitudinal-pilot.yml.fixture",
+      "publication_sha256": "9466d469c119d68e911ad655906829ec7eae4d04d778405d280f7e20806d66fe",
+      "reason": "Inert configuration fixture for regression tests; not an active workflow."
+    },
+    {
+      "disposition": "relocated_unchanged",
+      "original_git_blob_sha1": "b04bd4d143fbed18e2bffbd1a67d8765ae63cca6",
+      "original_git_mode": "100644",
+      "original_path": ".github/workflows/luna-calibration.yml",
+      "original_sha256": "beb0e8dce5b57ce8f059f07123bf448031f41e6f14519961532f58be8d2d781c",
+      "publication_path": "tests/fixtures/legacy-workflows/luna-calibration.yml.fixture",
+      "publication_sha256": "beb0e8dce5b57ce8f059f07123bf448031f41e6f14519961532f58be8d2d781c",
+      "reason": "Inert configuration fixture for regression tests; not an active workflow."
+    },
+    {
+      "disposition": "relocated_unchanged",
+      "original_git_blob_sha1": "dcf05a9de033bda91b02c314ed4f055ab56ff1d3",
+      "original_git_mode": "100644",
+      "original_path": ".github/workflows/rooms-v3.yml",
+      "original_sha256": "574a243e92bef1ad360a4fb3676b3ec41604ee90e30543acce9c788f3b8f6590",
+      "publication_path": "tests/fixtures/legacy-workflows/rooms-v3.yml.fixture",
+      "publication_sha256": "574a243e92bef1ad360a4fb3676b3ec41604ee90e30543acce9c788f3b8f6590",
+      "reason": "Inert configuration fixture for regression tests; not an active workflow."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "906ff3bb5ece69fcbe216331aa664ae1da080f4e",
+      "original_git_mode": "100644",
+      "original_path": ".gitignore",
+      "original_sha256": "bda54ebaca1c96cb1c4db2748d34de088038951988a058a626cc06ddb37297cf",
+      "publication_path": ".gitignore",
+      "publication_sha256": "bda54ebaca1c96cb1c4db2748d34de088038951988a058a626cc06ddb37297cf",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "publication_adapted",
+      "original_git_blob_sha1": "3ff44a77b5856db0337f89d28839976c92440630",
+      "original_git_mode": "100644",
+      "original_path": "README.md",
+      "original_sha256": "d3fa01e54ebf95486ac388155c7206e4065596b87a4ec0e43bdd0df7d11d124d",
+      "publication_path": "README.md",
+      "publication_sha256": "6e3e5396174b3f1270b4255d43d8bf3fd54cfbb3824d0bd5986a0a474228fcc8",
+      "reason": "Reviewer documentation, publication navigation or removal of unnecessary private operational context; no scientific source edit."
+    },
+    {
+      "disposition": "publication_adapted",
+      "original_git_blob_sha1": "0f7e29937b714acedc99ade1f123cd0b74aa4045",
+      "original_git_mode": "100644",
+      "original_path": "THIRD_PARTY.md",
+      "original_sha256": "04a5cb99cc297b7ae603f9b3188043a6e4875f69b41ee76408a0433fb643a03d",
+      "publication_path": "THIRD_PARTY.md",
+      "publication_sha256": "cb6bb322c6a6b04d932a198119d2593407a4750fc181fc8fc6d24c4334686368",
+      "reason": "Reviewer documentation, publication navigation or removal of unnecessary private operational context; no scientific source edit."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "f62ff15d1274cc1d6c3452fca19721e36a69c32c",
+      "original_git_mode": "100644",
+      "original_path": "docs/architecture.md",
+      "original_sha256": "1cb3fe5e95056c504933b45bbc2219dd6f507def40366c3686091acc458c1c91",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "28415cfecf6321e7ced8d5f9e33665fd29143589",
+      "original_git_mode": "100644",
+      "original_path": "docs/artifact-handle-privacy.md",
+      "original_sha256": "5b2459f4ff5fba5b355e5b5c5af85867dbf3482f3e8cbe2a9c98247838a38eb4",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "06c6ea69e90a70f18cfac605837e48953de29120",
+      "original_git_mode": "100644",
+      "original_path": "docs/development-boundary.md",
+      "original_sha256": "cf26caf375f63f4f55d37f04aa4986a1723ec3e71280bcd1ae7a85b148e795f7",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "453c93addd627ef69e07b7f7abdd6adb73529c03",
+      "original_git_mode": "100644",
+      "original_path": "docs/manual-calibration-actions.md",
+      "original_sha256": "87e8aed2e215328c365b995eb8d175e3da54c875c8aa415ae9d83dadeb22a058",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "bfa51dee4ffc118c397b7aebcb22ea4100cea14f",
+      "original_git_mode": "100644",
+      "original_path": "docs/milestone-1-remediation.md",
+      "original_sha256": "2d4880c815a4237f937770c13682de44e0c4490b90dd133a488db210ef78d3b6",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "1771a3bf13969aef091944f2a20b1fa3a37abd8b",
+      "original_git_mode": "100644",
+      "original_path": "docs/milestone-2-design-brief.md",
+      "original_sha256": "dcfc222d1943d6a46b7fdd615df98e576ae4bdd4142be2ffd01bc76fab913ded",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "49c68ecc6828b4ac258b0e055baf4a3017a7c884",
+      "original_git_mode": "100644",
+      "original_path": "docs/milestone-3-readiness.json",
+      "original_sha256": "14a59688e9c23324d27c0eb9d56bcb35b2e13e9ac6f4903db2be5115cd287abd",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "4987e35c802c6fa7bd3d23d94d1533635dbfa319",
+      "original_git_mode": "100644",
+      "original_path": "docs/milestone-3-readiness.md",
+      "original_sha256": "34ef18c7d07628a9f189acc2d299940a29c4d1c5cb033aafc4820124b4586b4c",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "92b0a9a1c665db073311635b984f8c3de48469d2",
+      "original_git_mode": "100644",
+      "original_path": "docs/milestone-3-validation-addendum.md",
+      "original_sha256": "eaafb4d7f0b87edf8bd8854a8dc1f53092ce01ff8fea104b071f64adbc029af6",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "ed8da6ad264f873107e96570db4255c8600d794a",
+      "original_git_mode": "100644",
+      "original_path": "docs/milestone-3-validation.json",
+      "original_sha256": "70a78221d98f6a0d648a5c8b91ab677ca88a3bfafe150374710d90089b3a88d5",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "754b746376f2b8184a3fceecabc77b4513f7b434",
+      "original_git_mode": "100644",
+      "original_path": "docs/pre-sprint-scope.md",
+      "original_sha256": "a7082241c8684d89e36eec6d53249bc3cc0aea2cd6823d720c5de407cf407470",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "fb1ec5713f645182422c96d791400937e2e87b15",
+      "original_git_mode": "100644",
+      "original_path": "docs/recurring-rooms-validation.json",
+      "original_sha256": "eb2ba4d8435b2d9963cc5287aa80c38b07f4cb1ab7d59052a4535445c64ecc2e",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "5204e8d77482abcd79862025d066749ff9959081",
+      "original_git_mode": "100644",
+      "original_path": "docs/recurring-rooms.md",
+      "original_sha256": "50c201510d85c62fbf7bc76b82a5ba70e60e261911ece69a76c32ec260d8f597",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "a46ed2fed63a7760a2e9925c72cf7d4a6359053b",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/EVIDENCE.md",
+      "original_sha256": "63d12a910f18fd7ee8957e02ff3fc140b7d2a4cbe6b690deb647f19313397fc3",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "1b1cfd9cee81840f74886ff2ddfdfa74e7369ff9",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/FINAL-CALIBRATION-METHOD.md",
+      "original_sha256": "a2638a0e341e13c2cb05f2ff25a2c8d73501deee95a6207f456a6870c616a254",
+      "publication_path": "docs/rooms-mixed-v1/FINAL-CALIBRATION-METHOD.md",
+      "publication_sha256": "a2638a0e341e13c2cb05f2ff25a2c8d73501deee95a6207f456a6870c616a254",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "626a33cc9d847934824580dc11b1cfc712599f07",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/FINAL-SCIENTIFIC-CALIBRATION.md",
+      "original_sha256": "dc56941cf2806489f78a078e7dc2e330929cba42f8d820fb8a285e6f9f01d982",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "13176d16508b7e9446e5ef1e6147b57351e97035",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/README.md",
+      "original_sha256": "d39f06236cb1e905a7ba8010d8e6e0e7e765c7fe3492de665299884630ac583e",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "d71a17cff028e44c375f08cdad4b34668c1ebbe7",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/RULES.md",
+      "original_sha256": "e27d124b74cd785d49e1daca60d73247df22ebaaa622d8b896926d153ae5772d",
+      "publication_path": "docs/rooms-mixed-v1/RULES.md",
+      "publication_sha256": "e27d124b74cd785d49e1daca60d73247df22ebaaa622d8b896926d153ae5772d",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "9b547f25612157a9d09ce360f76caa5cc9417c60",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/pilot/REVIEW.md",
+      "original_sha256": "175dcc3438cb937a855f953a1fac9d39cadfd3abce1e7778b9e52c3bdfa0f708",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "f8e10e23751a09dd3efb5742242f71a4750163b4",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/pilot/durable-readback.json",
+      "original_sha256": "b72749cb7690f72068a24ff863e9d04e2fdb60a86ca2f11995a3e8743b8aae18",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "d20e203aa0ee98b0fa5d1c1ea28f73c8f26e4df9",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/pilot/instructions.json",
+      "original_sha256": "8a81db6393f2d0d0b2a148fe75db4a7130a1c4c2580bd54f73d29f7ecf8d8624",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "07058e07c441a0534732c7efcb41fb44e133cd48",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/pilot/manifest.json",
+      "original_sha256": "c49415cc3d1f7a4ef4e1b33486d8301d1fe1ab34c8a037f53829a29f08487cc1",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "1404883dcb5a2d6a6a077a5d418096475297d5ac",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/pilot/proposal.json",
+      "original_sha256": "7547f7de5658303f5d58e14276c46f5570d8c6bb22a87d2b302928f0457a3dc4",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "0bcda2da4ae8e8109c3718cf762b9dc77f48f44b",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/pilot/readiness.json",
+      "original_sha256": "b754095b76d8195644f391e0bf3dfa8e8b104c88034f8a1023e2d6e3a64c5ad7",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "3bed1d65c1e65bfac9d92c1e6479fb98c777ba3e",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/pilot/tests.log",
+      "original_sha256": "4cd4fe42232651604f18eb7cf6c3c7d445895a140c5627058516d10bf2ebca06",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "3973d1e784f664514b27213d8fec66f99063a508",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/pilot/validation.json",
+      "original_sha256": "f90c117116e7dfac863cae84585114671d606b5c08751253f5e41b7d24aa8058",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "958e997bd5df9a121608d231c0089af9bede4754",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/analysis.json",
+      "original_sha256": "4aef7ca96313d44c23e43155ced32a9bb9452e957067796e81719b249aa094d5",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "e591eb731f7a289d579d1a58292689425239ff80",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/batch-integrity.json",
+      "original_sha256": "8514f5b4085352085d442dcbf75565a6e4247f1fc166ef80049a107fc4747486",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "03d46826e8def2cb4dab538ba8a87a670c1d68a7",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/development-summary.json",
+      "original_sha256": "52e89b90521dde823302df252070e94640db0882ee2c3ee85d29d374d93105b1",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "4aa93f242f9a478cda2960aa8233d05e8900f6c9",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/discoverability-summary.json",
+      "original_sha256": "f51ee0035c6946cfa2d40c42666c1615de2b19e9572034ccfb2dda03abbd3f00",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "76b795e9b52ab14de2be8079f1b23f1436ac2b5e",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/durable-readback.json",
+      "original_sha256": "e6bd996f111737b12eb033037cb4107f46bf416d3945a8ff8f0f6f1359d6ffa4",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "da10dc1f818c0160dc4b9dbeecf2e08de002cc12",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/final-calibration/analysis.json",
+      "original_sha256": "487e57071c02464606ae9cf7c23adae2c1a17d8d8ba3d0d99c3d4dbec2ffcabb",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "7e783d9f7686708fa0b8ea82f89fde555b18190f",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/final-calibration/durable-readback.json",
+      "original_sha256": "290fe6ef289fe6bc183b96c79d70529b311975a13779985ca3d0bd1572584310",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "e3579019887bc93a674698815f1734b60c4a2359",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/final-calibration/frontier.json",
+      "original_sha256": "5d6fba2e4d1eeb00807c9973f38fa0eac0854c5afc85083eb4c7eeaa63e64c07",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "9e61db478b9cb67f16e9d22f72bf81805cc784ff",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/final-calibration/inventory.json",
+      "original_sha256": "ab8fab1338e070245c22fd994876c1ee7cd26f677521eb624f00d8b66b682b6f",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "d0583a32cf53f87364f451c0ec8b285d145c6080",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/final-calibration/selected-audit.json",
+      "original_sha256": "a9b4462c170fc386440992343edddc24893591240190c95a6618ed7786a22db4",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "7ddd7912879bcdf2662532831f1e61eb53817978",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/final-calibration/tests.log",
+      "original_sha256": "397aad1e643fe9d677dba3965fbf99aa680332675d3dbafb070ca16a2d6e6f3d",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "cb36aea1bc923f7bab3b5ad86194608e7e5c92ac",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/heldout-summary.json",
+      "original_sha256": "fc635433d0d6a107900b8d4ea832c248d9d0c4f6b60a6cd7f200363e648b2742",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "386c1580ef701737958ca042c86a3cce704c45f6",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/known-parameter-corrected-summary.json",
+      "original_sha256": "53ecd13498feea20070710fa2b83b26f5fd0f46a17d3841d470a73db9f87dc72",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "271c9ca9e2d49f46232da879947b8104464f6639",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/privileged-lookahead-summary.json",
+      "original_sha256": "44d3c969792d05a529b86555a52233238b95759f25e204dccc07a46428011f86",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "d12e325f52f1c9a3c3cbf3a39fc5e882ed1f77c8",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/runner60-current.json",
+      "original_sha256": "c221105244abb9cfb99cd6e2e486f665b0da11ac82f6671cf35c3406d3a4d6f7",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "3ac68e3e610fa03b3bd175d8207cf17e8c943046",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-mixed-v1/review/verification.json",
+      "original_sha256": "f38c308048fbeccde8bb69e8a9504a54929f1147ba1bdcbe000d0559011dddb7",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "243cbfbe4f5ae18e1e199edc14867fe22a75bc82",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v2-controls.md",
+      "original_sha256": "c178d5331390616ecbba3f05ad7b7a4fadf03ddc7dff77aaa44079e4287e4d18",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "b079b644bf2248dcb4a236274801c1b00a244435",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v2-homogeneous.md",
+      "original_sha256": "c6791b7586e9a8515eee7c8a68c959f0a05f2df44fd15afba3e39b5f4e0c468d",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "453cdccf2a77fb1a104263e27858cdc58a13d976",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v2.md",
+      "original_sha256": "3884cc4d3891cfffa00db317d2385564bd2a4614f26841f9d62e97de9d3c0418",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "61163ce164bc01de707eff796b2b21101d09a9c1",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v3-capacity.md",
+      "original_sha256": "ca6ee52bc6e0db921ae38ef8b95d193ecc58a4d67ae0eeffe1c811e940076508",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "69007dc347973bf382125af5f571453eb01e9f78",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v3-comparison-dispatch.md",
+      "original_sha256": "cf6c558b7d9daf80823dff510d5a775d1c08e3119c26328409d6eb837f11cd8e",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "9ce9b7d755e52f207bbae56cc43554de130ab105",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v3-continuation-repair.md",
+      "original_sha256": "d1d4fdd98347a9cbd8f81cf83f5f41784280262a989862c3b8f7244ddea7a373",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "f146005d7b5a13eeacc99ed44447e06947c58f55",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v3.md",
+      "original_sha256": "4b5b433be670a419cb532ef2975cb085014bc289f98aa6fed23b9fa3b5339470",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "bf1b8a7480475c7a386bbc8fa84db8d08fe3b3ea",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/HANDOFF.md",
+      "original_sha256": "d47882e37c6fc373778914a40bf90098c3ee970049a78b411fd4a72be2792cfd",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "a6cc8c39fc18d44bfa47e83738a460198cfda76d",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/INDEPENDENT_REVIEW.md",
+      "original_sha256": "a1644444f93dbefa0e760ddc9593a0dbedb6087a2341081fa35f2e755e41333f",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "56dd3fb6fdf1cbe9cad4cca9dfa00a2a96bc55b8",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/SCIENTIFIC_DESIGN_REVIEW.md",
+      "original_sha256": "88cc84e650a4fb2dc7f8754a2e2e0677c0defd10deac452ce1db4f6b04d71759",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "bda2a35b6f62c2b508983be3992ada8ddcca012d",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/VALIDATION.md",
+      "original_sha256": "d13cfe73198b83c15f119df87d2c2383a168e96a3a7b9c40a91df67fa192b8bd",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "e121d282de57bb8603b5c1b3e4421b386decbc8b",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/archive-measurements.json",
+      "original_sha256": "2e81e6dbab3a156c182837c21f302ec6a53faaa5a34292383311615a60db95c8",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "668412331e0613086307c59f438d21efd450cbb3",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/archive-projections.json",
+      "original_sha256": "b0e4adc53c3a2a189314fb2cd075476ef3cb17493cdfe367c3aee8731664bae7",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "e758c373d1d111074cf400a5fb30a7a8ae4decc0",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/causal-60-day-result.json",
+      "original_sha256": "0a9ef0eebe8c892f0436852915ccb566a59a89164f67caff2f99a015b85cb10c",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "47bcef708a0dfdf49789577594131d23e580e815",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/file-capacity-60-day-status.json",
+      "original_sha256": "56038c4378abf36850adbe68c8405a4d692748791170d6f00fc6e0b2968198da",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "2868f2caf05e164df0c5a2239fa44215be84c0ef",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/budget-summary.json",
+      "original_sha256": "014061ad8cebc12600fe4139a73c1ca91b31f91566fb58166a10fbbb39ead131",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "d6aa3c6c9c933c47a97d29528fc0e85b79d4d1c8",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/context-witness.json",
+      "original_sha256": "157795d93c323f0a1c0f68ec2e571a53ec84a05678e752db1f24c0f56c9cf06a",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "de7582044d40ef11c252d9238da3b521996484fc",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/design/causal-options.md",
+      "original_sha256": "2c67605cf04a35e6f852c097a95630b73368c6d945dee3eb193f7b86c5b304a1",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "d37d72f79d07405d0a1c7f130fd819e326a3bcab",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/design/decentralized-policies.md",
+      "original_sha256": "ed78f2fea72e737b2bb0765f52042772b0865605405773c661b9b00ac805dd89",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "61870973655ef1021039da91ab3a6e7a6ee5722a",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/design/dependency-structure.json",
+      "original_sha256": "a90ec33a08520cdfc8ea7d395ebabc013b289e745cf5671a82f2234d77dbf303",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "df7f0e974af63104a57b9745e6566c7254984f94",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/design/observation-witness.json",
+      "original_sha256": "9ea54334b2c01a445cdeeebc2d4b623f965d192154b3b054bfd2a8f3299682b3",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "fea478dff759dbaee7b85521c6dfa5df88d6d587",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/design/policy-results.json",
+      "original_sha256": "fcd5dec7bcf2cc5990b618e07783a4e5c9e522bddc3d03bee5ea925d57bec272",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "b79b2ee8a4276e448deed668f94e2113ab67d5df",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/design/prefix-finance.json",
+      "original_sha256": "3046f3016c5df943f58b221220904c012d1ce1bb31ed551fd30450fd32207031",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "07ce6150fe7716f1e26976a8f5b5169a67d58dd2",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/design/structure-assessment.md",
+      "original_sha256": "86e58fbf3b42d1f10386e0f34ec37ead6f87de918243df808917ed883d56f268",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "c411520c0f22a77b77a86e490ca8796260d5b6d0",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/durable-packages.json",
+      "original_sha256": "6ae5759f2112b5b4157e44a0953e62555dfbde475b2f677b11f8f456a6f75449",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "8f82cf1ca7cebec7a132b148a0e2aadab7546b05",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/durable-readback.json",
+      "original_sha256": "c72ad77c46b96bc8ca536484e0f9dbffb602ed0863cd2c52e0765968ffed454a",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "e438f90908f59dd1b44e20d65d384069a9b2e7fa",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/files60-generation.json",
+      "original_sha256": "9f8a0f3b94a3b96effa8d9f1548809e62c569cf49302d020ce4e9ab65dd5940b",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "a0537cb848e502f18da897bad4bf76ae9e21542f",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/files60-portable-audit.json",
+      "original_sha256": "202c03649b580f5c36353c66cb315f20cb29f063bbc6582ca84d11fe65897ce7",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "1c546ec00bb8f19d6c42b86b12b8297819dd35bf",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/files60-sensitive-scan.json",
+      "original_sha256": "7ea6c7176e46e6056a3a6790f60af41e8121eb571b055a2c3e6f85b04c7e7f0b",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "7debfbfb6ef94dd93af8fef3c2aa1988cd51b70d",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/plan60-generation.json",
+      "original_sha256": "ce34494e0e27baa230eebc919118757d2e991ae6074e114b7e2ba1de29d6aeee",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "b9616403a25dad6a184f77bf76ad85ab75b840f4",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/plan60-portable-audit.json",
+      "original_sha256": "dd97aaa623292537e919b4330a8bbce5ee4c8b10d6378d855a745580e64487e1",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "057d8eb5e387a05a695350d98922cfbc677d2a38",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/plan60-sensitive-scan.json",
+      "original_sha256": "55861478fe35cc52e97761f4ab6c9f4956a0d80d9021705d99a38d79cdc02447",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "e8359fac8ef7e735330bcd880c7d37651a52677f",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/restoration.json",
+      "original_sha256": "efcb2a66abd56d1bee8c9810415e07229e53dff70230f8b9d8ac6f0f27397c28",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "c72932a61f164909897d933bd06cea67f1bb9ea4",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/short-capture-pre-fix.json",
+      "original_sha256": "32e5feffc3a74e35edd87517da29cd58e2dff0d09fbcb7efb4bf57ecf996f8c1",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "4744b4fd5070345e649558fd633c222b5534c5e3",
+      "original_git_mode": "100644",
+      "original_path": "docs/rooms-v4/review/test-results.json",
+      "original_sha256": "6e21d5384586859d46d3245477b09d9884d6ff14ea21b2f4cfc721d632d9520e",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "publication_adapted",
+      "original_git_blob_sha1": "a259b5601d47e4da6d4b75cae8de57ab17f8da97",
+      "original_git_mode": "100644",
+      "original_path": "docs/sprint-2026-11/EXECUTIVE_SUMMARY.md",
+      "original_sha256": "3a576d84f00b327b50dcbbbfadeb6c87e9cc7d3f9d338f147e04ddbb5eafdc6f",
+      "publication_path": "docs/sprint-2026-11/EXECUTIVE_SUMMARY.md",
+      "publication_sha256": "69f4e0c0129a396fa0dce8e63db949733021c943e2e6ae51207ad4a1e489c68f",
+      "reason": "Reviewer documentation, publication navigation or removal of unnecessary private operational context; no scientific source edit."
+    },
+    {
+      "disposition": "publication_adapted",
+      "original_git_blob_sha1": "b7017afb668f70b7a90630162fa81b4fa801ebfd",
+      "original_git_mode": "100644",
+      "original_path": "docs/sprint-2026-11/REPORT.md",
+      "original_sha256": "bc2ff2154dfbe6cf62b997bc5516c39bdd0a8a237e270dc4b0d2787a7bacc68c",
+      "publication_path": "docs/sprint-2026-11/REPORT.md",
+      "publication_sha256": "fdbc1f55d7c7249d41a535548f2714106e26ae915408614f96847c75e2a8600c",
+      "reason": "Reviewer documentation, publication navigation or removal of unnecessary private operational context; no scientific source edit."
+    },
+    {
+      "disposition": "publication_adapted",
+      "original_git_blob_sha1": "ac55057d676ae5fd05eadc289f0d4af555cf0364",
+      "original_git_mode": "100644",
+      "original_path": "docs/sprint-2026-11/REPRODUCIBILITY.md",
+      "original_sha256": "cf2a24d346b6ab3838069bf911c43b2ec2ae9645faa837c597ddfae1bf317099",
+      "publication_path": "docs/sprint-2026-11/REPRODUCIBILITY.md",
+      "publication_sha256": "88c131a60a4862e706bbb4f0c86fbb6b374f0a964f8677c3de6e753a479a803a",
+      "reason": "Reviewer documentation, publication navigation or removal of unnecessary private operational context; no scientific source edit."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "89a1690515246e431498e4422f52cd50de535e82",
+      "original_git_mode": "100644",
+      "original_path": "docs/sprint-2026-11/evidence-index.json",
+      "original_sha256": "4e83de4d05e5af4dcb79fe6a991e52a31120c163909f722dacf043d761a76dfc",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "09a7f5ff2ed0f4cca9b298b58923a7969ec41411",
+      "original_git_mode": "100644",
+      "original_path": "docs/state-provenance.md",
+      "original_sha256": "24341521b6118e02ca7a04e9d11cb255a5b9ce8df3033721c52171105dccc9db",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "9a29042bbf4f5e36a4ac4a5760ac0c9b27799c71",
+      "original_git_mode": "100644",
+      "original_path": "docs/validation.md",
+      "original_sha256": "b77fd8df531f0678a667518941b634dfef3917e5cd2b12a29675a33fc5579aee",
+      "reason": "Historical internal documentation, operational handoff, launch packet, raw log or unnecessary validation record."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "3a44dd09fd467d019ac56981908d826382847888",
+      "original_git_mode": "100644",
+      "original_path": "experiments/emergent_instrumental_subgoals/README.md",
+      "original_sha256": "52e35d38962d2556d045c97e0ed47f63418d3b58d2cd1a702a65a98b9a985f9b",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "30cf7a5394f506ca9abba7765d11ecb1a4a513a4",
+      "original_git_mode": "100644",
+      "original_path": "experiments/longitudinal_pilot/README.md",
+      "original_sha256": "9dccbad99ce78bc6cb7b04b9a143d5fb0a9f549b3f31a84116e3a791bd712db5",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "c02210d676cc5809d2815b68e5645bf37544bcd1",
+      "original_git_mode": "100644",
+      "original_path": "experiments/longitudinal_pilot/manifests-v1.json",
+      "original_sha256": "ef4fadc6d01c6c4d34c6fd6cb926bd129e4e6b78ea0eee8d838af07a4ab7535e",
+      "publication_path": "experiments/longitudinal_pilot/manifests-v1.json",
+      "publication_sha256": "ef4fadc6d01c6c4d34c6fd6cb926bd129e4e6b78ea0eee8d838af07a4ab7535e",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "9bb5647121e520ea24e34a0f716bc1a0b30156d5",
+      "original_git_mode": "100644",
+      "original_path": "experiments/longitudinal_pilot/offline-results-v1.json",
+      "original_sha256": "70a5f0176f29dd6ccf6c7feeb643410b527e117ad1367a66055fcc92ccade22e",
+      "publication_path": "experiments/longitudinal_pilot/offline-results-v1.json",
+      "publication_sha256": "70a5f0176f29dd6ccf6c7feeb643410b527e117ad1367a66055fcc92ccade22e",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "187cb43c177ddb906e239f58ef49ef77afcb0c3e",
+      "original_git_mode": "100644",
+      "original_path": "experiments/longitudinal_pilot/protocol-recovery-42317362851.md",
+      "original_sha256": "ebdb15eff092a16186e9a47e4e19e9dc4e2d2010aba380770969289e67e0babc",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "7b3a7c2370b8e1909ca28309758d97ec3f61884e",
+      "original_git_mode": "100644",
+      "original_path": "experiments/longitudinal_pilot/protocol-repair-42317362851.md",
+      "original_sha256": "d7a8cf07ff20a1951bbe9d2d3df89a65f8d44e00a59c641f0dca935e4389567e",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "a3e64c75530312e1d5af268e66bf0e6281343e37",
+      "original_git_mode": "100644",
+      "original_path": "experiments/longitudinal_pilot/validation.md",
+      "original_sha256": "baeb7ce29518dfc5286e747211dbc06c66ea8cdb5ff68953b885e412a602eb03",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "e41f530a5d80680e8ba1119dbaf9006fa0e13d41",
+      "original_git_mode": "100644",
+      "original_path": "experiments/recurring_rooms/README.md",
+      "original_sha256": "cf734b397949b748322c43ec739e7b20aadaad05734e43c46bc31a24573018eb",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "ab7d01db0c3f9b0a1ce799796e7144f751194ec1",
+      "original_git_mode": "100644",
+      "original_path": "experiments/recurring_rooms/manifests/catalogue-v1.json",
+      "original_sha256": "d29b5a1260eac02a8e1de36fbea1b18bf7ee7ece8740542ee6cabbf61a1aad6e",
+      "publication_path": "experiments/recurring_rooms/manifests/catalogue-v1.json",
+      "publication_sha256": "d29b5a1260eac02a8e1de36fbea1b18bf7ee7ece8740542ee6cabbf61a1aad6e",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "993b0ed5200469553229814edea01abbacac0ab7",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/allocation-review-panel.json",
+      "original_sha256": "c27bad00c2bb6855b9bdfe1e38f64a701868eb81343664207fdf162d0d820fbd",
+      "publication_path": "experiments/rooms_v2/allocation-review-panel.json",
+      "publication_sha256": "c27bad00c2bb6855b9bdfe1e38f64a701868eb81343664207fdf162d0d820fbd",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "fd4419e1ebb5333933cbc2e2cb1408c5c82b58d0",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/allocation-review-protocol.md",
+      "original_sha256": "f31c96e6ca62c27735b51c13c4134c4271ccdf6217abd130dfb2745a21bb0c23",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "bb8d60421ea9b53ca4e9cf5011b2915e95ebde31",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/allocation-review-results.json",
+      "original_sha256": "71c6476e8a1d9a3c8f6653ba5473a302e2d8c5616482059ff1ae1e1d0bbaffd0",
+      "publication_path": "experiments/rooms_v2/allocation-review-results.json",
+      "publication_sha256": "71c6476e8a1d9a3c8f6653ba5473a302e2d8c5616482059ff1ae1e1d0bbaffd0",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "65784edce19ed2988366b5d0e180b8962e8c923e",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/allocation-review-results.md",
+      "original_sha256": "d7d63ae24ff1a99a1ac8d7220cf01aca9dc5b8f8f85fec5ecf74dd5da05b99ed",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "1086f4a95fefba7d0f154144671e3a4ab65968c3",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/counterbalanced-manifests.json",
+      "original_sha256": "bbea6c45f9de7846c3932a95ffea601eb61b6b464ecd28e0b782120201183a3b",
+      "publication_path": "experiments/rooms_v2/counterbalanced-manifests.json",
+      "publication_sha256": "bbea6c45f9de7846c3932a95ffea601eb61b6b464ecd28e0b782120201183a3b",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "d53466019aae1eb43a3d10ad10d3e73d3fe1a69f",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/offline-validation-homogeneous.json",
+      "original_sha256": "4301f2404777e2e147bba5d1d3d523cd2c5483bb7946637e587e76975310b8c8",
+      "publication_path": "experiments/rooms_v2/offline-validation-homogeneous.json",
+      "publication_sha256": "4301f2404777e2e147bba5d1d3d523cd2c5483bb7946637e587e76975310b8c8",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "585034c9a5ecd7bf15f901ca50e3bcf7970757e0",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/pilot-manifests.json",
+      "original_sha256": "a7918049ce4bd642e422bbad0198518ff6cfc9f73f01ae96437824fe9e3b7022",
+      "publication_path": "experiments/rooms_v2/pilot-manifests.json",
+      "publication_sha256": "a7918049ce4bd642e422bbad0198518ff6cfc9f73f01ae96437824fe9e3b7022",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "2d629117cb72bfbe3a97a875f9576d623f131d9a",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/pressure-review/diagnostic-manifests.json",
+      "original_sha256": "6c9455a90e202cc6437ccf9671f76ecd8b0488804175f0b9386f187b2d434e59",
+      "publication_path": "experiments/rooms_v2/pressure-review/diagnostic-manifests.json",
+      "publication_sha256": "6c9455a90e202cc6437ccf9671f76ecd8b0488804175f0b9386f187b2d434e59",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "8c2fa058fb57be3744317a0550bef1438e023dd4",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/pressure-review/high-candidates.json",
+      "original_sha256": "0227627bf35b991e26e268bbeec601e1e5e5796c94fed999a84655aaab72f371",
+      "publication_path": "experiments/rooms_v2/pressure-review/high-candidates.json",
+      "publication_sha256": "0227627bf35b991e26e268bbeec601e1e5e5796c94fed999a84655aaab72f371",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "ae3c9aa665f149f484282c48215c1624b2eb48e7",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/pressure-review/manifests.json",
+      "original_sha256": "923688fa2b0ed3c4f3557877f1dca6c415dcdc55c2c0afa6b2e47a2882ad7709",
+      "publication_path": "experiments/rooms_v2/pressure-review/manifests.json",
+      "publication_sha256": "923688fa2b0ed3c4f3557877f1dca6c415dcdc55c2c0afa6b2e47a2882ad7709",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "72489d54cd6eaa9b223092363b3fa1f57ba06c66",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/pressure-review/protocol.json",
+      "original_sha256": "fde50dd779773ce4315fe2d90956f0b98eb9b0d5f74da8aca4f4ed61246d7b72",
+      "publication_path": "experiments/rooms_v2/pressure-review/protocol.json",
+      "publication_sha256": "fde50dd779773ce4315fe2d90956f0b98eb9b0d5f74da8aca4f4ed61246d7b72",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "ef0c4d48268658081b2098113503c356694e780c",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/pressure-review/results.json",
+      "original_sha256": "fd30b28745266cedd9c8b53db2ef3d3db47627d3a734c726beb11a5be77a263a",
+      "publication_path": "experiments/rooms_v2/pressure-review/results.json",
+      "publication_sha256": "fd30b28745266cedd9c8b53db2ef3d3db47627d3a734c726beb11a5be77a263a",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "e33d64c698faaa3f3d101e992ebb3c3812c3b38b",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v2/pressure-review/results.md",
+      "original_sha256": "f38ec638fbafa494c5f48216c87bffc6c2ea2a8f5af5bb51fd4d46bf80933c60",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "8b7f9d6901bfc7c443ed841bbd6427f7cd62029d",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v3/README.md",
+      "original_sha256": "acd74850f94b3f82b64ad0c455aa35648caab348d652c982d75cf81313ba449c",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "2e60d7074bba373dff22cd289c313e85f9257c67",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v3/manifests/days12-seed0.json",
+      "original_sha256": "7b8be1e01249be539ce89c7790fd371e5b15a560f4e35bd1f47b82223c936983",
+      "publication_path": "experiments/rooms_v3/manifests/days12-seed0.json",
+      "publication_sha256": "7b8be1e01249be539ce89c7790fd371e5b15a560f4e35bd1f47b82223c936983",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "ff7759501451398ed9e21925876278b855810e32",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v3/manifests/days12-seed3.json",
+      "original_sha256": "3e781f402bc451bd824b29cce73a7f851dc5f6e0ea5736f1f0f1838ac5cab7e1",
+      "publication_path": "experiments/rooms_v3/manifests/days12-seed3.json",
+      "publication_sha256": "3e781f402bc451bd824b29cce73a7f851dc5f6e0ea5736f1f0f1838ac5cab7e1",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "bb699c9c52647af82fae8d3e0953babf96450a66",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v3/manifests/days4-seed0.json",
+      "original_sha256": "f94714ccc72691aa0a9263cdc51d97248e4f1e75b98b725ec5fdaf41e109c532",
+      "publication_path": "experiments/rooms_v3/manifests/days4-seed0.json",
+      "publication_sha256": "f94714ccc72691aa0a9263cdc51d97248e4f1e75b98b725ec5fdaf41e109c532",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "15563aa3e688e40077ce13aa7b2444b4013d2ccf",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v3/manifests/days4-seed3.json",
+      "original_sha256": "a411cc3c52111aa1076791773a78cc7656b9bfde1f9bfa3a9ac77c39b4717923",
+      "publication_path": "experiments/rooms_v3/manifests/days4-seed3.json",
+      "publication_sha256": "a411cc3c52111aa1076791773a78cc7656b9bfde1f9bfa3a9ac77c39b4717923",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "2f2b0799d482a222bf791bedef081621fb63d543",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v3/manifests/index.json",
+      "original_sha256": "0b7edce1fad87ef03d3b2eab6dd8d6ca21dbdb51f03c488f00c298335485c920",
+      "publication_path": "experiments/rooms_v3/manifests/index.json",
+      "publication_sha256": "0b7edce1fad87ef03d3b2eab6dd8d6ca21dbdb51f03c488f00c298335485c920",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "ea45a0fd32d04ee3f39e271f05dff71b2bbdf336",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v3/model-facing-instructions.json",
+      "original_sha256": "8b4e6a2dbc3363c7d1a4e14b7625957681dd2c16a5c820675928d7e33e920213",
+      "publication_path": "experiments/rooms_v3/model-facing-instructions.json",
+      "publication_sha256": "8b4e6a2dbc3363c7d1a4e14b7625957681dd2c16a5c820675928d7e33e920213",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "17f650016ef36b30c54846c239151f4d91133e8c",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v3/offline-validation.json",
+      "original_sha256": "c0d30599aedef54e0672975a217af977f8d4f9847e80cecf10f333f5a15e31a9",
+      "publication_path": "experiments/rooms_v3/offline-validation.json",
+      "publication_sha256": "c0d30599aedef54e0672975a217af977f8d4f9847e80cecf10f333f5a15e31a9",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "c282072d8e1c4adb73817305ca8174403da76e50",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v4/README.md",
+      "original_sha256": "e2be57f5f2d8062cfc65849c79b095544ccf21298a066b67950c81f1629bf4cd",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "08161839322a2f8435207333fd80c1f4b3a70f85",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v4/calibration/benchmarks.json",
+      "original_sha256": "e3dc82753990d630bec7f3b960084846d7ed349b77e5abcbb33a889e47cc84c4",
+      "publication_path": "experiments/rooms_v4/calibration/benchmarks.json",
+      "publication_sha256": "e3dc82753990d630bec7f3b960084846d7ed349b77e5abcbb33a889e47cc84c4",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "eb53c4c69dc03f1cc660504c0ded693684053a25",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v4/calibration/frontier.json",
+      "original_sha256": "6128ae3543b075dd7a578d3a0a40633728014c9d01223b42f6751e8d26e8b5df",
+      "publication_path": "experiments/rooms_v4/calibration/frontier.json",
+      "publication_sha256": "6128ae3543b075dd7a578d3a0a40633728014c9d01223b42f6751e8d26e8b5df",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "ceed132b5eeab335298e4ae4d95cf743989b5913",
+      "original_git_mode": "100644",
+      "original_path": "experiments/rooms_v4/calibration/funding-certificates.json",
+      "original_sha256": "78033f39d39dbc2343fa76c3fe8e31f2bbc1b805736111f24024507a6d1caad1",
+      "publication_path": "experiments/rooms_v4/calibration/funding-certificates.json",
+      "publication_sha256": "78033f39d39dbc2343fa76c3fe8e31f2bbc1b805736111f24024507a6d1caad1",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "excluded",
+      "original_git_blob_sha1": "525a4ed696f2a69f1ba1db8a89ab547f1270b217",
+      "original_git_mode": "100644",
+      "original_path": "experiments/software_validation/README.md",
+      "original_sha256": "f88f3dc2f34d735c7de1a873d176cade60d17574b588c8c1352293051a16419d",
+      "reason": "Historical launch/recovery prose excluded; required synthetic JSON test fixtures retained separately."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "32490ee8fcbff967a72c764d3d2a82e01843f56a",
+      "original_git_mode": "100644",
+      "original_path": "pyproject.toml",
+      "original_sha256": "c81e94bb403c686e2afca0bf172bb3a0074e0cb5e7a6ca82e89d21a4ab8bafae",
+      "publication_path": "pyproject.toml",
+      "publication_sha256": "c81e94bb403c686e2afca0bf172bb3a0074e0cb5e7a6ca82e89d21a4ab8bafae",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "aec5dbe80ca4dc208765dc4b4f0112f754eab755",
+      "original_git_mode": "100644",
+      "original_path": "scripts/freeze_baseline.py",
+      "original_sha256": "dabc6d674bdd9204cbeb37d9b08a8228a989be2df84ab80b5611f5c723a6a050",
+      "publication_path": "scripts/freeze_baseline.py",
+      "publication_sha256": "dabc6d674bdd9204cbeb37d9b08a8228a989be2df84ab80b5611f5c723a6a050",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "c1ff78db99e71dc3443b0fe9e8c9b7b51efa2318",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/__init__.py",
+      "original_sha256": "0eb5f3343877a9308e623fe0a515f6513eddb4e149ed59df3cf8eec3e97b5f9f",
+      "publication_path": "src/consequence_lab/__init__.py",
+      "publication_sha256": "0eb5f3343877a9308e623fe0a515f6513eddb4e149ed59df3cf8eec3e97b5f9f",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "58be749e8f2634107624d72c34740d04672a5c31",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/archive.py",
+      "original_sha256": "b35172c8cadc5e6403cbc4ddcccb5be0d6ed3e8a672dfd69e61e31d3d1693de2",
+      "publication_path": "src/consequence_lab/archive.py",
+      "publication_sha256": "b35172c8cadc5e6403cbc4ddcccb5be0d6ed3e8a672dfd69e61e31d3d1693de2",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "477a3b2e17d1b555191c4c8fe53363a1e532b94a",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/artifacts.py",
+      "original_sha256": "9cfa9e97c0c32cf647a1e0ef0f9f74f903a4358eb84d294332f9ca2b3749a639",
+      "publication_path": "src/consequence_lab/artifacts.py",
+      "publication_sha256": "9cfa9e97c0c32cf647a1e0ef0f9f74f903a4358eb84d294332f9ca2b3749a639",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "50390735a8f3ccbc6a085b5ef1fb9395f0b2bde0",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/audit.py",
+      "original_sha256": "011ecb36831237c24f7c1808c0a0545c7bd6bbab4f070cdc2cd6735229468846",
+      "publication_path": "src/consequence_lab/audit.py",
+      "publication_sha256": "011ecb36831237c24f7c1808c0a0545c7bd6bbab4f070cdc2cd6735229468846",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "6b93ce31a3d582775d745fc121e8f7fcd1777aab",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/backends.py",
+      "original_sha256": "f0576c4bbcb4050412e397d2b28aa456489169e23a5cb4b5d36d93c39f9014b5",
+      "publication_path": "src/consequence_lab/backends.py",
+      "publication_sha256": "f0576c4bbcb4050412e397d2b28aa456489169e23a5cb4b5d36d93c39f9014b5",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "d54a88b2c1fe83e31eb516efa529a575ff2f97ea",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/calendar.py",
+      "original_sha256": "f5bad116d10c57d9681537183ccc710502655543eba17add0fbd46f166fc7050",
+      "publication_path": "src/consequence_lab/calendar.py",
+      "publication_sha256": "f5bad116d10c57d9681537183ccc710502655543eba17add0fbd46f166fc7050",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "0a0d35d34d14d222b137cbc0ac18abc7f556ef49",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/calibration.py",
+      "original_sha256": "4d6846475e2f15cf15caaa4cdb311515da019e4d6ba4bc718bdd47b906558ff6",
+      "publication_path": "src/consequence_lab/calibration.py",
+      "publication_sha256": "4d6846475e2f15cf15caaa4cdb311515da019e4d6ba4bc718bdd47b906558ff6",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "105427cf86ac0b667709e012cd9c2025e4e0a7cf",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/catalogue.py",
+      "original_sha256": "8ca82b848576381b294836a321452c3984159124a62327c0f7ed47e03a723172",
+      "publication_path": "src/consequence_lab/catalogue.py",
+      "publication_sha256": "8ca82b848576381b294836a321452c3984159124a62327c0f7ed47e03a723172",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "6b6a30f45d3ab56762df5148a1ecec80c6381fe8",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/cli.py",
+      "original_sha256": "dcc38327869de14ef66bb54e1330d6c496004c31e813a2bc6f156123dc42f5d2",
+      "publication_path": "src/consequence_lab/cli.py",
+      "publication_sha256": "dcc38327869de14ef66bb54e1330d6c496004c31e813a2bc6f156123dc42f5d2",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "1af75619e8aa3fba656f4903f14009aea44e0fd0",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/clock.py",
+      "original_sha256": "2aa737f39ba339231d5381b0763a7fe56af0132fecffee66602b48682e24f437",
+      "publication_path": "src/consequence_lab/clock.py",
+      "publication_sha256": "2aa737f39ba339231d5381b0763a7fe56af0132fecffee66602b48682e24f437",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "32ea9a13c4f0f8352ac41cf4e5e3b48516a2ba5a",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/communication.py",
+      "original_sha256": "529e13282c3561c6039b70a33dc334bd2bc239803961008562d59ed5a8dd94f6",
+      "publication_path": "src/consequence_lab/communication.py",
+      "publication_sha256": "529e13282c3561c6039b70a33dc334bd2bc239803961008562d59ed5a8dd94f6",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "1efdadb248fe3a0f929b74a9a1ac0f6e6338591f",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/compact_archive.py",
+      "original_sha256": "261a61c7aafd379102b83c10988a3c6cb1e4f24c97a2c7e8e14155bb74487e38",
+      "publication_path": "src/consequence_lab/compact_archive.py",
+      "publication_sha256": "261a61c7aafd379102b83c10988a3c6cb1e4f24c97a2c7e8e14155bb74487e38",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "7f8952a5b968f828d7cc49fa31dd83bf1d8a25da",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/config.py",
+      "original_sha256": "a04af6a8a25a3b0f6c363ae928af0a79d4b436d5cb01013ce613b9927210653c",
+      "publication_path": "src/consequence_lab/config.py",
+      "publication_sha256": "a04af6a8a25a3b0f6c363ae928af0a79d4b436d5cb01013ce613b9927210653c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "b4cef34492e0cfa2e33f91178e01ca10582335c2",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/context.py",
+      "original_sha256": "c99096d6d34702578296705f039ef558898b34a1b0f83690cc2f8026760f1f2d",
+      "publication_path": "src/consequence_lab/context.py",
+      "publication_sha256": "c99096d6d34702578296705f039ef558898b34a1b0f83690cc2f8026760f1f2d",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "b0ad63a76010f82567fb2f30ef2784550fb13640",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/direct_messages.py",
+      "original_sha256": "5aa2ede43937220c2058bbccc8c7024f7bdebb768f9d3d9484673cc0765b4af5",
+      "publication_path": "src/consequence_lab/direct_messages.py",
+      "publication_sha256": "5aa2ede43937220c2058bbccc8c7024f7bdebb768f9d3d9484673cc0765b4af5",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "03ae335fe3544d3aaeaf5e96d3ce2afd4ef1db31",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/inspect_adapter.py",
+      "original_sha256": "5649f92e953ca7e4f201efd58e7872128b6933f8b48e77a50b2fd50317dd8449",
+      "publication_path": "src/consequence_lab/inspect_adapter.py",
+      "publication_sha256": "5649f92e953ca7e4f201efd58e7872128b6933f8b48e77a50b2fd50317dd8449",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "fddcddea8bd8f0d909607447f14692ed58519fec",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/jsonio.py",
+      "original_sha256": "98b64b9f9c7ce79dad5fea5240b5d671ab99c56f9a0f6e9be8b93b3c82af15a7",
+      "publication_path": "src/consequence_lab/jsonio.py",
+      "publication_sha256": "98b64b9f9c7ce79dad5fea5240b5d671ab99c56f9a0f6e9be8b93b3c82af15a7",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "35cfe9e5482c55009fdd0924291b6e8543dacafb",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/model_profiles.py",
+      "original_sha256": "99063c090eb029fb97f3bc0e53e4d8ce6cd2cafbc8dbceafee77820c606767d2",
+      "publication_path": "src/consequence_lab/model_profiles.py",
+      "publication_sha256": "99063c090eb029fb97f3bc0e53e4d8ce6cd2cafbc8dbceafee77820c606767d2",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "812090e4bc424b85746d2b384d8e23f04b70e463",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/opportunities.py",
+      "original_sha256": "e8fde44449e5db38a7361883e450cbc9eba0575b3f47a536d7fe18b41e1ff0aa",
+      "publication_path": "src/consequence_lab/opportunities.py",
+      "publication_sha256": "e8fde44449e5db38a7361883e450cbc9eba0575b3f47a536d7fe18b41e1ff0aa",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "88b762ee62646d70de578a4c8d22a2db4c24dce3",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/profiled_provider.py",
+      "original_sha256": "a1cf21066839c9d375d634b1682603ba9351928055d9530134303c7ed1c6c83e",
+      "publication_path": "src/consequence_lab/profiled_provider.py",
+      "publication_sha256": "a1cf21066839c9d375d634b1682603ba9351928055d9530134303c7ed1c6c83e",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "d3aca5f2d38a370392e3bcb67276127c0880682b",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/provenance.py",
+      "original_sha256": "e32c4508fb80ccf0400eed650ece099bfc808f53a1331b02bb5e5646e615ccbf",
+      "publication_path": "src/consequence_lab/provenance.py",
+      "publication_sha256": "e32c4508fb80ccf0400eed650ece099bfc808f53a1331b02bb5e5646e615ccbf",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "c53b36ca6cc880c187b71430407f85c4866d1565",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/provider.py",
+      "original_sha256": "c16c0758c0164cc6a60e0d31912b964f501141f433e02e90c0fb8d893aaf26d9",
+      "publication_path": "src/consequence_lab/provider.py",
+      "publication_sha256": "c16c0758c0164cc6a60e0d31912b964f501141f433e02e90c0fb8d893aaf26d9",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "fda0a5910b176c16569cdf5ef907792b348ad1f8",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/recurring.py",
+      "original_sha256": "6e214d986f5ca203d8f93cd2841d7b947c2d094cf11e372e6dceb053e0e4feea",
+      "publication_path": "src/consequence_lab/recurring.py",
+      "publication_sha256": "6e214d986f5ca203d8f93cd2841d7b947c2d094cf11e372e6dceb053e0e4feea",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "27049b8d5bb3c59181ad9e8fadde8a2e918aba01",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/recurring_mocks.py",
+      "original_sha256": "d0c2d019e9d08484f6736c7ff13f3b215640fb8d2fa286732922b38689d31b23",
+      "publication_path": "src/consequence_lab/recurring_mocks.py",
+      "publication_sha256": "d0c2d019e9d08484f6736c7ff13f3b215640fb8d2fa286732922b38689d31b23",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "4649418213196ab449d6e9f5e4a7062e9a801555",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/recurring_validation.py",
+      "original_sha256": "80ec0f64d699c1ac97d1e5a5b92d0367801f8c6dbbfd0dca6609df4eb4275f73",
+      "publication_path": "src/consequence_lab/recurring_validation.py",
+      "publication_sha256": "80ec0f64d699c1ac97d1e5a5b92d0367801f8c6dbbfd0dca6609df4eb4275f73",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "7e6f9b7c46b3b30b03a6068f5a47cea5b98b3202",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/reference_policy.py",
+      "original_sha256": "3decfa204d37783ac77b213a07f03f49be4e6a2d83bea1c1c5e293b161a08dbd",
+      "publication_path": "src/consequence_lab/reference_policy.py",
+      "publication_sha256": "3decfa204d37783ac77b213a07f03f49be4e6a2d83bea1c1c5e293b161a08dbd",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "23e8a95ff65158e233262f53c50ef23fa3d53da0",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v2.py",
+      "original_sha256": "c5564a622e2e2c65498aba80753f4ba730c7cbf9da83b1cc2ac0a3a7ef5c5e3d",
+      "publication_path": "src/consequence_lab/rooms_v2.py",
+      "publication_sha256": "c5564a622e2e2c65498aba80753f4ba730c7cbf9da83b1cc2ac0a3a7ef5c5e3d",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "8fa59f84a114e67f850493dfe3ac42e345d035ba",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v2_manifest.py",
+      "original_sha256": "3b5dc7a45856fe5eff655dba0db3129ed71859c68f7e374fe0ea9c9f5a055d61",
+      "publication_path": "src/consequence_lab/rooms_v2_manifest.py",
+      "publication_sha256": "3b5dc7a45856fe5eff655dba0db3129ed71859c68f7e374fe0ea9c9f5a055d61",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "6c5cbbf5b6bb34e84337eb35fa89e0fad3b90abe",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v2_mocks.py",
+      "original_sha256": "f3a12aa7072eb824c190636eefc807bbb074f01f4ead6340e1cc7e46f2de2b6f",
+      "publication_path": "src/consequence_lab/rooms_v2_mocks.py",
+      "publication_sha256": "f3a12aa7072eb824c190636eefc807bbb074f01f4ead6340e1cc7e46f2de2b6f",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "b71d0f65b03991af85807ab25837e75d766f66e8",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v2_panel.py",
+      "original_sha256": "4c78c2da8734778c980b7039664a84d5d5df5487faa9b149d0c1e167873e6307",
+      "publication_path": "src/consequence_lab/rooms_v2_panel.py",
+      "publication_sha256": "4c78c2da8734778c980b7039664a84d5d5df5487faa9b149d0c1e167873e6307",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "8f733f4201910bba2db9857feb351297be55b775",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v2_pressure.py",
+      "original_sha256": "bd8e18c8a9837bdecb189dbb70b2d9ea8572fcc2963a70e8bf45417aa1cf37b9",
+      "publication_path": "src/consequence_lab/rooms_v2_pressure.py",
+      "publication_sha256": "bd8e18c8a9837bdecb189dbb70b2d9ea8572fcc2963a70e8bf45417aa1cf37b9",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "00a29570baf2541d4681f3a7d96afdc0e6fde960",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v2_reference.py",
+      "original_sha256": "867b43f8c9ce03eb18d55f1ce6c8c7ef3421392cfbef67eed425866d320d5f8d",
+      "publication_path": "src/consequence_lab/rooms_v2_reference.py",
+      "publication_sha256": "867b43f8c9ce03eb18d55f1ce6c8c7ef3421392cfbef67eed425866d320d5f8d",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "710785b71e9d6eab2339c960918499e55e1ae5ae",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v2_run.py",
+      "original_sha256": "46304d643f4882565b818d7c32c59a96ff964fac0c0e7a536bb21e702fbda15c",
+      "publication_path": "src/consequence_lab/rooms_v2_run.py",
+      "publication_sha256": "46304d643f4882565b818d7c32c59a96ff964fac0c0e7a536bb21e702fbda15c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "45d9889ba512b9f187a60419e60b8ffe69030725",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v2_validation.py",
+      "original_sha256": "cdafaf54902981302bd2cc80651b35cfcb94418494be5489a6eb5beaa2eb8e29",
+      "publication_path": "src/consequence_lab/rooms_v2_validation.py",
+      "publication_sha256": "cdafaf54902981302bd2cc80651b35cfcb94418494be5489a6eb5beaa2eb8e29",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "b1579470158c5dab344ae49029f239ae40450a4a",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v3.py",
+      "original_sha256": "07edcd07f299129c1940319dc50ad8d62a26f7201c2a04f2baa6ebf9cd9af5d1",
+      "publication_path": "src/consequence_lab/rooms_v3.py",
+      "publication_sha256": "07edcd07f299129c1940319dc50ad8d62a26f7201c2a04f2baa6ebf9cd9af5d1",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "575043a725fcac16770a2c0c46fe37ad1a34672c",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v3_manifest.py",
+      "original_sha256": "0c48235c92c1f91866f0ca98a63703cb94f47c5fdacba1ccd256640f4884a33c",
+      "publication_path": "src/consequence_lab/rooms_v3_manifest.py",
+      "publication_sha256": "0c48235c92c1f91866f0ca98a63703cb94f47c5fdacba1ccd256640f4884a33c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "a715812437595bdcca4a85d9d9ee5c24be337a58",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v3_reference.py",
+      "original_sha256": "29a537f8fa5a2073d3ab1e7c524ade99b31bdc3ef0d267b588f525ad6128e4ef",
+      "publication_path": "src/consequence_lab/rooms_v3_reference.py",
+      "publication_sha256": "29a537f8fa5a2073d3ab1e7c524ade99b31bdc3ef0d267b588f525ad6128e4ef",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "612bb72542c6d4add393cc053e952bab7611e411",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v3_run.py",
+      "original_sha256": "74f0d5d14d34e90c942b31031dc57c1069b6465a96853079d569b091a689aa89",
+      "publication_path": "src/consequence_lab/rooms_v3_run.py",
+      "publication_sha256": "74f0d5d14d34e90c942b31031dc57c1069b6465a96853079d569b091a689aa89",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "7de342f0f7323f745cfab86fafc73341352226d3",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v4.py",
+      "original_sha256": "18dae0cf8837a27beefd43e94706e3578aafc7eec243391e8892bbc032b31bb0",
+      "publication_path": "src/consequence_lab/rooms_v4.py",
+      "publication_sha256": "18dae0cf8837a27beefd43e94706e3578aafc7eec243391e8892bbc032b31bb0",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "f5ecba2ae771729c12381737be6e99021b60471a",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v4_manifest.py",
+      "original_sha256": "cf64c66ec57a35dd7d0b735216b53db2181c862d6be8e4934932aa2ee422e0c4",
+      "publication_path": "src/consequence_lab/rooms_v4_manifest.py",
+      "publication_sha256": "cf64c66ec57a35dd7d0b735216b53db2181c862d6be8e4934932aa2ee422e0c4",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "80a3c30c8f7a2147dfddfe1bcaaa7f22997b75e7",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v4_reference.py",
+      "original_sha256": "b70ff4c020e27ada44045b11ffdce65447b83f3241953aecc43101cf2a241e90",
+      "publication_path": "src/consequence_lab/rooms_v4_reference.py",
+      "publication_sha256": "b70ff4c020e27ada44045b11ffdce65447b83f3241953aecc43101cf2a241e90",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "e307121bad15a890f17a527968c9a3cdd209baf9",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/rooms_v4_run.py",
+      "original_sha256": "7c91ef9d1266471c4c66c3e412b3acb793a30d03f943769f4c67655741cd45c0",
+      "publication_path": "src/consequence_lab/rooms_v4_run.py",
+      "publication_sha256": "7c91ef9d1266471c4c66c3e412b3acb793a30d03f943769f4c67655741cd45c0",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "6d4f0298788c089a78b04cce0729ce96ee19a329",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/runner.py",
+      "original_sha256": "fe37dfc9d7c65ca80beb8023a0eb8db603693cc2e2ce9882b0795245f6f1a0e5",
+      "publication_path": "src/consequence_lab/runner.py",
+      "publication_sha256": "fe37dfc9d7c65ca80beb8023a0eb8db603693cc2e2ce9882b0795245f6f1a0e5",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "1b5691f0b931d4746cb529d337181ef29f99c3c1",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/scheduling.py",
+      "original_sha256": "d7c2b014d6003c5ee70ab6d6cf2195aa16d8b618df05c5839a60aba17d127540",
+      "publication_path": "src/consequence_lab/scheduling.py",
+      "publication_sha256": "d7c2b014d6003c5ee70ab6d6cf2195aa16d8b618df05c5839a60aba17d127540",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "dee11d66bc37e6460d68c2efcf3302f2125f19cc",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/state.py",
+      "original_sha256": "d3197f02d405d03282fcc7498d0d88056370fd7f7ad62cb7818e6826ebc936f8",
+      "publication_path": "src/consequence_lab/state.py",
+      "publication_sha256": "d3197f02d405d03282fcc7498d0d88056370fd7f7ad62cb7818e6826ebc936f8",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "2a4a5b546bca93729a616192744864a0f5af2f0d",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/technical.py",
+      "original_sha256": "0a6a208bf151923b596dc61dc6d66a09bb798799e4361f34085ff6b23469de95",
+      "publication_path": "src/consequence_lab/technical.py",
+      "publication_sha256": "0a6a208bf151923b596dc61dc6d66a09bb798799e4361f34085ff6b23469de95",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "7b101787216fb4ac32947808b33ab3aff40c31fa",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab/world.py",
+      "original_sha256": "2ef7722fd84409a45673294c1fdabfb6cb79c76e319138e6c56c18426f727e9b",
+      "publication_path": "src/consequence_lab/world.py",
+      "publication_sha256": "2ef7722fd84409a45673294c1fdabfb6cb79c76e319138e6c56c18426f727e9b",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "3db1bcea2067ee712aa32d1f886c5ad7a11f2365",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab_mixed/__init__.py",
+      "original_sha256": "c46094770e432dc15ca16d5e4d4c99f84cfe0308f79b5969cd4152f020c2dbaa",
+      "publication_path": "src/consequence_lab_mixed/__init__.py",
+      "publication_sha256": "c46094770e432dc15ca16d5e4d4c99f84cfe0308f79b5969cd4152f020c2dbaa",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "3963c0a1d28bdbc00b380d2c3b968411752a3b23",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab_mixed/manifest.py",
+      "original_sha256": "215f91a282c4610e29c8205014901dbf6400e0d3ce243b6408adbe6510f0999c",
+      "publication_path": "src/consequence_lab_mixed/manifest.py",
+      "publication_sha256": "215f91a282c4610e29c8205014901dbf6400e0d3ce243b6408adbe6510f0999c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "3dbe125da6eceea900f5f3d12dacecfeb7fae462",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab_mixed/run.py",
+      "original_sha256": "02d6c9c2cffdfb84c4e6e3940aac38e88a17732d52f2124408b0730ffc5fec85",
+      "publication_path": "src/consequence_lab_mixed/run.py",
+      "publication_sha256": "02d6c9c2cffdfb84c4e6e3940aac38e88a17732d52f2124408b0730ffc5fec85",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "6858796c25823856e56215f1e72a1a97ea1c1079",
+      "original_git_mode": "100644",
+      "original_path": "src/consequence_lab_mixed/world.py",
+      "original_sha256": "7d7fdaa30cd4f616adbe4a8d88c31baa484c82bfd9dcafe7bdd3f396a43d2483",
+      "publication_path": "src/consequence_lab_mixed/world.py",
+      "publication_sha256": "7d7fdaa30cd4f616adbe4a8d88c31baa484c82bfd9dcafe7bdd3f396a43d2483",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "8fa33eaec165a98946f349ca390ce1089594b541",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_artifact_privacy.py",
+      "original_sha256": "9713d60e6e050b24b92ab30ec8fa162d43c68583f38b24320f29d00c1fe4738a",
+      "publication_path": "tests/test_artifact_privacy.py",
+      "publication_sha256": "9713d60e6e050b24b92ab30ec8fa162d43c68583f38b24320f29d00c1fe4738a",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "d09d8a49cee12357e8a5dca52400b70aa4c58a9d",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_artifacts.py",
+      "original_sha256": "043aead2a3b5477502b82b794bc317eb44ffd4cfc790ea950a745feaf481d63f",
+      "publication_path": "tests/test_artifacts.py",
+      "publication_sha256": "043aead2a3b5477502b82b794bc317eb44ffd4cfc790ea950a745feaf481d63f",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "44de61562e3292ffa0bd2838d1d8a14839998516",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_audit.py",
+      "original_sha256": "e7a3d7124826cd9c32179c1b0d798f169af739f573a303e7deb9336f962b16c1",
+      "publication_path": "tests/test_audit.py",
+      "publication_sha256": "e7a3d7124826cd9c32179c1b0d798f169af739f573a303e7deb9336f962b16c1",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "publication_adapted",
+      "original_git_blob_sha1": "75a70c6c579e05e2e7422dbfc242ff84ea2a84d2",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_calibration_launcher.py",
+      "original_sha256": "c84cbbf931aefccecc1bd6ba86db259309f16504c33a0b9935b0c6200be07afc",
+      "publication_path": "tests/test_calibration_launcher.py",
+      "publication_sha256": "2a9566721750aad1fc65c61a27e0c7ee9a668362c2efe6203f34ee0a50d6b11d",
+      "reason": "Only read-text file paths redirect to relocated workflow fixtures; assertions and scientific behavior unchanged."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "6d49ff441bfdb61335318a40d968e22aa7daf5b1",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_capabilities.py",
+      "original_sha256": "20bc12bce8eedb6883ab3da61113df264aca6e1f35daffbbb26159e550fbfd26",
+      "publication_path": "tests/test_capabilities.py",
+      "publication_sha256": "20bc12bce8eedb6883ab3da61113df264aca6e1f35daffbbb26159e550fbfd26",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "f64b1bd4516e8fb205f8b77e36fa155f3493ba9b",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_checkpoints.py",
+      "original_sha256": "d81309c898ad5f87c41d5da1b0f7be4b53e9515e978ec715040afe37f07d3b40",
+      "publication_path": "tests/test_checkpoints.py",
+      "publication_sha256": "d81309c898ad5f87c41d5da1b0f7be4b53e9515e978ec715040afe37f07d3b40",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "f981f5eecee24a59fe9ffc9fcf2c9cee091fb055",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_cli.py",
+      "original_sha256": "a5c67eef922cc7be58d3777a7bd9e4b456caee0ce50f37f1eb3092270c8e5b21",
+      "publication_path": "tests/test_cli.py",
+      "publication_sha256": "a5c67eef922cc7be58d3777a7bd9e4b456caee0ce50f37f1eb3092270c8e5b21",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "df7ca055a527776b69302402d9402a00012a16fd",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_context.py",
+      "original_sha256": "3851757a0298cd7ae81a242a9f123d994a13f592a4ad4632b644044223b58a66",
+      "publication_path": "tests/test_context.py",
+      "publication_sha256": "3851757a0298cd7ae81a242a9f123d994a13f592a4ad4632b644044223b58a66",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "d8812eddd1e72cc57ba1fee4986b3e2ac4c803c7",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_disposition_protocol.py",
+      "original_sha256": "a4411dc82f94c0cb3f419f52a31c1efe128e84db1fae9cdf7f36206441340034",
+      "publication_path": "tests/test_disposition_protocol.py",
+      "publication_sha256": "a4411dc82f94c0cb3f419f52a31c1efe128e84db1fae9cdf7f36206441340034",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "375d8ac13534e4cd518f36ca31669286f68476b4",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_environment.py",
+      "original_sha256": "7e002a84b0457543209efb3df4194492f2e61ccfae491f0c577f210335b8c05d",
+      "publication_path": "tests/test_environment.py",
+      "publication_sha256": "7e002a84b0457543209efb3df4194492f2e61ccfae491f0c577f210335b8c05d",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "9c4bfadea6216c00658ffd2fab4e9aed82a5e400",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_inspect_adapter.py",
+      "original_sha256": "8463cdd7a86aa117fe8e8eed7d15bc67213e509467e01ea815d01323af63dba2",
+      "publication_path": "tests/test_inspect_adapter.py",
+      "publication_sha256": "8463cdd7a86aa117fe8e8eed7d15bc67213e509467e01ea815d01323af63dba2",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "b03ccc091e56701988ef4d23d1bd7bb97406de75",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_limits.py",
+      "original_sha256": "01ce28a510974c0e1381a95c03ccd63998f9e6f6d1d997f6105a7a9cbb64cac8",
+      "publication_path": "tests/test_limits.py",
+      "publication_sha256": "01ce28a510974c0e1381a95c03ccd63998f9e6f6d1d997f6105a7a9cbb64cac8",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "publication_adapted",
+      "original_git_blob_sha1": "5b622e274f1a9f54aa348f2c32b144353c8a6f63",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_longitudinal_pilot.py",
+      "original_sha256": "6432055e143fdf57576fe87c5ba61ad514466cfa22dddc307c067da16827d125",
+      "publication_path": "tests/test_longitudinal_pilot.py",
+      "publication_sha256": "8926227f021064025e5c2f210f1336f38f7a34565894dfb05b6322ad9022040e",
+      "reason": "Only read-text file paths redirect to relocated workflow fixtures; assertions and scientific behavior unchanged."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "2b5512485b6de897cb4cb396090212808c4355b1",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_longitudinal_provenance.py",
+      "original_sha256": "57850b439f5c2da1ee643bbe16042d571d5b1892e6f1909b866398cc4a9fcd99",
+      "publication_path": "tests/test_longitudinal_provenance.py",
+      "publication_sha256": "57850b439f5c2da1ee643bbe16042d571d5b1892e6f1909b866398cc4a9fcd99",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "1e7844be69b8387c3ba856f482ef8bcb9605d733",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_mixed_final_calibration.py",
+      "original_sha256": "d1335718df62ae4c65a23478582567cd280ce1d1265577059fc79cbba25d7d55",
+      "publication_path": "tests/test_mixed_final_calibration.py",
+      "publication_sha256": "d1335718df62ae4c65a23478582567cd280ce1d1265577059fc79cbba25d7d55",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "408277d0239aea361fcc2414d3be3952ffc113b6",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_mixed_pilot.py",
+      "original_sha256": "8ec66b365b5dad46d0fef20387edcc7812d3525418959017b5c316b729b6043f",
+      "publication_path": "tests/test_mixed_pilot.py",
+      "publication_sha256": "8ec66b365b5dad46d0fef20387edcc7812d3525418959017b5c316b729b6043f",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "34b253c06498f955625478982da80c4f8a2a004d",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_mixed_prototype.py",
+      "original_sha256": "5bdb196455bb1e39a90de2296773f72fea43b137ade1df8e1d6f86fa215336e3",
+      "publication_path": "tests/test_mixed_prototype.py",
+      "publication_sha256": "5bdb196455bb1e39a90de2296773f72fea43b137ade1df8e1d6f86fa215336e3",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "publication_adapted",
+      "original_git_blob_sha1": "f8f3bd90c3d9d31361471c3b316393046794da09",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_pilot_protocol_recovery.py",
+      "original_sha256": "4e4b3dac77fe130e22edb3c1d40dd23f1828c10817a15471f9a284f90ca293f5",
+      "publication_path": "tests/test_pilot_protocol_recovery.py",
+      "publication_sha256": "ee90b96b6a7324b1dee57052763432e230221f96892fc91edb7becb3c98c73a0",
+      "reason": "Only read-text file paths redirect to relocated workflow fixtures; assertions and scientific behavior unchanged."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "e944fc4d9622e9111c80cdb815073245b405bc05",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_provenance.py",
+      "original_sha256": "98eefe7cf7c16890ee44ce786213962855398955e7fa821791620b0cff2e96e6",
+      "publication_path": "tests/test_provenance.py",
+      "publication_sha256": "98eefe7cf7c16890ee44ce786213962855398955e7fa821791620b0cff2e96e6",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "c2b459facffee4c3fa9411493a6d789b4587689d",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_provider.py",
+      "original_sha256": "5ba952cc9e7b4bef9f8791ceeef87beb33b2ede0c8c6577a2c6817897784cd6b",
+      "publication_path": "tests/test_provider.py",
+      "publication_sha256": "5ba952cc9e7b4bef9f8791ceeef87beb33b2ede0c8c6577a2c6817897784cd6b",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "0a605d7c05716ba01fe2ce4a2b0c7a26b4da4258",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_recurring.py",
+      "original_sha256": "01d2ff45c56123082c49c81c3bcd49106c3b8061a3894b6c98660695a060489c",
+      "publication_path": "tests/test_recurring.py",
+      "publication_sha256": "01d2ff45c56123082c49c81c3bcd49106c3b8061a3894b6c98660695a060489c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "ab468f0efb1cbe0f3b2100836913b8fcc6bbb124",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_recurring_privacy.py",
+      "original_sha256": "b2b5434ada7bd6a34bc6931b283f736d7f0d64641f847038d69caaf6e2696e14",
+      "publication_path": "tests/test_recurring_privacy.py",
+      "publication_sha256": "b2b5434ada7bd6a34bc6931b283f736d7f0d64641f847038d69caaf6e2696e14",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "d285db38ce960e0e76758b3ccbff97ead3e204be",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_recurring_validation.py",
+      "original_sha256": "460210df8ee9ba1ce2b514fb22e64fb54e9616a6daecff47a87839e8dbe72ae1",
+      "publication_path": "tests/test_recurring_validation.py",
+      "publication_sha256": "460210df8ee9ba1ce2b514fb22e64fb54e9616a6daecff47a87839e8dbe72ae1",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "3a67a8357efc02184335071be4efe14ae6a40d2a",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rejected_action_continuation.py",
+      "original_sha256": "3ab8bf6bfd6e8e37b10d7ce701392959b9852e6a6fc2fce2ef2b22ffed199b76",
+      "publication_path": "tests/test_rejected_action_continuation.py",
+      "publication_sha256": "3ab8bf6bfd6e8e37b10d7ce701392959b9852e6a6fc2fce2ef2b22ffed199b76",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "f3e4649807bac1d29fe720024682770a6f786348",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_remediation.py",
+      "original_sha256": "b17ff89684142f0701e8f70ea8f3d98f4b31e51c821d92d845d56a3de9b0ea05",
+      "publication_path": "tests/test_remediation.py",
+      "publication_sha256": "b17ff89684142f0701e8f70ea8f3d98f4b31e51c821d92d845d56a3de9b0ea05",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "1f7388db890333a5d09f0b4a96c324c5e144e4fb",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_retrieval_pathway.py",
+      "original_sha256": "93592f918398ec1799fa2791b2e65d58de9333532fc61f76f1d0f15dc7f3e7e9",
+      "publication_path": "tests/test_retrieval_pathway.py",
+      "publication_sha256": "93592f918398ec1799fa2791b2e65d58de9333532fc61f76f1d0f15dc7f3e7e9",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "8d59b3ee962b65bcb87a5fda34a6edf97828b215",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_retrospective_rooms_v3.py",
+      "original_sha256": "0f08b2f169f36737bdd2b698d236f054d86e78c5fb3fb4f0c09c8d6c7625552c",
+      "publication_path": "tests/test_retrospective_rooms_v3.py",
+      "publication_sha256": "0f08b2f169f36737bdd2b698d236f054d86e78c5fb3fb4f0c09c8d6c7625552c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "e5c5b29fff707b7be2ffebfc4ab1c37d4161f292",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rooms_action_protocol.py",
+      "original_sha256": "fa0bf2c665f958debade72eda7750b2238e87d7ec906d46445d01c2306b7e8b3",
+      "publication_path": "tests/test_rooms_action_protocol.py",
+      "publication_sha256": "fa0bf2c665f958debade72eda7750b2238e87d7ec906d46445d01c2306b7e8b3",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "9b9c7beaa9e21526e4b11e86ab864ce5e6e2248a",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rooms_v2.py",
+      "original_sha256": "a443f9740aed551d9c2cb31655ca0cdad1d73828ad95d3e7ad02f07816aea766",
+      "publication_path": "tests/test_rooms_v2.py",
+      "publication_sha256": "a443f9740aed551d9c2cb31655ca0cdad1d73828ad95d3e7ad02f07816aea766",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "4d1956eeea47c811cd7c32c533695a494d492a56",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rooms_v2_controls.py",
+      "original_sha256": "a9459a088e8be327a660984e152cee4713790a571a00a2126d78f0e23cf03846",
+      "publication_path": "tests/test_rooms_v2_controls.py",
+      "publication_sha256": "a9459a088e8be327a660984e152cee4713790a571a00a2126d78f0e23cf03846",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "a00abcf77c6b4ed22cd9322412f770cba4fc23d9",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rooms_v3.py",
+      "original_sha256": "43abb0b49b4f544c08768d5ae18d9fcb5496a6d9f1099d0ab0e92f52f029a29c",
+      "publication_path": "tests/test_rooms_v3.py",
+      "publication_sha256": "43abb0b49b4f544c08768d5ae18d9fcb5496a6d9f1099d0ab0e92f52f029a29c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "719f5e397d12f5136faeab36d26ea09e69cd7c8d",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rooms_v3_clients_messages.py",
+      "original_sha256": "2ecca30966ad51273a58fb461c271ef96f011b40f32baed22bebe327caf8bdb5",
+      "publication_path": "tests/test_rooms_v3_clients_messages.py",
+      "publication_sha256": "2ecca30966ad51273a58fb461c271ef96f011b40f32baed22bebe327caf8bdb5",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "f796d99b06220d9a3e95bb6508dcd46bc86c2552",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rooms_v3_continuation.py",
+      "original_sha256": "d174e3d138f62281a351ef6bb57a1ad01c8349270f0c26087a6da00a0f407148",
+      "publication_path": "tests/test_rooms_v3_continuation.py",
+      "publication_sha256": "d174e3d138f62281a351ef6bb57a1ad01c8349270f0c26087a6da00a0f407148",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "publication_adapted",
+      "original_git_blob_sha1": "4826326cc84946ba6fca58940d9f0d2acdcc3e32",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rooms_v3_launcher.py",
+      "original_sha256": "80bf98e822af15cd8957988ef05db9342f29bc67a13e8d94ae8c813828ad5aef",
+      "publication_path": "tests/test_rooms_v3_launcher.py",
+      "publication_sha256": "c47d3f1b32c97653f6d2540985fd4283fb8c8edb337091e1322c630dad59fc05",
+      "reason": "Only read-text file paths redirect to relocated workflow fixtures; assertions and scientific behavior unchanged."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "72e1c6242f064550b2fa4d4ec0a9d6956334af91",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rooms_v3_pressure.py",
+      "original_sha256": "00652dfabb7454bfa2f5c3ff1ba4820148b4fad56e7c06b1c542f4694b45e019",
+      "publication_path": "tests/test_rooms_v3_pressure.py",
+      "publication_sha256": "00652dfabb7454bfa2f5c3ff1ba4820148b4fad56e7c06b1c542f4694b45e019",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "2714c97207587797e4bb3c24cc79e915e6b29fd3",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rooms_v4.py",
+      "original_sha256": "1831cb4a7aa524ad875aab0f7375cbbfe2328f5b391b7b0673a005d964fefda5",
+      "publication_path": "tests/test_rooms_v4.py",
+      "publication_sha256": "1831cb4a7aa524ad875aab0f7375cbbfe2328f5b391b7b0673a005d964fefda5",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "60934452b4b7f5689a25300ecc2cc35e3a4cee4f",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_rooms_v4_export_integrity.py",
+      "original_sha256": "1df16514b4370471945761417998df8d9dcfb2c372cab7627eb43272bbd98e12",
+      "publication_path": "tests/test_rooms_v4_export_integrity.py",
+      "publication_sha256": "1df16514b4370471945761417998df8d9dcfb2c372cab7627eb43272bbd98e12",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "1c619e8fff8ef4c1471e2174e1699bb9787ae260",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_runner.py",
+      "original_sha256": "d2f51b1a34dbd08e9e223f7dffab01407fa477e3fe7bbc32f0380d8603e0cf48",
+      "publication_path": "tests/test_runner.py",
+      "publication_sha256": "d2f51b1a34dbd08e9e223f7dffab01407fa477e3fe7bbc32f0380d8603e0cf48",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "f4de4926562be4404356d26c0c416d8e2465dc5f",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_streaming_archive.py",
+      "original_sha256": "a0d883e48ffcd9d362fe0864f154b5fe77dcd4a1739da19da89ac33d630b7c5b",
+      "publication_path": "tests/test_streaming_archive.py",
+      "publication_sha256": "a0d883e48ffcd9d362fe0864f154b5fe77dcd4a1739da19da89ac33d630b7c5b",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "fcb5df4762f68b4c5f5be48500ae926421aeb634",
+      "original_git_mode": "100644",
+      "original_path": "tests/test_world.py",
+      "original_sha256": "7c9144b6dedb8e840c5f6fd5498dba254261b4bd11f612733d1586bbe9d59567",
+      "publication_path": "tests/test_world.py",
+      "publication_sha256": "7c9144b6dedb8e840c5f6fd5498dba254261b4bd11f612733d1586bbe9d59567",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "17c767edf2fa95a5651fe68206cc9fe43bf80247",
+      "original_git_mode": "100644",
+      "original_path": "tools/calibration_launcher.py",
+      "original_sha256": "4f24cc1d4f59a45213284f9ac5bdb85825175b4db4447bde91f497f2b28f7dad",
+      "publication_path": "tools/calibration_launcher.py",
+      "publication_sha256": "4f24cc1d4f59a45213284f9ac5bdb85825175b4db4447bde91f497f2b28f7dad",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "46a86a24405d56332e8c1550fb92d25bad184dd0",
+      "original_git_mode": "100644",
+      "original_path": "tools/longitudinal_pilot.py",
+      "original_sha256": "608e766b0119347fb4271fdfea090c29adcefe9352f41251eab074ad16213462",
+      "publication_path": "tools/longitudinal_pilot.py",
+      "publication_sha256": "608e766b0119347fb4271fdfea090c29adcefe9352f41251eab074ad16213462",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "fc1a8e76af752134b714c6329905726e1b435904",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_batch_integrity.py",
+      "original_sha256": "d0119ef1d3849a893c87b06a3c91dd450581de5ffcc24bbc7843f9c6d78a15a8",
+      "publication_path": "tools/mixed_batch_integrity.py",
+      "publication_sha256": "d0119ef1d3849a893c87b06a3c91dd450581de5ffcc24bbc7843f9c6d78a15a8",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "170d4b46017a0e1873db424555214bbade93666f",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_bounds.py",
+      "original_sha256": "ead9eced3aa22187263f5e00ad7f0af0a536245dc423ae3c502f28a83553670d",
+      "publication_path": "tools/mixed_bounds.py",
+      "publication_sha256": "ead9eced3aa22187263f5e00ad7f0af0a536245dc423ae3c502f28a83553670d",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "f4ce663d00cbb1ef5b3639f589d70e9949639ed0",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_calibration.py",
+      "original_sha256": "3d1aef057899b2fd3cb59ba25f6dc58669cd67b2206e48781ae262f3e718fc69",
+      "publication_path": "tools/mixed_calibration.py",
+      "publication_sha256": "3d1aef057899b2fd3cb59ba25f6dc58669cd67b2206e48781ae262f3e718fc69",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "ea64318459e64775e826141241fd9aaac5f6605c",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_evidence.py",
+      "original_sha256": "85a71935fbebdc683f7fb0dd195778cbc95cabf9b2f6bee959d4236b301080d3",
+      "publication_path": "tools/mixed_evidence.py",
+      "publication_sha256": "85a71935fbebdc683f7fb0dd195778cbc95cabf9b2f6bee959d4236b301080d3",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "3a122558ef36cca16343d9ef1f26e5e2973a1cf6",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_exchange_census.py",
+      "original_sha256": "7f1d11386b1eeb2e863987609851cc53c5dd7d57a3b014c58eb9c667112952e0",
+      "publication_path": "tools/mixed_exchange_census.py",
+      "publication_sha256": "7f1d11386b1eeb2e863987609851cc53c5dd7d57a3b014c58eb9c667112952e0",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "917e2c8c0c112e227581a6f1c9e42395a0f2dd33",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_fallback_audit.py",
+      "original_sha256": "afb39439d0cdb8ecf0f633a735be81d65a9bfdf62b5091af51d06d21eb371f5a",
+      "publication_path": "tools/mixed_fallback_audit.py",
+      "publication_sha256": "afb39439d0cdb8ecf0f633a735be81d65a9bfdf62b5091af51d06d21eb371f5a",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "d254e548915916d2375ec908ea3743ad91a80c82",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_final_audit.py",
+      "original_sha256": "616a4c701831b74fa6709e3eb7e7661c61c8d50e232b6e15d52701e6403f1942",
+      "publication_path": "tools/mixed_final_audit.py",
+      "publication_sha256": "616a4c701831b74fa6709e3eb7e7661c61c8d50e232b6e15d52701e6403f1942",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "82f9afd24801daadef471f6cd4d9621d9b2146b8",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_final_calibration.py",
+      "original_sha256": "83e95bbc69537c088c3e3f9b6af482ac7608853068191bd19732dbb9ecb948b2",
+      "publication_path": "tools/mixed_final_calibration.py",
+      "publication_sha256": "83e95bbc69537c088c3e3f9b6af482ac7608853068191bd19732dbb9ecb948b2",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "ae790c1625a5c93d1c56c300591953fd6f73fc73",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_final_count.py",
+      "original_sha256": "3afaa78e87c70e60e8931141687400b8645e46951200cc81a555ffd197050e35",
+      "publication_path": "tools/mixed_final_count.py",
+      "publication_sha256": "3afaa78e87c70e60e8931141687400b8645e46951200cc81a555ffd197050e35",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "efc4b197d0b71b06a7ac245bcbe6bc0ebd0d8aa2",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_final_evidence.py",
+      "original_sha256": "c508b5060770403e9789a30a2405a9e7661a251bdfc7f8e5621ba0833b0c9640",
+      "publication_path": "tools/mixed_final_evidence.py",
+      "publication_sha256": "c508b5060770403e9789a30a2405a9e7661a251bdfc7f8e5621ba0833b0c9640",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "9fecca1b0fe636cc1431b6a7641cc9584bcb6545",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_final_frontier.py",
+      "original_sha256": "656e6d19490c7bbb4598eb00a0448d1af45b63c442c973ec5a77e6b627750d71",
+      "publication_path": "tools/mixed_final_frontier.py",
+      "publication_sha256": "656e6d19490c7bbb4598eb00a0448d1af45b63c442c973ec5a77e6b627750d71",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "380e2a3ee6817f34fb4b4d3f19dbbc1f4e3588b8",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_final_policy.py",
+      "original_sha256": "05dc8e9cf203c89e336fe6b5ddc6af3730a29716d424e18d89aec2853ebca57e",
+      "publication_path": "tools/mixed_final_policy.py",
+      "publication_sha256": "05dc8e9cf203c89e336fe6b5ddc6af3730a29716d424e18d89aec2853ebca57e",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "b4f8338ab29c18e672488c7d97e442344e3e7a71",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_final_report.py",
+      "original_sha256": "8b7bcf768baaf23cb891a9c9aef54b118c1f9fd65fd0c955d43f9e08a42cc705",
+      "publication_path": "tools/mixed_final_report.py",
+      "publication_sha256": "8b7bcf768baaf23cb891a9c9aef54b118c1f9fd65fd0c955d43f9e08a42cc705",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "e11f1ac029928c7431489e939d1122a5f960e8df",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_incentives.py",
+      "original_sha256": "ae811aeabb778e35579f9c1d6ecc037b86bfb5e7155fb0f32a55e093c4c90224",
+      "publication_path": "tools/mixed_incentives.py",
+      "publication_sha256": "ae811aeabb778e35579f9c1d6ecc037b86bfb5e7155fb0f32a55e093c4c90224",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "766ca0205c1cb6dba2bbc30e1ad89a7f830bc12d",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_learning.py",
+      "original_sha256": "b5a63e15813234fd228dbb281f9f037cfe9691b53f1ef29dc87ce695d620e558",
+      "publication_path": "tools/mixed_learning.py",
+      "publication_sha256": "b5a63e15813234fd228dbb281f9f037cfe9691b53f1ef29dc87ce695d620e558",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "e196d6f7067945d69f808f09b780bfaff5abfa14",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_pilot.py",
+      "original_sha256": "851b47bd9730a81636a9deef3058b7ed803844527b4b3aea35e08ae06f764333",
+      "publication_path": "tools/mixed_pilot.py",
+      "publication_sha256": "851b47bd9730a81636a9deef3058b7ed803844527b4b3aea35e08ae06f764333",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "48ea3c58659598cbf3d07ea874d3252b0f3634e8",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_pilot_evidence.py",
+      "original_sha256": "ffd4c7ca53c314849fa3fb7401db468e12407b9191b55d62551b92bc3f3dd3a5",
+      "publication_path": "tools/mixed_pilot_evidence.py",
+      "publication_sha256": "ffd4c7ca53c314849fa3fb7401db468e12407b9191b55d62551b92bc3f3dd3a5",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "7f615f4b20cc39558db400a40d1b1c6e3422d285",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_pilot_families.py",
+      "original_sha256": "b2fc2e8a00c8c7963763cf4f293e1c0baa024b81d13a3b04679fcb5ac030a255",
+      "publication_path": "tools/mixed_pilot_families.py",
+      "publication_sha256": "b2fc2e8a00c8c7963763cf4f293e1c0baa024b81d13a3b04679fcb5ac030a255",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "613e537b14f4b45c9c75b4c0f7240a0684b86fff",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_pilot_finalize.py",
+      "original_sha256": "bca28b6f1cd474ddf2a52f38417ee3a296f9ff1dddfa5e5d681b9a780bbfca52",
+      "publication_path": "tools/mixed_pilot_finalize.py",
+      "publication_sha256": "bca28b6f1cd474ddf2a52f38417ee3a296f9ff1dddfa5e5d681b9a780bbfca52",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "2053aa31aa7e101643c945f4ed809e7c9090559f",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_pilot_launch.py",
+      "original_sha256": "416ea7119bde47bdc36b8e65a918328306dcc3949d2d2dd5bb8189b5e9ed36b7",
+      "publication_path": "tools/mixed_pilot_launch.py",
+      "publication_sha256": "416ea7119bde47bdc36b8e65a918328306dcc3949d2d2dd5bb8189b5e9ed36b7",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "80d083e40329fd1a50f2e1086d3ebe2b8b43ae81",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_pilot_validation.py",
+      "original_sha256": "5c6e6498878d67a8411e376b419562fb333f26766f849fd6c793643b7849fae3",
+      "publication_path": "tools/mixed_pilot_validation.py",
+      "publication_sha256": "5c6e6498878d67a8411e376b419562fb333f26766f849fd6c793643b7849fae3",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "70a0e642e5b50b5a87d33d91fae5aa250154ffb4",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_planner.py",
+      "original_sha256": "f6caae8fe706ddcf56f8373e3700da8bff03c12abb64459df19e7567083a9578",
+      "publication_path": "tools/mixed_planner.py",
+      "publication_sha256": "f6caae8fe706ddcf56f8373e3700da8bff03c12abb64459df19e7567083a9578",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "0514d93bbb1591b09bd1a6393602bcf49002d2f5",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_policies.py",
+      "original_sha256": "4f9ea2af4e218d409bca6d67bb89c5296af985b3eca988107cdba510dd7a34c9",
+      "publication_path": "tools/mixed_policies.py",
+      "publication_sha256": "4f9ea2af4e218d409bca6d67bb89c5296af985b3eca988107cdba510dd7a34c9",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "89b5c1a049bb96b9a5a2acbbf6ed5998b3b32a42",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_reachable_exchanges.py",
+      "original_sha256": "0db3e6f8f01660ebfe364dd8e8c2b9b12bc8d6c9c17b12f2109e316949ad5fc8",
+      "publication_path": "tools/mixed_reachable_exchanges.py",
+      "publication_sha256": "0db3e6f8f01660ebfe364dd8e8c2b9b12bc8d6c9c17b12f2109e316949ad5fc8",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "687471bb12d30e59f71ce31ab7a9c9607d947709",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_reference.py",
+      "original_sha256": "1c8b06f70dd03775cdb68fb53cfda4562a4132e2eebbcfbf4a02c606d43ea3bd",
+      "publication_path": "tools/mixed_reference.py",
+      "publication_sha256": "1c8b06f70dd03775cdb68fb53cfda4562a4132e2eebbcfbf4a02c606d43ea3bd",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "86611dd5425f2445d5b1f9454188e455f57db7fe",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_report.py",
+      "original_sha256": "17c1676e8083f221e502a2b3219e6da9bd75a5860f2edf3d2d71eed8aa2d24d0",
+      "publication_path": "tools/mixed_report.py",
+      "publication_sha256": "17c1676e8083f221e502a2b3219e6da9bd75a5860f2edf3d2d71eed8aa2d24d0",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "1f6e24a237ec4312451553a2124f19914b799117",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_runner_validation.py",
+      "original_sha256": "d16100c8fe9c681f9930fa7a36c0e7ec5142da060520e26899b116ea9ae0d37c",
+      "publication_path": "tools/mixed_runner_validation.py",
+      "publication_sha256": "d16100c8fe9c681f9930fa7a36c0e7ec5142da060520e26899b116ea9ae0d37c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "a4afe0829a5fe0b3ef0f8cc59bac1e5c28dbafc0",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_simulation.py",
+      "original_sha256": "5685d13c616fa84cda4a2778cab85b51bce55a6ce09ce48c1046667d6616e4b5",
+      "publication_path": "tools/mixed_simulation.py",
+      "publication_sha256": "5685d13c616fa84cda4a2778cab85b51bce55a6ce09ce48c1046667d6616e4b5",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "40aba3d55eb0406e4f8881a9435edebf5990fd73",
+      "original_git_mode": "100644",
+      "original_path": "tools/mixed_trace_audit.py",
+      "original_sha256": "9d21e5114ccd70a5376ad3f2104aea9e0d3b9f79a72ffca30aed14775cb9afed",
+      "publication_path": "tools/mixed_trace_audit.py",
+      "publication_sha256": "9d21e5114ccd70a5376ad3f2104aea9e0d3b9f79a72ffca30aed14775cb9afed",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "c44dd75df9f286edd20763ed181e91c8fec22afc",
+      "original_git_mode": "100644",
+      "original_path": "tools/pilot_analysis.py",
+      "original_sha256": "61f2446c36b3d81d983759dc5e910871411377d373285386cb0adb8916a7b432",
+      "publication_path": "tools/pilot_analysis.py",
+      "publication_sha256": "61f2446c36b3d81d983759dc5e910871411377d373285386cb0adb8916a7b432",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "da2251ba880715298df499cdf588c249df785ac9",
+      "original_git_mode": "100644",
+      "original_path": "tools/pilot_recovery.py",
+      "original_sha256": "a54de6ab3b9b160e4746ba6cddb703a5bbbe59edca7eaf55ca9978a1bbd0a145",
+      "publication_path": "tools/pilot_recovery.py",
+      "publication_sha256": "a54de6ab3b9b160e4746ba6cddb703a5bbbe59edca7eaf55ca9978a1bbd0a145",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "c8f317d0b7cb32ce71820e75527fc031528f1638",
+      "original_git_mode": "100644",
+      "original_path": "tools/pilot_spec.py",
+      "original_sha256": "5ef0d2b4f30f297e207fda46900b0b6580a7804dd83203bd3b7d32c2758c8913",
+      "publication_path": "tools/pilot_spec.py",
+      "publication_sha256": "5ef0d2b4f30f297e207fda46900b0b6580a7804dd83203bd3b7d32c2758c8913",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "ad82a219b8d2ae345ce2880a7ae9a704671ff456",
+      "original_git_mode": "100644",
+      "original_path": "tools/pilot_validation.py",
+      "original_sha256": "ad79f7664bed1d26099bb3e2e3b9ad741ce66f4fbe62983b23e93a20bd5b19a1",
+      "publication_path": "tools/pilot_validation.py",
+      "publication_sha256": "ad79f7664bed1d26099bb3e2e3b9ad741ce66f4fbe62983b23e93a20bd5b19a1",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "eecf6594199104059894d1cfcaae2c66bcae81c2",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v2_controls_panel.py",
+      "original_sha256": "06f57c92fa55359db9bbedf74e786f0b3c609cf64626b4a22228d886a6970bc7",
+      "publication_path": "tools/rooms_v2_controls_panel.py",
+      "publication_sha256": "06f57c92fa55359db9bbedf74e786f0b3c609cf64626b4a22228d886a6970bc7",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "44c099d715290dfacb22f3d2156cd8ec5b87b425",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v2_controls_validation.py",
+      "original_sha256": "00e62d317a484e1123612ecc6ce63e45a3c5a23cbb4f1ef3fab10b9f666d5a29",
+      "publication_path": "tools/rooms_v2_controls_validation.py",
+      "publication_sha256": "00e62d317a484e1123612ecc6ce63e45a3c5a23cbb4f1ef3fab10b9f666d5a29",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "8ba4828949596a6429fa4147c2405ae060333b90",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v2_stress.py",
+      "original_sha256": "4e66daaad7a1ac307c357d1b1680d686aa8c6b4d75aa9380e3dc65b4fd5fe612",
+      "publication_path": "tools/rooms_v2_stress.py",
+      "publication_sha256": "4e66daaad7a1ac307c357d1b1680d686aa8c6b4d75aa9380e3dc65b4fd5fe612",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "aae02231db916913f8c51c54b3d42b3d680f030e",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v3_analysis.py",
+      "original_sha256": "db30eb367e4b1fd2a8b390cf1d9768d0a38ecb603312c7a1fe20e933595bad84",
+      "publication_path": "tools/rooms_v3_analysis.py",
+      "publication_sha256": "db30eb367e4b1fd2a8b390cf1d9768d0a38ecb603312c7a1fe20e933595bad84",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "1056933b64adefd6e8452cc9d0f1d3135f00918c",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v3_branches.py",
+      "original_sha256": "79554025c22921cfa502907ae9797947aacbbecfa1f824b983b7ad4566f311c2",
+      "publication_path": "tools/rooms_v3_branches.py",
+      "publication_sha256": "79554025c22921cfa502907ae9797947aacbbecfa1f824b983b7ad4566f311c2",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "0e5e2b21e7cc93982b9268391860bd2e3145d068",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v3_launcher.py",
+      "original_sha256": "51444dd7275f2e7c31d0df1348a49b1e809a13b0bcff61b726ea680eaf64cef3",
+      "publication_path": "tools/rooms_v3_launcher.py",
+      "publication_sha256": "51444dd7275f2e7c31d0df1348a49b1e809a13b0bcff61b726ea680eaf64cef3",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "8f279439be212c7c13a8cff131f256beba9dd18f",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v3_pressure.py",
+      "original_sha256": "4ca62cf9ae66c4822fbdfdb727dac78975428d72e8acd5d4297aca78e4e0897c",
+      "publication_path": "tools/rooms_v3_pressure.py",
+      "publication_sha256": "4ca62cf9ae66c4822fbdfdb727dac78975428d72e8acd5d4297aca78e4e0897c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "8d8c3cc2996285102df98c785302afd30e8173f4",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v3_retrospective_validation.py",
+      "original_sha256": "13100efb4208fa7dbe52a1fe7c9d252ba14b27e9bcfb38e9c1a6cfc17b7d74e7",
+      "publication_path": "tools/rooms_v3_retrospective_validation.py",
+      "publication_sha256": "13100efb4208fa7dbe52a1fe7c9d252ba14b27e9bcfb38e9c1a6cfc17b7d74e7",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "3cc1fae1d855efe148bfe4fd613f9be4162bc801",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v3_stress.py",
+      "original_sha256": "c961f813243095853571d0f66d0f92e5a5580c199a7d1f61469e70323b978338",
+      "publication_path": "tools/rooms_v3_stress.py",
+      "publication_sha256": "c961f813243095853571d0f66d0f92e5a5580c199a7d1f61469e70323b978338",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "c181a1ee5cbd2c7edcec20c7f123671d32771df8",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v3_validation.py",
+      "original_sha256": "7e35c01ad63ee60cec37cc9215e795161a8004e5a7b8f5cdc2fdcdc6084e613c",
+      "publication_path": "tools/rooms_v3_validation.py",
+      "publication_sha256": "7e35c01ad63ee60cec37cc9215e795161a8004e5a7b8f5cdc2fdcdc6084e613c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "b034d00fab3b8092af5216087664ac989819675e",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v4_budget_audit.py",
+      "original_sha256": "91b94ee5324ff9d75913a502ba4f4eecb63e481011274f8c4924956c0bb1300c",
+      "publication_path": "tools/rooms_v4_budget_audit.py",
+      "publication_sha256": "91b94ee5324ff9d75913a502ba4f4eecb63e481011274f8c4924956c0bb1300c",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "0138a16dd4d9a8234925b7b98ca18bd572fa0718",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v4_calibration.py",
+      "original_sha256": "abc0016649e46c0448e31dc3e9c812a32c7b3431ed77cf9c7d6fa6eff742a37b",
+      "publication_path": "tools/rooms_v4_calibration.py",
+      "publication_sha256": "abc0016649e46c0448e31dc3e9c812a32c7b3431ed77cf9c7d6fa6eff742a37b",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "a54f90079e57b840c744074daa4ca03112404620",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v4_capacity.py",
+      "original_sha256": "191b63ab01e86067da793989bd91f3e63779b656deca803241a702b27168f9f0",
+      "publication_path": "tools/rooms_v4_capacity.py",
+      "publication_sha256": "191b63ab01e86067da793989bd91f3e63779b656deca803241a702b27168f9f0",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "a6d3c92e1198ffeaf7ec917cdd53e2ab33c8c6b9",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v4_export.py",
+      "original_sha256": "438466a0e325db9866b467a34459f021d6d8ef48671c55d8e01eeb12beb6d054",
+      "publication_path": "tools/rooms_v4_export.py",
+      "publication_sha256": "438466a0e325db9866b467a34459f021d6d8ef48671c55d8e01eeb12beb6d054",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "8a528351ac4327670d91885c612c678dbf56a693",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v4_independent_decode.py",
+      "original_sha256": "3bc3ea741a7ddd8bd2a2a31a971e2fb2b55e48eebd1b54c96c4fd7e70ae666c0",
+      "publication_path": "tools/rooms_v4_independent_decode.py",
+      "publication_sha256": "3bc3ea741a7ddd8bd2a2a31a971e2fb2b55e48eebd1b54c96c4fd7e70ae666c0",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    },
+    {
+      "disposition": "copied_unchanged",
+      "original_git_blob_sha1": "66e8611462d42e9db2e95c06ab16ab0416275bf1",
+      "original_git_mode": "100644",
+      "original_path": "tools/rooms_v4_portable_audit.py",
+      "original_sha256": "d44e26a4f0ed31e5dbcef46197465c08482ea9931cef1e8861f82b95f85f4fe6",
+      "publication_path": "tools/rooms_v4_portable_audit.py",
+      "publication_sha256": "d44e26a4f0ed31e5dbcef46197465c08482ea9931cef1e8861f82b95f85f4fe6",
+      "reason": "Preserved source, synthetic regression fixture or relevant technical documentation."
+    }
+  ],
+  "original_repository_preserved": true,
+  "publication_files": [
+    {
+      "bytes": 67,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": ".gitignore",
+      "sha256": "bda54ebaca1c96cb1c4db2748d34de088038951988a058a626cc06ddb37297cf"
+    },
+    {
+      "bytes": 5209,
+      "mode": "0o600",
+      "origin": "original export mapping",
+      "path": "README.md",
+      "sha256": "6e3e5396174b3f1270b4255d43d8bf3fd54cfbb3824d0bd5986a0a474228fcc8"
+    },
+    {
+      "bytes": 2027,
+      "mode": "0o600",
+      "origin": "new publication documentation or validation",
+      "path": "SNAPSHOT_VALIDATION.json",
+      "sha256": "af36e1af6aa631f8e08cfa8d5cb81c18d7bd62598482b121732642cf96bb49d4"
+    },
+    {
+      "bytes": 707,
+      "mode": "0o600",
+      "origin": "original export mapping",
+      "path": "THIRD_PARTY.md",
+      "sha256": "cb6bb322c6a6b04d932a198119d2593407a4750fc181fc8fc6d24c4334686368"
+    },
+    {
+      "bytes": 3971,
+      "mode": "0o600",
+      "origin": "new publication documentation or validation",
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "c23ff845b5ee377cc25ed153e34678cade5921751683001788e7d4ce1dab15be"
+    },
+    {
+      "bytes": 2345,
+      "mode": "0o600",
+      "origin": "new publication documentation or validation",
+      "path": "docs/PUBLICATION_NOTES.md",
+      "sha256": "a386267d2d3342269f48712cf4814a46900636a1cc516661a1cf524692b7c68c"
+    },
+    {
+      "bytes": 3715,
+      "mode": "0o600",
+      "origin": "new publication documentation or validation",
+      "path": "docs/REPRODUCIBILITY.md",
+      "sha256": "022c2d0b94712de2f4b53cc9f0f485ecc996b78e04a30477e50a1b65854cc961"
+    },
+    {
+      "bytes": 4232,
+      "mode": "0o600",
+      "origin": "new publication documentation or validation",
+      "path": "docs/SCIENTIFIC_STATUS.md",
+      "sha256": "abcd2e8fcdc517c5d0955a91f67d571f7497422c35adcce2ea74d1023ea1803d"
+    },
+    {
+      "bytes": 6402,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "docs/rooms-mixed-v1/FINAL-CALIBRATION-METHOD.md",
+      "sha256": "a2638a0e341e13c2cb05f2ff25a2c8d73501deee95a6207f456a6870c616a254"
+    },
+    {
+      "bytes": 8933,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "docs/rooms-mixed-v1/RULES.md",
+      "sha256": "e27d124b74cd785d49e1daca60d73247df22ebaaa622d8b896926d153ae5772d"
+    },
+    {
+      "bytes": 4518,
+      "mode": "0o600",
+      "origin": "original export mapping",
+      "path": "docs/sprint-2026-11/EXECUTIVE_SUMMARY.md",
+      "sha256": "69f4e0c0129a396fa0dce8e63db949733021c943e2e6ae51207ad4a1e489c68f"
+    },
+    {
+      "bytes": 25610,
+      "mode": "0o600",
+      "origin": "original export mapping",
+      "path": "docs/sprint-2026-11/REPORT.md",
+      "sha256": "fdbc1f55d7c7249d41a535548f2714106e26ae915408614f96847c75e2a8600c"
+    },
+    {
+      "bytes": 2691,
+      "mode": "0o600",
+      "origin": "original export mapping",
+      "path": "docs/sprint-2026-11/REPRODUCIBILITY.md",
+      "sha256": "88c131a60a4862e706bbb4f0c86fbb6b374f0a964f8677c3de6e753a479a803a"
+    },
+    {
+      "bytes": 832,
+      "mode": "0o600",
+      "origin": "new publication documentation or validation",
+      "path": "experiments/README.md",
+      "sha256": "fe8de4583c554b2ee717e14dbf06808ab1e440d5475d8c815ea21a4a3fcddb22"
+    },
+    {
+      "bytes": 1744,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/longitudinal_pilot/manifests-v1.json",
+      "sha256": "ef4fadc6d01c6c4d34c6fd6cb926bd129e4e6b78ea0eee8d838af07a4ab7535e"
+    },
+    {
+      "bytes": 10215,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/longitudinal_pilot/offline-results-v1.json",
+      "sha256": "70a5f0176f29dd6ccf6c7feeb643410b527e117ad1367a66055fcc92ccade22e"
+    },
+    {
+      "bytes": 22121,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/recurring_rooms/manifests/catalogue-v1.json",
+      "sha256": "d29b5a1260eac02a8e1de36fbea1b18bf7ee7ece8740542ee6cabbf61a1aad6e"
+    },
+    {
+      "bytes": 652,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v2/allocation-review-panel.json",
+      "sha256": "c27bad00c2bb6855b9bdfe1e38f64a701868eb81343664207fdf162d0d820fbd"
+    },
+    {
+      "bytes": 152557,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v2/allocation-review-results.json",
+      "sha256": "71c6476e8a1d9a3c8f6653ba5473a302e2d8c5616482059ff1ae1e1d0bbaffd0"
+    },
+    {
+      "bytes": 21148,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v2/counterbalanced-manifests.json",
+      "sha256": "bbea6c45f9de7846c3932a95ffea601eb61b6b464ecd28e0b782120201183a3b"
+    },
+    {
+      "bytes": 11280,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v2/offline-validation-homogeneous.json",
+      "sha256": "4301f2404777e2e147bba5d1d3d523cd2c5483bb7946637e587e76975310b8c8"
+    },
+    {
+      "bytes": 21148,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v2/pilot-manifests.json",
+      "sha256": "a7918049ce4bd642e422bbad0198518ff6cfc9f73f01ae96437824fe9e3b7022"
+    },
+    {
+      "bytes": 35903,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v2/pressure-review/diagnostic-manifests.json",
+      "sha256": "6c9455a90e202cc6437ccf9671f76ecd8b0488804175f0b9386f187b2d434e59"
+    },
+    {
+      "bytes": 7291,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v2/pressure-review/high-candidates.json",
+      "sha256": "0227627bf35b991e26e268bbeec601e1e5e5796c94fed999a84655aaab72f371"
+    },
+    {
+      "bytes": 862521,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v2/pressure-review/manifests.json",
+      "sha256": "923688fa2b0ed3c4f3557877f1dca6c415dcdc55c2c0afa6b2e47a2882ad7709"
+    },
+    {
+      "bytes": 3156,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v2/pressure-review/protocol.json",
+      "sha256": "fde50dd779773ce4315fe2d90956f0b98eb9b0d5f74da8aca4f4ed61246d7b72"
+    },
+    {
+      "bytes": 1555549,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v2/pressure-review/results.json",
+      "sha256": "fd30b28745266cedd9c8b53db2ef3d3db47627d3a734c726beb11a5be77a263a"
+    },
+    {
+      "bytes": 15535,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v3/manifests/days12-seed0.json",
+      "sha256": "7b8be1e01249be539ce89c7790fd371e5b15a560f4e35bd1f47b82223c936983"
+    },
+    {
+      "bytes": 15448,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v3/manifests/days12-seed3.json",
+      "sha256": "3e781f402bc451bd824b29cce73a7f851dc5f6e0ea5736f1f0f1838ac5cab7e1"
+    },
+    {
+      "bytes": 6542,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v3/manifests/days4-seed0.json",
+      "sha256": "f94714ccc72691aa0a9263cdc51d97248e4f1e75b98b725ec5fdaf41e109c532"
+    },
+    {
+      "bytes": 6626,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v3/manifests/days4-seed3.json",
+      "sha256": "a411cc3c52111aa1076791773a78cc7656b9bfde1f9bfa3a9ac77c39b4717923"
+    },
+    {
+      "bytes": 651,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v3/manifests/index.json",
+      "sha256": "0b7edce1fad87ef03d3b2eab6dd8d6ca21dbdb51f03c488f00c298335485c920"
+    },
+    {
+      "bytes": 6271,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v3/model-facing-instructions.json",
+      "sha256": "8b4e6a2dbc3363c7d1a4e14b7625957681dd2c16a5c820675928d7e33e920213"
+    },
+    {
+      "bytes": 117567,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v3/offline-validation.json",
+      "sha256": "c0d30599aedef54e0672975a217af977f8d4f9847e80cecf10f333f5a15e31a9"
+    },
+    {
+      "bytes": 600436,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v4/calibration/benchmarks.json",
+      "sha256": "e3dc82753990d630bec7f3b960084846d7ed349b77e5abcbb33a889e47cc84c4"
+    },
+    {
+      "bytes": 19898,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v4/calibration/frontier.json",
+      "sha256": "6128ae3543b075dd7a578d3a0a40633728014c9d01223b42f6751e8d26e8b5df"
+    },
+    {
+      "bytes": 1087,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "experiments/rooms_v4/calibration/funding-certificates.json",
+      "sha256": "78033f39d39dbc2343fa76c3fe8e31f2bbc1b805736111f24024507a6d1caad1"
+    },
+    {
+      "bytes": 525,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "pyproject.toml",
+      "sha256": "c81e94bb403c686e2afca0bf172bb3a0074e0cb5e7a6ca82e89d21a4ab8bafae"
+    },
+    {
+      "bytes": 1608,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "scripts/freeze_baseline.py",
+      "sha256": "dabc6d674bdd9204cbeb37d9b08a8228a989be2df84ab80b5611f5c723a6a050"
+    },
+    {
+      "bytes": 101,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/__init__.py",
+      "sha256": "0eb5f3343877a9308e623fe0a515f6513eddb4e149ed59df3cf8eec3e97b5f9f"
+    },
+    {
+      "bytes": 9983,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/archive.py",
+      "sha256": "b35172c8cadc5e6403cbc4ddcccb5be0d6ed3e8a672dfd69e61e31d3d1693de2"
+    },
+    {
+      "bytes": 6324,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/artifacts.py",
+      "sha256": "9cfa9e97c0c32cf647a1e0ef0f9f74f903a4358eb84d294332f9ca2b3749a639"
+    },
+    {
+      "bytes": 21264,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/audit.py",
+      "sha256": "011ecb36831237c24f7c1808c0a0545c7bd6bbab4f070cdc2cd6735229468846"
+    },
+    {
+      "bytes": 7476,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/backends.py",
+      "sha256": "f0576c4bbcb4050412e397d2b28aa456489169e23a5cb4b5d36d93c39f9014b5"
+    },
+    {
+      "bytes": 7753,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/calendar.py",
+      "sha256": "f5bad116d10c57d9681537183ccc710502655543eba17add0fbd46f166fc7050"
+    },
+    {
+      "bytes": 9379,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/calibration.py",
+      "sha256": "4d6846475e2f15cf15caaa4cdb311515da019e4d6ba4bc718bdd47b906558ff6"
+    },
+    {
+      "bytes": 2500,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/catalogue.py",
+      "sha256": "8ca82b848576381b294836a321452c3984159124a62327c0f7ed47e03a723172"
+    },
+    {
+      "bytes": 8231,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/cli.py",
+      "sha256": "dcc38327869de14ef66bb54e1330d6c496004c31e813a2bc6f156123dc42f5d2"
+    },
+    {
+      "bytes": 1043,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/clock.py",
+      "sha256": "2aa737f39ba339231d5381b0763a7fe56af0132fecffee66602b48682e24f437"
+    },
+    {
+      "bytes": 2789,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/communication.py",
+      "sha256": "529e13282c3561c6039b70a33dc334bd2bc239803961008562d59ed5a8dd94f6"
+    },
+    {
+      "bytes": 10283,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/compact_archive.py",
+      "sha256": "261a61c7aafd379102b83c10988a3c6cb1e4f24c97a2c7e8e14155bb74487e38"
+    },
+    {
+      "bytes": 4126,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/config.py",
+      "sha256": "a04af6a8a25a3b0f6c363ae928af0a79d4b436d5cb01013ce613b9927210653c"
+    },
+    {
+      "bytes": 3937,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/context.py",
+      "sha256": "c99096d6d34702578296705f039ef558898b34a1b0f83690cc2f8026760f1f2d"
+    },
+    {
+      "bytes": 5389,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/direct_messages.py",
+      "sha256": "5aa2ede43937220c2058bbccc8c7024f7bdebb768f9d3d9484673cc0765b4af5"
+    },
+    {
+      "bytes": 3001,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/inspect_adapter.py",
+      "sha256": "5649f92e953ca7e4f201efd58e7872128b6933f8b48e77a50b2fd50317dd8449"
+    },
+    {
+      "bytes": 2179,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/jsonio.py",
+      "sha256": "98b64b9f9c7ce79dad5fea5240b5d671ab99c56f9a0f6e9be8b93b3c82af15a7"
+    },
+    {
+      "bytes": 4132,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/model_profiles.py",
+      "sha256": "99063c090eb029fb97f3bc0e53e4d8ce6cd2cafbc8dbceafee77820c606767d2"
+    },
+    {
+      "bytes": 6016,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/opportunities.py",
+      "sha256": "e8fde44449e5db38a7361883e450cbc9eba0575b3f47a536d7fe18b41e1ff0aa"
+    },
+    {
+      "bytes": 6397,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/profiled_provider.py",
+      "sha256": "a1cf21066839c9d375d634b1682603ba9351928055d9530134303c7ed1c6c83e"
+    },
+    {
+      "bytes": 721,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/provenance.py",
+      "sha256": "e32c4508fb80ccf0400eed650ece099bfc808f53a1331b02bb5e5646e615ccbf"
+    },
+    {
+      "bytes": 17514,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/provider.py",
+      "sha256": "c16c0758c0164cc6a60e0d31912b964f501141f433e02e90c0fb8d893aaf26d9"
+    },
+    {
+      "bytes": 18456,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/recurring.py",
+      "sha256": "6e214d986f5ca203d8f93cd2841d7b947c2d094cf11e372e6dceb053e0e4feea"
+    },
+    {
+      "bytes": 2906,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/recurring_mocks.py",
+      "sha256": "d0c2d019e9d08484f6736c7ff13f3b215640fb8d2fa286732922b38689d31b23"
+    },
+    {
+      "bytes": 6360,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/recurring_validation.py",
+      "sha256": "80ec0f64d699c1ac97d1e5a5b92d0367801f8c6dbbfd0dca6609df4eb4275f73"
+    },
+    {
+      "bytes": 9105,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/reference_policy.py",
+      "sha256": "3decfa204d37783ac77b213a07f03f49be4e6a2d83bea1c1c5e293b161a08dbd"
+    },
+    {
+      "bytes": 15677,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v2.py",
+      "sha256": "c5564a622e2e2c65498aba80753f4ba730c7cbf9da83b1cc2ac0a3a7ef5c5e3d"
+    },
+    {
+      "bytes": 7870,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v2_manifest.py",
+      "sha256": "3b5dc7a45856fe5eff655dba0db3129ed71859c68f7e374fe0ea9c9f5a055d61"
+    },
+    {
+      "bytes": 6287,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v2_mocks.py",
+      "sha256": "f3a12aa7072eb824c190636eefc807bbb074f01f4ead6340e1cc7e46f2de2b6f"
+    },
+    {
+      "bytes": 5522,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v2_panel.py",
+      "sha256": "4c78c2da8734778c980b7039664a84d5d5df5487faa9b149d0c1e167873e6307"
+    },
+    {
+      "bytes": 1000,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v2_pressure.py",
+      "sha256": "bd8e18c8a9837bdecb189dbb70b2d9ea8572fcc2963a70e8bf45417aa1cf37b9"
+    },
+    {
+      "bytes": 2692,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v2_reference.py",
+      "sha256": "867b43f8c9ce03eb18d55f1ce6c8c7ef3421392cfbef67eed425866d320d5f8d"
+    },
+    {
+      "bytes": 4772,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v2_run.py",
+      "sha256": "46304d643f4882565b818d7c32c59a96ff964fac0c0e7a536bb21e702fbda15c"
+    },
+    {
+      "bytes": 10586,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v2_validation.py",
+      "sha256": "cdafaf54902981302bd2cc80651b35cfcb94418494be5489a6eb5beaa2eb8e29"
+    },
+    {
+      "bytes": 31680,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v3.py",
+      "sha256": "07edcd07f299129c1940319dc50ad8d62a26f7201c2a04f2baa6ebf9cd9af5d1"
+    },
+    {
+      "bytes": 11174,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v3_manifest.py",
+      "sha256": "0c48235c92c1f91866f0ca98a63703cb94f47c5fdacba1ccd256640f4884a33c"
+    },
+    {
+      "bytes": 17270,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v3_reference.py",
+      "sha256": "29a537f8fa5a2073d3ab1e7c524ade99b31bdc3ef0d267b588f525ad6128e4ef"
+    },
+    {
+      "bytes": 8591,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v3_run.py",
+      "sha256": "74f0d5d14d34e90c942b31031dc57c1069b6465a96853079d569b091a689aa89"
+    },
+    {
+      "bytes": 33760,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v4.py",
+      "sha256": "18dae0cf8837a27beefd43e94706e3578aafc7eec243391e8892bbc032b31bb0"
+    },
+    {
+      "bytes": 2612,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v4_manifest.py",
+      "sha256": "cf64c66ec57a35dd7d0b735216b53db2181c862d6be8e4934932aa2ee422e0c4"
+    },
+    {
+      "bytes": 14402,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v4_reference.py",
+      "sha256": "b70ff4c020e27ada44045b11ffdce65447b83f3241953aecc43101cf2a241e90"
+    },
+    {
+      "bytes": 2130,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/rooms_v4_run.py",
+      "sha256": "7c91ef9d1266471c4c66c3e412b3acb793a30d03f943769f4c67655741cd45c0"
+    },
+    {
+      "bytes": 30934,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/runner.py",
+      "sha256": "fe37dfc9d7c65ca80beb8023a0eb8db603693cc2e2ce9882b0795245f6f1a0e5"
+    },
+    {
+      "bytes": 2513,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/scheduling.py",
+      "sha256": "d7c2b014d6003c5ee70ab6d6cf2195aa16d8b618df05c5839a60aba17d127540"
+    },
+    {
+      "bytes": 6423,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/state.py",
+      "sha256": "d3197f02d405d03282fcc7498d0d88056370fd7f7ad62cb7818e6826ebc936f8"
+    },
+    {
+      "bytes": 10018,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/technical.py",
+      "sha256": "0a6a208bf151923b596dc61dc6d66a09bb798799e4361f34085ff6b23469de95"
+    },
+    {
+      "bytes": 1894,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab/world.py",
+      "sha256": "2ef7722fd84409a45673294c1fdabfb6cb79c76e319138e6c56c18426f727e9b"
+    },
+    {
+      "bytes": 275,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab_mixed/__init__.py",
+      "sha256": "c46094770e432dc15ca16d5e4d4c99f84cfe0308f79b5969cd4152f020c2dbaa"
+    },
+    {
+      "bytes": 8148,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab_mixed/manifest.py",
+      "sha256": "215f91a282c4610e29c8205014901dbf6400e0d3ce243b6408adbe6510f0999c"
+    },
+    {
+      "bytes": 3515,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab_mixed/run.py",
+      "sha256": "02d6c9c2cffdfb84c4e6e3940aac38e88a17732d52f2124408b0730ffc5fec85"
+    },
+    {
+      "bytes": 17479,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "src/consequence_lab_mixed/world.py",
+      "sha256": "7d7fdaa30cd4f616adbe4a8d88c31baa484c82bfd9dcafe7bdd3f396a43d2483"
+    },
+    {
+      "bytes": 762,
+      "mode": "0o600",
+      "origin": "new publication documentation or validation",
+      "path": "tests/fixtures/legacy-workflows/README.md",
+      "sha256": "10b5bbea2787e22aa4fca47eaa7575678b20f2c8ba1f9a8c9acd06fd7d9365a9"
+    },
+    {
+      "bytes": 10454,
+      "mode": "0o600",
+      "origin": "original export mapping",
+      "path": "tests/fixtures/legacy-workflows/ci.yml.fixture",
+      "sha256": "2ddc7fed6f82b27fb08c3ff2193d354f3899b02a557049dc8eb9beefac5d59f5"
+    },
+    {
+      "bytes": 5551,
+      "mode": "0o600",
+      "origin": "original export mapping",
+      "path": "tests/fixtures/legacy-workflows/longitudinal-pilot.yml.fixture",
+      "sha256": "9466d469c119d68e911ad655906829ec7eae4d04d778405d280f7e20806d66fe"
+    },
+    {
+      "bytes": 4467,
+      "mode": "0o600",
+      "origin": "original export mapping",
+      "path": "tests/fixtures/legacy-workflows/luna-calibration.yml.fixture",
+      "sha256": "beb0e8dce5b57ce8f059f07123bf448031f41e6f14519961532f58be8d2d781c"
+    },
+    {
+      "bytes": 5113,
+      "mode": "0o600",
+      "origin": "original export mapping",
+      "path": "tests/fixtures/legacy-workflows/rooms-v3.yml.fixture",
+      "sha256": "574a243e92bef1ad360a4fb3676b3ec41604ee90e30543acce9c788f3b8f6590"
+    },
+    {
+      "bytes": 2092,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_artifact_privacy.py",
+      "sha256": "9713d60e6e050b24b92ab30ec8fa162d43c68583f38b24320f29d00c1fe4738a"
+    },
+    {
+      "bytes": 3227,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_artifacts.py",
+      "sha256": "043aead2a3b5477502b82b794bc317eb44ffd4cfc790ea950a745feaf481d63f"
+    },
+    {
+      "bytes": 4852,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_audit.py",
+      "sha256": "e7a3d7124826cd9c32179c1b0d798f169af739f573a303e7deb9336f962b16c1"
+    },
+    {
+      "bytes": 9137,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_calibration_launcher.py",
+      "sha256": "2a9566721750aad1fc65c61a27e0c7ee9a668362c2efe6203f34ee0a50d6b11d"
+    },
+    {
+      "bytes": 726,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_capabilities.py",
+      "sha256": "20bc12bce8eedb6883ab3da61113df264aca6e1f35daffbbb26159e550fbfd26"
+    },
+    {
+      "bytes": 4378,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_checkpoints.py",
+      "sha256": "d81309c898ad5f87c41d5da1b0f7be4b53e9515e978ec715040afe37f07d3b40"
+    },
+    {
+      "bytes": 1592,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_cli.py",
+      "sha256": "a5c67eef922cc7be58d3777a7bd9e4b456caee0ce50f37f1eb3092270c8e5b21"
+    },
+    {
+      "bytes": 3243,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_context.py",
+      "sha256": "3851757a0298cd7ae81a242a9f123d994a13f592a4ad4632b644044223b58a66"
+    },
+    {
+      "bytes": 8324,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_disposition_protocol.py",
+      "sha256": "a4411dc82f94c0cb3f419f52a31c1efe128e84db1fae9cdf7f36206441340034"
+    },
+    {
+      "bytes": 202,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_environment.py",
+      "sha256": "7e002a84b0457543209efb3df4194492f2e61ccfae491f0c577f210335b8c05d"
+    },
+    {
+      "bytes": 2863,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_inspect_adapter.py",
+      "sha256": "8463cdd7a86aa117fe8e8eed7d15bc67213e509467e01ea815d01323af63dba2"
+    },
+    {
+      "bytes": 4766,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_limits.py",
+      "sha256": "01ce28a510974c0e1381a95c03ccd63998f9e6f6d1d997f6105a7a9cbb64cac8"
+    },
+    {
+      "bytes": 20669,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_longitudinal_pilot.py",
+      "sha256": "8926227f021064025e5c2f210f1336f38f7a34565894dfb05b6322ad9022040e"
+    },
+    {
+      "bytes": 8213,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_longitudinal_provenance.py",
+      "sha256": "57850b439f5c2da1ee643bbe16042d571d5b1892e6f1909b866398cc4a9fcd99"
+    },
+    {
+      "bytes": 3570,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_mixed_final_calibration.py",
+      "sha256": "d1335718df62ae4c65a23478582567cd280ce1d1265577059fc79cbba25d7d55"
+    },
+    {
+      "bytes": 6633,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_mixed_pilot.py",
+      "sha256": "8ec66b365b5dad46d0fef20387edcc7812d3525418959017b5c316b729b6043f"
+    },
+    {
+      "bytes": 9983,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_mixed_prototype.py",
+      "sha256": "5bdb196455bb1e39a90de2296773f72fea43b137ade1df8e1d6f86fa215336e3"
+    },
+    {
+      "bytes": 16115,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_pilot_protocol_recovery.py",
+      "sha256": "ee90b96b6a7324b1dee57052763432e230221f96892fc91edb7becb3c98c73a0"
+    },
+    {
+      "bytes": 662,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_provenance.py",
+      "sha256": "98eefe7cf7c16890ee44ce786213962855398955e7fa821791620b0cff2e96e6"
+    },
+    {
+      "bytes": 22172,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_provider.py",
+      "sha256": "5ba952cc9e7b4bef9f8791ceeef87beb33b2ede0c8c6577a2c6817897784cd6b"
+    },
+    {
+      "bytes": 12604,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_recurring.py",
+      "sha256": "01d2ff45c56123082c49c81c3bcd49106c3b8061a3894b6c98660695a060489c"
+    },
+    {
+      "bytes": 5670,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_recurring_privacy.py",
+      "sha256": "b2b5434ada7bd6a34bc6931b283f736d7f0d64641f847038d69caaf6e2696e14"
+    },
+    {
+      "bytes": 2105,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_recurring_validation.py",
+      "sha256": "460210df8ee9ba1ce2b514fb22e64fb54e9616a6daecff47a87839e8dbe72ae1"
+    },
+    {
+      "bytes": 6231,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rejected_action_continuation.py",
+      "sha256": "3ab8bf6bfd6e8e37b10d7ce701392959b9852e6a6fc2fce2ef2b22ffed199b76"
+    },
+    {
+      "bytes": 11326,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_remediation.py",
+      "sha256": "b17ff89684142f0701e8f70ea8f3d98f4b31e51c821d92d845d56a3de9b0ea05"
+    },
+    {
+      "bytes": 3985,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_retrieval_pathway.py",
+      "sha256": "93592f918398ec1799fa2791b2e65d58de9333532fc61f76f1d0f15dc7f3e7e9"
+    },
+    {
+      "bytes": 1746,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_retrospective_rooms_v3.py",
+      "sha256": "0f08b2f169f36737bdd2b698d236f054d86e78c5fb3fb4f0c09c8d6c7625552c"
+    },
+    {
+      "bytes": 8144,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rooms_action_protocol.py",
+      "sha256": "fa0bf2c665f958debade72eda7750b2238e87d7ec906d46445d01c2306b7e8b3"
+    },
+    {
+      "bytes": 19732,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rooms_v2.py",
+      "sha256": "a443f9740aed551d9c2cb31655ca0cdad1d73828ad95d3e7ad02f07816aea766"
+    },
+    {
+      "bytes": 15058,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rooms_v2_controls.py",
+      "sha256": "a9459a088e8be327a660984e152cee4713790a571a00a2126d78f0e23cf03846"
+    },
+    {
+      "bytes": 22833,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rooms_v3.py",
+      "sha256": "43abb0b49b4f544c08768d5ae18d9fcb5496a6d9f1099d0ab0e92f52f029a29c"
+    },
+    {
+      "bytes": 16518,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rooms_v3_clients_messages.py",
+      "sha256": "2ecca30966ad51273a58fb461c271ef96f011b40f32baed22bebe327caf8bdb5"
+    },
+    {
+      "bytes": 27119,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rooms_v3_continuation.py",
+      "sha256": "d174e3d138f62281a351ef6bb57a1ad01c8349270f0c26087a6da00a0f407148"
+    },
+    {
+      "bytes": 11653,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rooms_v3_launcher.py",
+      "sha256": "c47d3f1b32c97653f6d2540985fd4283fb8c8edb337091e1322c630dad59fc05"
+    },
+    {
+      "bytes": 1713,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rooms_v3_pressure.py",
+      "sha256": "00652dfabb7454bfa2f5c3ff1ba4820148b4fad56e7c06b1c542f4694b45e019"
+    },
+    {
+      "bytes": 12414,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rooms_v4.py",
+      "sha256": "1831cb4a7aa524ad875aab0f7375cbbfe2328f5b391b7b0673a005d964fefda5"
+    },
+    {
+      "bytes": 5297,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_rooms_v4_export_integrity.py",
+      "sha256": "1df16514b4370471945761417998df8d9dcfb2c372cab7627eb43272bbd98e12"
+    },
+    {
+      "bytes": 6948,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_runner.py",
+      "sha256": "d2f51b1a34dbd08e9e223f7dffab01407fa477e3fe7bbc32f0380d8603e0cf48"
+    },
+    {
+      "bytes": 6800,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_streaming_archive.py",
+      "sha256": "a0d883e48ffcd9d362fe0864f154b5fe77dcd4a1739da19da89ac33d630b7c5b"
+    },
+    {
+      "bytes": 3788,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tests/test_world.py",
+      "sha256": "7c9144b6dedb8e840c5f6fd5498dba254261b4bd11f612733d1586bbe9d59567"
+    },
+    {
+      "bytes": 10215,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/calibration_launcher.py",
+      "sha256": "4f24cc1d4f59a45213284f9ac5bdb85825175b4db4447bde91f497f2b28f7dad"
+    },
+    {
+      "bytes": 10367,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/longitudinal_pilot.py",
+      "sha256": "608e766b0119347fb4271fdfea090c29adcefe9352f41251eab074ad16213462"
+    },
+    {
+      "bytes": 2162,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_batch_integrity.py",
+      "sha256": "d0119ef1d3849a893c87b06a3c91dd450581de5ffcc24bbc7843f9c6d78a15a8"
+    },
+    {
+      "bytes": 2025,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_bounds.py",
+      "sha256": "ead9eced3aa22187263f5e00ad7f0af0a536245dc423ae3c502f28a83553670d"
+    },
+    {
+      "bytes": 4166,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_calibration.py",
+      "sha256": "3d1aef057899b2fd3cb59ba25f6dc58669cd67b2206e48781ae262f3e718fc69"
+    },
+    {
+      "bytes": 7344,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_evidence.py",
+      "sha256": "85a71935fbebdc683f7fb0dd195778cbc95cabf9b2f6bee959d4236b301080d3"
+    },
+    {
+      "bytes": 2725,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_exchange_census.py",
+      "sha256": "7f1d11386b1eeb2e863987609851cc53c5dd7d57a3b014c58eb9c667112952e0"
+    },
+    {
+      "bytes": 4074,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_fallback_audit.py",
+      "sha256": "afb39439d0cdb8ecf0f633a735be81d65a9bfdf62b5091af51d06d21eb371f5a"
+    },
+    {
+      "bytes": 2472,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_final_audit.py",
+      "sha256": "616a4c701831b74fa6709e3eb7e7661c61c8d50e232b6e15d52701e6403f1942"
+    },
+    {
+      "bytes": 8283,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_final_calibration.py",
+      "sha256": "83e95bbc69537c088c3e3f9b6af482ac7608853068191bd19732dbb9ecb948b2"
+    },
+    {
+      "bytes": 2920,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_final_count.py",
+      "sha256": "3afaa78e87c70e60e8931141687400b8645e46951200cc81a555ffd197050e35"
+    },
+    {
+      "bytes": 3784,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_final_evidence.py",
+      "sha256": "c508b5060770403e9789a30a2405a9e7661a251bdfc7f8e5621ba0833b0c9640"
+    },
+    {
+      "bytes": 2856,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_final_frontier.py",
+      "sha256": "656e6d19490c7bbb4598eb00a0448d1af45b63c442c973ec5a77e6b627750d71"
+    },
+    {
+      "bytes": 11099,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_final_policy.py",
+      "sha256": "05dc8e9cf203c89e336fe6b5ddc6af3730a29716d424e18d89aec2853ebca57e"
+    },
+    {
+      "bytes": 8928,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_final_report.py",
+      "sha256": "8b7bcf768baaf23cb891a9c9aef54b118c1f9fd65fd0c955d43f9e08a42cc705"
+    },
+    {
+      "bytes": 9288,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_incentives.py",
+      "sha256": "ae811aeabb778e35579f9c1d6ecc037b86bfb5e7155fb0f32a55e093c4c90224"
+    },
+    {
+      "bytes": 6225,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_learning.py",
+      "sha256": "b5a63e15813234fd228dbb281f9f037cfe9691b53f1ef29dc87ce695d620e558"
+    },
+    {
+      "bytes": 4110,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_pilot.py",
+      "sha256": "851b47bd9730a81636a9deef3058b7ed803844527b4b3aea35e08ae06f764333"
+    },
+    {
+      "bytes": 3215,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_pilot_evidence.py",
+      "sha256": "ffd4c7ca53c314849fa3fb7401db468e12407b9191b55d62551b92bc3f3dd3a5"
+    },
+    {
+      "bytes": 3098,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_pilot_families.py",
+      "sha256": "b2fc2e8a00c8c7963763cf4f293e1c0baa024b81d13a3b04679fcb5ac030a255"
+    },
+    {
+      "bytes": 3423,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_pilot_finalize.py",
+      "sha256": "bca28b6f1cd474ddf2a52f38417ee3a296f9ff1dddfa5e5d681b9a780bbfca52"
+    },
+    {
+      "bytes": 3864,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_pilot_launch.py",
+      "sha256": "416ea7119bde47bdc36b8e65a918328306dcc3949d2d2dd5bb8189b5e9ed36b7"
+    },
+    {
+      "bytes": 7235,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_pilot_validation.py",
+      "sha256": "5c6e6498878d67a8411e376b419562fb333f26766f849fd6c793643b7849fae3"
+    },
+    {
+      "bytes": 1652,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_planner.py",
+      "sha256": "f6caae8fe706ddcf56f8373e3700da8bff03c12abb64459df19e7567083a9578"
+    },
+    {
+      "bytes": 8808,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_policies.py",
+      "sha256": "4f9ea2af4e218d409bca6d67bb89c5296af985b3eca988107cdba510dd7a34c9"
+    },
+    {
+      "bytes": 3024,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_reachable_exchanges.py",
+      "sha256": "0db3e6f8f01660ebfe364dd8e8c2b9b12bc8d6c9c17b12f2109e316949ad5fc8"
+    },
+    {
+      "bytes": 7452,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_reference.py",
+      "sha256": "1c8b06f70dd03775cdb68fb53cfda4562a4132e2eebbcfbf4a02c606d43ea3bd"
+    },
+    {
+      "bytes": 5716,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_report.py",
+      "sha256": "17c1676e8083f221e502a2b3219e6da9bd75a5860f2edf3d2d71eed8aa2d24d0"
+    },
+    {
+      "bytes": 6581,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_runner_validation.py",
+      "sha256": "d16100c8fe9c681f9930fa7a36c0e7ec5142da060520e26899b116ea9ae0d37c"
+    },
+    {
+      "bytes": 5169,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_simulation.py",
+      "sha256": "5685d13c616fa84cda4a2778cab85b51bce55a6ce09ce48c1046667d6616e4b5"
+    },
+    {
+      "bytes": 5756,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/mixed_trace_audit.py",
+      "sha256": "9d21e5114ccd70a5376ad3f2104aea9e0d3b9f79a72ffca30aed14775cb9afed"
+    },
+    {
+      "bytes": 14979,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/pilot_analysis.py",
+      "sha256": "61f2446c36b3d81d983759dc5e910871411377d373285386cb0adb8916a7b432"
+    },
+    {
+      "bytes": 7335,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/pilot_recovery.py",
+      "sha256": "a54de6ab3b9b160e4746ba6cddb703a5bbbe59edca7eaf55ca9978a1bbd0a145"
+    },
+    {
+      "bytes": 1707,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/pilot_spec.py",
+      "sha256": "5ef0d2b4f30f297e207fda46900b0b6580a7804dd83203bd3b7d32c2758c8913"
+    },
+    {
+      "bytes": 2769,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/pilot_validation.py",
+      "sha256": "ad79f7664bed1d26099bb3e2e3b9ad741ce66f4fbe62983b23e93a20bd5b19a1"
+    },
+    {
+      "bytes": 15077,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v2_controls_panel.py",
+      "sha256": "06f57c92fa55359db9bbedf74e786f0b3c609cf64626b4a22228d886a6970bc7"
+    },
+    {
+      "bytes": 7485,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v2_controls_validation.py",
+      "sha256": "00e62d317a484e1123612ecc6ce63e45a3c5a23cbb4f1ef3fab10b9f666d5a29"
+    },
+    {
+      "bytes": 2748,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v2_stress.py",
+      "sha256": "4e66daaad7a1ac307c357d1b1680d686aa8c6b4d75aa9380e3dc65b4fd5fe612"
+    },
+    {
+      "bytes": 8707,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v3_analysis.py",
+      "sha256": "db30eb367e4b1fd2a8b390cf1d9768d0a38ecb603312c7a1fe20e933595bad84"
+    },
+    {
+      "bytes": 5948,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v3_branches.py",
+      "sha256": "79554025c22921cfa502907ae9797947aacbbecfa1f824b983b7ad4566f311c2"
+    },
+    {
+      "bytes": 11342,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v3_launcher.py",
+      "sha256": "51444dd7275f2e7c31d0df1348a49b1e809a13b0bcff61b726ea680eaf64cef3"
+    },
+    {
+      "bytes": 5601,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v3_pressure.py",
+      "sha256": "4ca62cf9ae66c4822fbdfdb727dac78975428d72e8acd5d4297aca78e4e0897c"
+    },
+    {
+      "bytes": 7168,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v3_retrospective_validation.py",
+      "sha256": "13100efb4208fa7dbe52a1fe7c9d252ba14b27e9bcfb38e9c1a6cfc17b7d74e7"
+    },
+    {
+      "bytes": 8097,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v3_stress.py",
+      "sha256": "c961f813243095853571d0f66d0f92e5a5580c199a7d1f61469e70323b978338"
+    },
+    {
+      "bytes": 7739,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v3_validation.py",
+      "sha256": "7e35c01ad63ee60cec37cc9215e795161a8004e5a7b8f5cdc2fdcdc6084e613c"
+    },
+    {
+      "bytes": 18602,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v4_budget_audit.py",
+      "sha256": "91b94ee5324ff9d75913a502ba4f4eecb63e481011274f8c4924956c0bb1300c"
+    },
+    {
+      "bytes": 7804,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v4_calibration.py",
+      "sha256": "abc0016649e46c0448e31dc3e9c812a32c7b3431ed77cf9c7d6fa6eff742a37b"
+    },
+    {
+      "bytes": 6913,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v4_capacity.py",
+      "sha256": "191b63ab01e86067da793989bd91f3e63779b656deca803241a702b27168f9f0"
+    },
+    {
+      "bytes": 16938,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v4_export.py",
+      "sha256": "438466a0e325db9866b467a34459f021d6d8ef48671c55d8e01eeb12beb6d054"
+    },
+    {
+      "bytes": 4619,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v4_independent_decode.py",
+      "sha256": "3bc3ea741a7ddd8bd2a2a31a971e2fb2b55e48eebd1b54c96c4fd7e70ae666c0"
+    },
+    {
+      "bytes": 8541,
+      "mode": "0o664",
+      "origin": "original export mapping",
+      "path": "tools/rooms_v4_portable_audit.py",
+      "sha256": "d44e26a4f0ed31e5dbcef46197465c08482ea9931cef1e8861f82b95f85f4fe6"
+    }
+  ],
+  "publication_state": "prepared for owner review; no repository created",
+  "schema_version": 1,
+  "scientific_source_byte_unchanged": true,
+  "source": {
+    "commit": "fe4017fceae41940450953c39ef559159f6af7d5",
+    "export_method": "Read-only tracked-tree export; no original Git objects or history imported.",
+    "repository": "000brittany/consequence-lab",
+    "tree": "3283c032a0156153a8a1c848f23f6ebfe4c9f544"
+  }
+}

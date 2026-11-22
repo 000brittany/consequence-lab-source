@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 0,
+    "funding": {
+      "solver": "optimal",
+      "status": 0,
+      "mip_gap": 0.0,
+      "dual_bound": 45.0,
+      "objective": 45.0,
+      "cost_cents": 270000,
+      "completed": 111,
+      "deposit_cents": 22500
+    },
+    "tight_prefixes": [
+      {
+        "day": 30,
+        "spent": 135000,
+        "deposited": 135000
+      },
+      {
+        "day": 35,
+        "spent": 157500,
+        "deposited": 157500
+      },
+      {
+        "day": 50,
+        "spent": 225000,
+        "deposited": 225000
+      },
+      {
+        "day": 60,
+        "spent": 270000,
+        "deposited": 270000
+      }
+    ]
+  },
+  {
+    "seed": 3,
+    "funding": {
+      "solver": "optimal",
+      "status": 0,
+      "mip_gap": 0.0,
+      "dual_bound": 44.0,
+      "objective": 44.0,
+      "cost_cents": 262000,
+      "completed": 110,
+      "deposit_cents": 22000
+    },
+    "tight_prefixes": [
+      {
+        "day": 10,
+        "spent": 44000,
+        "deposited": 44000
+      },
+      {
+        "day": 20,
+        "spent": 88000,
+        "deposited": 88000
+      }
+    ]
+  }
+]
